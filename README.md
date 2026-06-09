@@ -1,5 +1,9 @@
 # Awesome OCR in the Foundation-Model Era
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub stars](https://img.shields.io/github/stars/zhihengli-casia/Awesome-OCR-in-the-Foundation-Model-Era?style=social)](https://github.com/zhihengli-casia/Awesome-OCR-in-the-Foundation-Model-Era)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A curated list of OCR, document parsing, OCR-specialized vision-language models, hybrid document parsing workflows, commercial OCR services, and benchmarks.
 
 This repository accompanies the survey:
@@ -11,11 +15,33 @@ OCR is treated here in a broad but bounded sense: visual text and document image
 
 ## Contents
 
+- [Featured modern OCR models](#featured-modern-ocr-models)
 - [System taxonomy](#system-taxonomy)
 - [Model and system inventory](resources/models.md)
 - [Benchmark and dataset inventory](resources/benchmarks.md)
 - [Cross-era OCR arena](arena/README.md)
 - [Contributing](CONTRIBUTING.md)
+
+## Featured Modern OCR Models
+
+| Model / System | Family | Date | Paper | Code | Model / Demo / Docs |
+|---|:---:|:---:|---|---|---|
+| **MinerU2.5-Pro** | F3 | 2026 | [arXiv](https://arxiv.org/abs/2604.04771) | [GitHub](https://github.com/opendatalab/MinerU) | - |
+| **Qianfan-OCR** | F2 | 2026 | [arXiv](https://arxiv.org/abs/2603.13398) | - | [Website](https://cloud.baidu.com/product/wenxinworkshop) |
+| **FireRed-OCR** | F2 | 2026 | [arXiv](https://arxiv.org/abs/2603.01840) | [GitHub](https://github.com/FireRedTeam/FireRed-OCR) | - |
+| **GLM-OCR** | F2 | 2026 | [arXiv](https://arxiv.org/abs/2603.10910) | - | - |
+| **Dolphin-v2** | F3 | 2026 | [arXiv](https://arxiv.org/abs/2602.05384) | [GitHub](https://github.com/bytedance/Dolphin) | - |
+| **PaddleOCR-VL-1.5** | F2 | 2026 | [arXiv](https://arxiv.org/abs/2601.21957) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
+| **HunyuanOCR** | F2 | 2025 | [arXiv](https://arxiv.org/abs/2511.19575) | - | - |
+| **olmOCR-2** | F2 | 2025 | [arXiv](https://arxiv.org/abs/2510.19817) | [GitHub](https://github.com/allenai/olmocr) | - |
+| **DeepSeek-OCR** | F2 | 2025 | - | [GitHub](https://github.com/deepseek-ai/DeepSeek-OCR) | - |
+| **MonkeyOCR** | F2 | 2025 | [arXiv](https://arxiv.org/abs/2506.05218) | [GitHub](https://github.com/Yuliang-Liu/MonkeyOCR) | - |
+| **SmolDocling** | F2 | 2025 | [arXiv](https://arxiv.org/abs/2503.11576) | - | [Hugging Face](https://huggingface.co/ds4sd/SmolDocling-256M-preview) |
+| **Docling** | F3 | 2024 | [arXiv](https://arxiv.org/abs/2408.09869) | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) |
+| **GOT-OCR 2.0** | F2 | 2024 | [arXiv](https://arxiv.org/abs/2409.01704) | [GitHub](https://github.com/Ucas-HaoranWei/GOT-OCR2.0) | - |
+| **Nougat** | F2 | 2023 | [arXiv](https://arxiv.org/abs/2308.13418) | [GitHub](https://github.com/facebookresearch/nougat) | - |
+
+See the full [model and system inventory](resources/models.md).
 
 ## System Taxonomy
 
@@ -31,19 +57,19 @@ Representative systems: Tesseract, EasyOCR, PaddleOCR / PP-OCR, MMOCR, docTR, DB
 
 End-to-end or near end-to-end models that read page images and generate structured representations such as Markdown, HTML, LaTeX, JSON, or OCR-formatted text.
 
-Representative systems: Donut, Pix2Struct, Nougat, DocOwl, Vary, GOT-OCR, MonkeyOCR, SmolDocling, olmOCR, PaddleOCR-VL, Qianfan-OCR, FireRed-OCR.
+Representative systems: Donut, Pix2Struct, Nougat, DocOwl, Vary, GOT-OCR, MonkeyOCR, SmolDocling, HunyuanOCR, GLM-OCR, olmOCR, DeepSeek-OCR, PaddleOCR-VL, Qianfan-OCR, FireRed-OCR.
 
 ### F3. Hybrid Document Parsing Workflows
 
 Systems that combine layout detection, OCR, region decomposition, VLM generation, rule-based validators, and document assembly.
 
-Representative systems: MinerU, Dolphin, Docling, Marker, Surya.
+Representative systems: MinerU, Dolphin, Docling, Marker, Surya, Pix2Text.
 
 ### F4. General-Purpose VLMs as OCR Interfaces
 
 General multimodal models that can perform OCR-related tasks through prompts, even though OCR is only one of their capabilities.
 
-Representative systems: Qwen-VL, Qwen2-VL, Qwen2.5-VL, InternVL, LLaVA, CogVLM, DeepSeek-VL, Kimi-VL, GPT-4V, GPT-4o, Gemini, Claude.
+Representative systems: Qwen-VL, Qwen2-VL, Qwen2.5-VL, InternVL, LLaVA, CogVLM, DeepSeek-VL, MiniCPM-V, Kimi-VL, GPT-4V, GPT-4o, Gemini, Claude.
 
 ### F5. Commercial OCR and Document AI Services
 
@@ -81,4 +107,3 @@ If this repository or the survey helps your work, please cite the survey once th
   year    = {2026}
 }
 ```
-
