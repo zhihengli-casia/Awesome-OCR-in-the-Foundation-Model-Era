@@ -27,11 +27,13 @@ OCR is treated here in a broad but bounded sense: visual text and document image
 
 ## Model Collections
 
-Badges indicate venue/source and year when available; Star badges follow the live Shields.io style used by common awesome lists; explicit GitHub links remain available for every public repository. The Date column records the paper or public source date; active ranges such as `2020-2026` mark projects that continue to evolve beyond their first release. Repository-only entries use the public GitHub repository creation date. Entries are ordered newest first within each subsection.
+Badges indicate venue/source and year when available; Star badges follow the live Shields.io style used by common awesome lists; explicit GitHub links remain available for every public repository. The Date column records the paper or public source date; active ranges such as `2020-2026` mark projects that continue to evolve beyond their first release. Repository-only entries use the public GitHub repository creation date. Entries are ordered newest first within each subsection. Each model-family block is expandable and remains open by default for direct browsing.
 
 <a id="f1-modular-ocr-toolkits-and-specialized-components"></a>
 
-## F1. Modular OCR Toolkits and Specialized Components
+<details open>
+<summary><h2>F1. Modular OCR Toolkits and Specialized Components</h2></summary>
+
 
 Systems that follow or support the detector-recognizer pipeline: OCR engines, open toolkits, text detectors, cropped recognizers, formula recognizers, and structured-object components.
 
@@ -122,9 +124,13 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 | 2017 | [![PR 2017](https://img.shields.io/badge/PR-2017-4b4b4b)](https://doi.org/10.1016/j.patcog.2017.06.017)<br>**WAP** | handwritten mathematical expression recognition | [Paper](https://doi.org/10.1016/j.patcog.2017.06.017) |
 | 2016.09 | [![arXiv 2016.09](https://img.shields.io/badge/arXiv-2016.09-b31b1b)](https://arxiv.org/abs/1609.04938)<br>**Im2Markup** | image-to-LaTeX generation | [Paper](https://arxiv.org/abs/1609.04938) |
 
+</details>
+
 <a id="f2-foundation-model-document-parsers"></a>
 
-## F2. Foundation-Model Document Parsers
+<details open>
+<summary><h2>F2. Foundation-Model Document Parsers</h2></summary>
+
 
 End-to-end or near end-to-end models that read page images and generate structured representations such as Markdown, HTML, LaTeX, JSON, or OCR-formatted text.
 
@@ -194,9 +200,13 @@ End-to-end or near end-to-end models that read page images and generate structur
 | 2025.12 | [![arXiv 2025.12](https://img.shields.io/badge/arXiv-2025.12-b31b1b)](https://arxiv.org/abs/2512.18550) [![Star](https://img.shields.io/github/stars/ZZZZZQT/DOCR-Inspector.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/ZZZZZQT/DOCR-Inspector)<br>**DOCR-Inspector** | fine-grained evaluation and strategic optimization for document OCR parsing | [Paper](https://arxiv.org/abs/2512.18550)<br>[GitHub](https://github.com/ZZZZZQT/DOCR-Inspector) |
 | 2025.08 | [![arXiv 2025.08](https://img.shields.io/badge/arXiv-2025.08-b31b1b)](https://arxiv.org/abs/2508.13238)<br>**DianJin-OCR-R1** | reasoning-and-tool interleaved OCR VLM route | [Paper](https://arxiv.org/abs/2508.13238) |
 
+</details>
+
 <a id="f3-hybrid-document-parsing-workflows"></a>
 
-## F3. Hybrid Document Parsing Workflows
+<details open>
+<summary><h2>F3. Hybrid Document Parsing Workflows</h2></summary>
+
 
 Systems that combine layout detection, OCR, region decomposition, VLM generation, rule-based validators, and document assembly.
 
@@ -227,9 +237,13 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 | 2012.10 | [![GitHub 2012.10](https://img.shields.io/badge/GitHub-2012.10-24292f?logo=github)](https://github.com/pymupdf/PyMuPDF) [![Star](https://img.shields.io/github/stars/pymupdf/PyMuPDF.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/pymupdf/PyMuPDF)<br>**PyMuPDF** | PDF page rendering and extraction utility | [GitHub](https://github.com/pymupdf/PyMuPDF)<br>[Docs](https://pymupdf.readthedocs.io/) |
 | 2012.09 | [![GitHub 2012.09](https://img.shields.io/badge/GitHub-2012.09-24292f?logo=github)](https://github.com/kermitt2/grobid) [![Star](https://img.shields.io/github/stars/kermitt2/grobid.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/kermitt2/grobid)<br>**GROBID** | scholarly PDF structure extraction workflow | [GitHub](https://github.com/kermitt2/grobid)<br>[Docs](https://grobid.readthedocs.io/) |
 
+</details>
+
 <a id="f4-general-purpose-vlms-used-as-ocr-interfaces"></a>
 
-## F4. General-Purpose VLMs Used as OCR Interfaces
+<details open>
+<summary><h2>F4. General-Purpose VLMs Used as OCR Interfaces</h2></summary>
+
 
 General multimodal models that can perform OCR-related tasks through prompts, while OCR is only one part of their capability.
 
@@ -269,9 +283,13 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 | 2023.12 | [![Report 2023.12](https://img.shields.io/badge/Report-2023.12-6f42c1)](https://arxiv.org/abs/2312.11805)<br>**Gemini family** | closed general VLM OCR interface | [Report](https://arxiv.org/abs/2312.11805)<br>[Docs](https://ai.google.dev/gemini-api/docs) |
 | 2023 | [![System Card 2023](https://img.shields.io/badge/System%20Card-2023-6f42c1)](https://cdn.openai.com/papers/GPTV_System_Card.pdf)<br>**GPT-4V** | closed general VLM OCR interface | [System Card](https://cdn.openai.com/papers/GPTV_System_Card.pdf)<br>[Docs](https://platform.openai.com/docs) |
 
+</details>
+
 <a id="f5-commercial-ocr-and-document-ai-services"></a>
 
-## F5. Commercial OCR and Document AI Services
+<details open>
+<summary><h2>F5. Commercial OCR and Document AI Services</h2></summary>
+
 
 Closed-source or managed systems for document conversion, enterprise OCR, scientific document parsing, formula OCR, receipts, forms, invoices, and other vertical workflows.
 
@@ -298,6 +316,8 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 | 2026 | [![Product docs 2026](https://img.shields.io/badge/Product%20docs-2026-6f42c1)](https://cloud.baidu.com/product/wenxinworkshop)<br>**Baidu Qianfan / Wenxin document services** | managed document OCR and model API access | [Website](https://cloud.baidu.com/product/wenxinworkshop) |
 | 2025 | [![Product docs 2025](https://img.shields.io/badge/Product%20docs-2025-6f42c1)](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/)<br>**Mistral OCR** | managed OCR API; Markdown / structured response | [Docs](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/) |
 | 2025 | [![Product docs 2025](https://img.shields.io/badge/Product%20docs-2025-6f42c1)](https://help.aliyun.com/zh/model-studio/)<br>**Qwen-OCR API** | managed OCR API; structured OCR output | [Docs](https://help.aliyun.com/zh/model-studio/) |
+
+</details>
 
 ## Other Resource Files
 
