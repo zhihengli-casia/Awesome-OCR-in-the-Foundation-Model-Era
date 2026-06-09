@@ -30,9 +30,6 @@ OCR is treated here in a broad but bounded sense: visual text and document image
 
 ## F1. Modular OCR Toolkits and Specialized Components
 
-<details open>
-<summary><strong>Show / hide F1 collection</strong></summary>
-
 Systems that follow or support the detector-recognizer pipeline: OCR engines, open toolkits, text detectors, cropped recognizers, formula recognizers, and structured-object components.
 
 ### OCR Engines and Toolkits
@@ -78,14 +75,9 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 | [![arXiv 2025.03](https://img.shields.io/badge/arXiv-2025.03-b31b1b)](https://arxiv.org/abs/2503.18382) [![GitHub stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=social)](https://github.com/PaddlePaddle/PaddleOCR)<br>**PP-FormulaNet** | formula recognition; PaddleOCR component | [Paper](https://arxiv.org/abs/2503.18382)<br>[GitHub](https://github.com/PaddlePaddle/PaddleOCR) |
 | [![GitHub release](https://img.shields.io/badge/GitHub-release-24292f?logo=github)](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) [![GitHub stars](https://img.shields.io/github/stars/AlibabaResearch/AdvancedLiterateMachinery?style=social)](https://github.com/AlibabaResearch/AdvancedLiterateMachinery)<br>**StructEqTable** | equation/table structure parsing | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) |
 
-</details>
-
 <a id="f2-foundation-model-document-parsers"></a>
 
 ## F2. Foundation-Model Document Parsers
-
-<details open>
-<summary><strong>Show / hide F2 collection</strong></summary>
 
 End-to-end or near end-to-end models that read page images and generate structured representations such as Markdown, HTML, LaTeX, JSON, or OCR-formatted text.
 
@@ -134,14 +126,9 @@ End-to-end or near end-to-end models that read page images and generate structur
 | [![arXiv 2026.01](https://img.shields.io/badge/arXiv-2026.01-b31b1b)](https://arxiv.org/abs/2601.08834)<br>**FDRL for Document OCR** | format-decoupled reinforcement learning | [Paper](https://arxiv.org/abs/2601.08834) |
 | [![arXiv 2026.03](https://img.shields.io/badge/arXiv-2026.03-b31b1b)](https://arxiv.org/abs/2603.22458)<br>**MinerU-Diffusion** | diffusion-style inverse-rendering OCR | [Paper](https://arxiv.org/abs/2603.22458) |
 
-</details>
-
 <a id="f3-hybrid-document-parsing-workflows"></a>
 
 ## F3. Hybrid Document Parsing Workflows
-
-<details open>
-<summary><strong>Show / hide F3 collection</strong></summary>
 
 Systems that combine layout detection, OCR, region decomposition, VLM generation, rule-based validators, and document assembly.
 
@@ -162,14 +149,9 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 | [![GitHub release](https://img.shields.io/badge/GitHub-release-24292f?logo=github)](https://github.com/datalab-to/surya) [![GitHub stars](https://img.shields.io/github/stars/datalab-to/surya?style=social)](https://github.com/datalab-to/surya)<br>**Surya** | OCR, layout, reading order, line detection | [GitHub](https://github.com/datalab-to/surya) |
 | [![GitHub release](https://img.shields.io/badge/GitHub-release-24292f?logo=github)](https://github.com/breezedeus/Pix2Text) [![GitHub stars](https://img.shields.io/github/stars/breezedeus/Pix2Text?style=social)](https://github.com/breezedeus/Pix2Text)<br>**Pix2Text** | layout + formula + OCR workflow | [GitHub](https://github.com/breezedeus/Pix2Text) |
 
-</details>
-
 <a id="f4-general-purpose-vlms-used-as-ocr-interfaces"></a>
 
 ## F4. General-Purpose VLMs Used as OCR Interfaces
-
-<details open>
-<summary><strong>Show / hide F4 collection</strong></summary>
 
 General multimodal models that can perform OCR-related tasks through prompts, while OCR is only one part of their capability.
 
@@ -199,14 +181,9 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 | [![Report 2023.12](https://img.shields.io/badge/Report-2023.12-6f42c1)](https://arxiv.org/abs/2312.11805)<br>**Gemini family** | closed general VLM OCR interface | [Report](https://arxiv.org/abs/2312.11805)<br>[Docs](https://ai.google.dev/gemini-api/docs) |
 | [![API 2024-2025](https://img.shields.io/badge/API-2024--2025-6f42c1)](https://docs.anthropic.com/)<br>**Claude 3 / 3.5 / 4** | closed general VLM OCR interface | [Docs](https://docs.anthropic.com/) |
 
-</details>
-
 <a id="f5-commercial-ocr-and-document-ai-services"></a>
 
 ## F5. Commercial OCR and Document AI Services
-
-<details open>
-<summary><strong>Show / hide F5 collection</strong></summary>
 
 Closed-source or managed systems for document conversion, enterprise OCR, scientific document parsing, formula OCR, receipts, forms, invoices, and other vertical workflows.
 
@@ -224,8 +201,6 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 | [![Product docs 2026](https://img.shields.io/badge/Product%20docs-2026-6f42c1)](https://mathpix.com/)<br>**Mathpix** | formula / paper / document OCR; LaTeX / Markdown | [Website](https://mathpix.com/) |
 | [![Product docs 2025](https://img.shields.io/badge/Product%20docs-2025-6f42c1)](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/)<br>**Mistral OCR** | managed OCR API; Markdown / structured response | [Docs](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/) |
 | [![Product docs 2025](https://img.shields.io/badge/Product%20docs-2025-6f42c1)](https://help.aliyun.com/zh/model-studio/)<br>**Qwen-OCR API** | managed OCR API; structured OCR output | [Docs](https://help.aliyun.com/zh/model-studio/) |
-
-</details>
 
 ## Other Resource Files
 
