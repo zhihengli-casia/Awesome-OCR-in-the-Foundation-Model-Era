@@ -24,6 +24,26 @@ OCR is treated here in a broad but bounded sense: visual text and document image
 - [F5. Commercial OCR and Document AI Services](#f5-commercial-ocr-and-document-ai-services)
 - [Benchmarks](resources/benchmarks.md)
 - [Cross-era OCR Arena](arena/README.md)
+- [Related Awesome Lists](#related-awesome-lists)
+
+<a id="related-awesome-lists"></a>
+
+<details open>
+<summary><h2>Related Awesome Lists</h2></summary>
+
+Existing OCR awesome lists remain useful, especially for classical OCR tooling, preprocessing, GUI utilities, OCR file formats, historical document OCR, and scene-text-specific papers. This repository focuses on connecting those older OCR resources with foundation-model-era document parsers, VLM interfaces, commercial APIs, and cross-era evaluation.
+
+| Repository | Strong Coverage | Links |
+|:---:|:---:|:---:|
+| [![GitHub](https://img.shields.io/badge/GitHub-kba%2Fawesome--ocr-24292f?logo=github)](https://github.com/kba/awesome-ocr) [![Star](https://img.shields.io/github/stars/kba/awesome-ocr.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/kba/awesome-ocr)<br>**kba/awesome-ocr** | historical-document OCR; OCR engines; hOCR / ALTO / PAGE XML; GUI tools; preprocessing; datasets; older literature | [GitHub](https://github.com/kba/awesome-ocr) |
+| [![GitHub](https://img.shields.io/badge/GitHub-zacharywhitley%2Fawesome--ocr-24292f?logo=github)](https://github.com/zacharywhitley/awesome-ocr) [![Star](https://img.shields.io/github/stars/zacharywhitley/awesome-ocr.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/zacharywhitley/awesome-ocr)<br>**zacharywhitley/awesome-ocr** | pipeline-era engineering resources; deskewing and dewarping; segmentation; text detection; recognition; table extraction; HTR; post-processing | [GitHub](https://github.com/zacharywhitley/awesome-ocr) |
+| [![GitHub](https://img.shields.io/badge/GitHub-ZumingHuang%2Fawesome--ocr--resources-24292f?logo=github)](https://github.com/ZumingHuang/awesome-ocr-resources) [![Star](https://img.shields.io/github/stars/ZumingHuang/awesome-ocr-resources.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/ZumingHuang/awesome-ocr-resources)<br>**ZumingHuang/awesome-ocr-resources** | chronological OCR paper and dataset tracking; useful bibliography scaffold for pre-2025 methods | [GitHub](https://github.com/ZumingHuang/awesome-ocr-resources) |
+| [![GitHub](https://img.shields.io/badge/GitHub-wanghaisheng%2Fawesome--ocr-24292f?logo=github)](https://github.com/wanghaisheng/awesome-ocr) [![Star](https://img.shields.io/github/stars/wanghaisheng/awesome-ocr.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/wanghaisheng/awesome-ocr)<br>**wanghaisheng/awesome-ocr** | Chinese engineering resources; APIs; OCR wrappers; practical libraries; older project tracking | [GitHub](https://github.com/wanghaisheng/awesome-ocr) |
+| [![GitHub](https://img.shields.io/badge/GitHub-chongyangtao%2FAwesome--Scene--Text--Recognition-24292f?logo=github)](https://github.com/chongyangtao/Awesome-Scene-Text-Recognition) [![Star](https://img.shields.io/github/stars/chongyangtao/Awesome-Scene-Text-Recognition.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/chongyangtao/Awesome-Scene-Text-Recognition)<br>**Awesome Scene Text Recognition** | scene text detection / recognition / spotting papers and resources | [GitHub](https://github.com/chongyangtao/Awesome-Scene-Text-Recognition) |
+
+Coverage gaps identified from these lists and not fully duplicated here: OCR file-format tooling (`hOCR`, `ALTO`, `PAGE XML`), annotation/GUI utilities, preprocessing and document restoration, handwriting and historical-document OCR ecosystems, OCR post-correction, language-model cleanup, and narrow industrial OCR applications such as license plates or ID cards. These are adjacent to the survey scope and may be expanded as separate resource files rather than folded into the main model-family taxonomy.
+
+</details>
 
 ## Model Collections
 
