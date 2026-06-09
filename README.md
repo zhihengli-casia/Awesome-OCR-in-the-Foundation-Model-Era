@@ -27,7 +27,7 @@ OCR is treated here in a broad but bounded sense: visual text and document image
 
 ## Model Collections
 
-Badges indicate venue/source and year when available; Star badges follow the live Shields.io style used by common awesome lists; explicit GitHub links remain available for every public repository. The Date column records the paper or public source date; active ranges such as `2020-2026` mark projects that continue to evolve beyond their first release. Repository-only entries use the public GitHub repository creation date. Entries are ordered newest first within each subsection. Each model-family block is expandable and remains open by default for direct browsing.
+Badges indicate venue/source and year when available; Star badges follow the live Shields.io style used by common awesome lists; explicit GitHub links remain available for every public repository. The Date column records the paper or public source date; active ranges such as `2020-2026` mark projects that continue to evolve beyond their first release. Repository-only entries use the public GitHub repository creation date. Entries are ordered newest first within each subsection. Each model-family block and subsection is expandable and remains open by default for direct browsing.
 
 <a id="f1-modular-ocr-toolkits-and-specialized-components"></a>
 
@@ -37,7 +37,9 @@ Badges indicate venue/source and year when available; Star badges follow the liv
 
 Systems that follow or support the detector-recognizer pipeline: OCR engines, open toolkits, text detectors, cropped recognizers, formula recognizers, and structured-object components.
 
-### OCR Engines and Toolkits
+<details open>
+<summary><h3>OCR Engines and Toolkits</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -52,7 +54,12 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 | 2019.03 | [![GitHub 2019.03](https://img.shields.io/badge/GitHub-2019.03-24292f?logo=github)](https://github.com/breezedeus/CnOCR) [![Star](https://img.shields.io/github/stars/breezedeus/CnOCR.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/breezedeus/CnOCR)<br>**CnOCR** | Chinese OCR toolkit; line/crop recognition | [GitHub](https://github.com/breezedeus/CnOCR)<br>[Docs](https://cnocr.readthedocs.io/) |
 | 2013.12 | [![GitHub 2013.12](https://img.shields.io/badge/GitHub-2013.12-24292f?logo=github)](https://github.com/ocrmypdf/OCRmyPDF) [![Star](https://img.shields.io/github/stars/ocrmypdf/OCRmyPDF.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/ocrmypdf/OCRmyPDF)<br>**OCRmyPDF** | searchable-PDF OCR workflow | [GitHub](https://github.com/ocrmypdf/OCRmyPDF)<br>[Docs](https://ocrmypdf.readthedocs.io/) |
 
-### Text Detection and Spotting Components
+
+</details>
+
+<details open>
+<summary><h3>Text Detection and Spotting Components</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -76,7 +83,12 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 | 2017 | [![AAAI 2017](https://img.shields.io/badge/AAAI-2017-4b4b4b)](https://ojs.aaai.org/index.php/AAAI/article/view/11196)<br>**TextBoxes** | single-shot horizontal text detector | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/11196) |
 | 2016 | [![ECCV 2016](https://img.shields.io/badge/ECCV-2016-4b4b4b)](https://arxiv.org/abs/1609.03605)<br>**CTPN** | connectionist text proposal network | [Paper](https://arxiv.org/abs/1609.03605) |
 
-### Cropped Text Recognizers
+
+</details>
+
+<details open>
+<summary><h3>Cropped Text Recognizers</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -102,7 +114,12 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 | 2017 | [![TPAMI 2017](https://img.shields.io/badge/TPAMI-2017-4b4b4b)](https://doi.org/10.1109/TPAMI.2016.2646371) [![Star](https://img.shields.io/github/stars/meijieru/crnn.pytorch.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/meijieru/crnn.pytorch)<br>**CRNN** | cropped sequence recognition; CTC | [Paper](https://doi.org/10.1109/TPAMI.2016.2646371)<br>[GitHub](https://github.com/meijieru/crnn.pytorch) |
 | 2016 | [![CVPR 2016](https://img.shields.io/badge/CVPR-2016-4b4b4b)](https://doi.org/10.1109/CVPR.2016.452)<br>**RARE** | rectified attention recognizer | [Paper](https://doi.org/10.1109/CVPR.2016.452) |
 
-### Formula, Table, and Structured-Object Components
+
+</details>
+
+<details open>
+<summary><h3>Formula, Table, and Structured-Object Components</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -124,6 +141,9 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 | 2017 | [![PR 2017](https://img.shields.io/badge/PR-2017-4b4b4b)](https://doi.org/10.1016/j.patcog.2017.06.017)<br>**WAP** | handwritten mathematical expression recognition | [Paper](https://doi.org/10.1016/j.patcog.2017.06.017) |
 | 2016.09 | [![arXiv 2016.09](https://img.shields.io/badge/arXiv-2016.09-b31b1b)](https://arxiv.org/abs/1609.04938)<br>**Im2Markup** | image-to-LaTeX generation | [Paper](https://arxiv.org/abs/1609.04938) |
 
+
+</details>
+
 </details>
 
 <a id="f2-foundation-model-document-parsers"></a>
@@ -134,7 +154,9 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 
 End-to-end or near end-to-end models that read page images and generate structured representations such as Markdown, HTML, LaTeX, JSON, or OCR-formatted text.
 
-### OCR-Free and Transitional Encoder-Decoders
+<details open>
+<summary><h3>OCR-Free and Transitional Encoder-Decoders</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -144,7 +166,12 @@ End-to-end or near end-to-end models that read page images and generate structur
 | 2023 | [![ICML 2023](https://img.shields.io/badge/ICML-2023-4b4b4b)](https://arxiv.org/abs/2210.03347) [![Star](https://img.shields.io/github/stars/google-research/pix2struct.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/google-research/pix2struct)<br>**Pix2Struct** | screenshot/page-to-sequence pretraining | [Paper](https://arxiv.org/abs/2210.03347)<br>[GitHub](https://github.com/google-research/pix2struct) |
 | 2022 | [![ECCV 2022](https://img.shields.io/badge/ECCV-2022-4b4b4b)](https://arxiv.org/abs/2111.15664) [![Star](https://img.shields.io/github/stars/clovaai/donut.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/clovaai/donut)<br>**Donut** | OCR-free encoder-decoder; document understanding | [Paper](https://arxiv.org/abs/2111.15664)<br>[GitHub](https://github.com/clovaai/donut) |
 
-### Early Document VLMs
+
+</details>
+
+<details open>
+<summary><h3>Early Document VLMs</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -161,7 +188,12 @@ End-to-end or near end-to-end models that read page images and generate structur
 | 2023.10 | [![arXiv 2023.10](https://img.shields.io/badge/arXiv-2023.10-b31b1b)](https://arxiv.org/abs/2310.05126)<br>**UReader** | OCR-free visually situated language understanding | [Paper](https://arxiv.org/abs/2310.05126) |
 | 2023.07 | [![arXiv 2023.07](https://img.shields.io/badge/arXiv-2023.07-b31b1b)](https://arxiv.org/abs/2307.02499) [![Star](https://img.shields.io/github/stars/X-PLUG/mPLUG-DocOwl.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/X-PLUG/mPLUG-DocOwl)<br>**DocOwl** | document-oriented VLM | [Paper](https://arxiv.org/abs/2307.02499)<br>[GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) |
 
-### 2025-2026 OCR-Specialized Parsers
+
+</details>
+
+<details open>
+<summary><h3>2025-2026 OCR-Specialized Parsers</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -191,7 +223,12 @@ End-to-end or near end-to-end models that read page images and generate structur
 | 2025.02 | [![arXiv 2025.02](https://img.shields.io/badge/arXiv-2025.02-b31b1b)](https://arxiv.org/abs/2502.18443) [![Star](https://img.shields.io/github/stars/allenai/olmocr.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/allenai/olmocr)<br>**olmOCR** | open PDF-to-Markdown / page linearization model | [Paper](https://arxiv.org/abs/2502.18443)<br>[GitHub](https://github.com/allenai/olmocr) |
 | 2025 | [![HF 2025](https://img.shields.io/badge/HF-2025-ffcc4d?logo=huggingface)](https://huggingface.co/nanonets/Nanonets-OCR-s)<br>**Nanonets-OCR-s** | 4B structured Markdown OCR model | [Hugging Face](https://huggingface.co/nanonets/Nanonets-OCR-s) |
 
-### Emerging Generation and Training Routes
+
+</details>
+
+<details open>
+<summary><h3>Emerging Generation and Training Routes</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -199,6 +236,9 @@ End-to-end or near end-to-end models that read page images and generate structur
 | 2026.01 | [![arXiv 2026.01](https://img.shields.io/badge/arXiv-2026.01-b31b1b)](https://arxiv.org/abs/2601.08834)<br>**FDRL for Document OCR** | format-decoupled reinforcement learning | [Paper](https://arxiv.org/abs/2601.08834) |
 | 2025.12 | [![arXiv 2025.12](https://img.shields.io/badge/arXiv-2025.12-b31b1b)](https://arxiv.org/abs/2512.18550) [![Star](https://img.shields.io/github/stars/ZZZZZQT/DOCR-Inspector.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/ZZZZZQT/DOCR-Inspector)<br>**DOCR-Inspector** | fine-grained evaluation and strategic optimization for document OCR parsing | [Paper](https://arxiv.org/abs/2512.18550)<br>[GitHub](https://github.com/ZZZZZQT/DOCR-Inspector) |
 | 2025.08 | [![arXiv 2025.08](https://img.shields.io/badge/arXiv-2025.08-b31b1b)](https://arxiv.org/abs/2508.13238)<br>**DianJin-OCR-R1** | reasoning-and-tool interleaved OCR VLM route | [Paper](https://arxiv.org/abs/2508.13238) |
+
+
+</details>
 
 </details>
 
@@ -210,7 +250,9 @@ End-to-end or near end-to-end models that read page images and generate structur
 
 Systems that combine layout detection, OCR, region decomposition, VLM generation, rule-based validators, and document assembly.
 
-### Full Document Parsing Workflows
+<details open>
+<summary><h3>Full Document Parsing Workflows</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -225,7 +267,12 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 | 2022.10 | [![arXiv 2022.10](https://img.shields.io/badge/arXiv-2022.10-b31b1b)](https://arxiv.org/abs/2210.05391) [![Star](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/PaddlePaddle/PaddleOCR)<br>**PP-Structure / PP-StructureV2** | layout + table + OCR document analysis workflow | [Paper](https://arxiv.org/abs/2210.05391)<br>[GitHub](https://github.com/PaddlePaddle/PaddleOCR)<br>[Docs](https://paddlepaddle.github.io/PaddleOCR/) |
 | 2022.09 | [![GitHub 2022.09](https://img.shields.io/badge/GitHub-2022.09-24292f?logo=github)](https://github.com/Unstructured-IO/unstructured) [![Star](https://img.shields.io/github/stars/Unstructured-IO/unstructured.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/Unstructured-IO/unstructured)<br>**Unstructured** | document partitioning and ingestion workflow | [GitHub](https://github.com/Unstructured-IO/unstructured)<br>[Docs](https://docs.unstructured.io/) |
 
-### PDF-to-Structured-Output Workflows
+
+</details>
+
+<details open>
+<summary><h3>PDF-to-Structured-Output Workflows</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -237,6 +284,9 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 | 2012.10 | [![GitHub 2012.10](https://img.shields.io/badge/GitHub-2012.10-24292f?logo=github)](https://github.com/pymupdf/PyMuPDF) [![Star](https://img.shields.io/github/stars/pymupdf/PyMuPDF.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/pymupdf/PyMuPDF)<br>**PyMuPDF** | PDF page rendering and extraction utility | [GitHub](https://github.com/pymupdf/PyMuPDF)<br>[Docs](https://pymupdf.readthedocs.io/) |
 | 2012.09 | [![GitHub 2012.09](https://img.shields.io/badge/GitHub-2012.09-24292f?logo=github)](https://github.com/kermitt2/grobid) [![Star](https://img.shields.io/github/stars/kermitt2/grobid.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/kermitt2/grobid)<br>**GROBID** | scholarly PDF structure extraction workflow | [GitHub](https://github.com/kermitt2/grobid)<br>[Docs](https://grobid.readthedocs.io/) |
 
+
+</details>
+
 </details>
 
 <a id="f4-general-purpose-vlms-used-as-ocr-interfaces"></a>
@@ -247,7 +297,9 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 
 General multimodal models that can perform OCR-related tasks through prompts, while OCR is only one part of their capability.
 
-### Open General VLMs
+<details open>
+<summary><h3>Open General VLMs</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -273,7 +325,12 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 | 2023.11 | [![arXiv 2023.11](https://img.shields.io/badge/arXiv-2023.11-b31b1b)](https://arxiv.org/abs/2311.06242)<br>**Florence-2** | fixed-token general vision foundation model | [Paper](https://arxiv.org/abs/2311.06242)<br>[Hugging Face](https://huggingface.co/microsoft/Florence-2-large) |
 | 2023.08 | [![arXiv 2023.08](https://img.shields.io/badge/arXiv-2023.08-b31b1b)](https://arxiv.org/abs/2308.12966) [![Star](https://img.shields.io/github/stars/QwenLM/Qwen-VL.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/QwenLM/Qwen-VL)<br>**Qwen-VL** | visual text reading; grounding; document QA | [Paper](https://arxiv.org/abs/2308.12966)<br>[GitHub](https://github.com/QwenLM/Qwen-VL) |
 
-### Closed/API General VLMs
+
+</details>
+
+<details open>
+<summary><h3>Closed/API General VLMs</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -282,6 +339,9 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 | 2024 | [![API 2024](https://img.shields.io/badge/API-2024-6f42c1)](https://platform.openai.com/docs)<br>**GPT-4o** | closed general VLM OCR interface | [Docs](https://platform.openai.com/docs) |
 | 2023.12 | [![Report 2023.12](https://img.shields.io/badge/Report-2023.12-6f42c1)](https://arxiv.org/abs/2312.11805)<br>**Gemini family** | closed general VLM OCR interface | [Report](https://arxiv.org/abs/2312.11805)<br>[Docs](https://ai.google.dev/gemini-api/docs) |
 | 2023 | [![System Card 2023](https://img.shields.io/badge/System%20Card-2023-6f42c1)](https://cdn.openai.com/papers/GPTV_System_Card.pdf)<br>**GPT-4V** | closed general VLM OCR interface | [System Card](https://cdn.openai.com/papers/GPTV_System_Card.pdf)<br>[Docs](https://platform.openai.com/docs) |
+
+
+</details>
 
 </details>
 
@@ -293,7 +353,9 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 
 Closed-source or managed systems for document conversion, enterprise OCR, scientific document parsing, formula OCR, receipts, forms, invoices, and other vertical workflows.
 
-### Enterprise OCR and Document AI
+<details open>
+<summary><h3>Enterprise OCR and Document AI</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -306,7 +368,12 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 | 2025 | [![Product docs 2025](https://img.shields.io/badge/Product%20docs-2025-6f42c1)](https://www.textin.com/)<br>**TextIn** | document / receipt / form parsing; JSON / Markdown / fields | [Website](https://www.textin.com/) |
 | 1993- | [![Product line 1993-](https://img.shields.io/badge/Product%20line-1993--6f42c1)](https://www.abbyy.com/finereader/)<br>**ABBYY FineReader / ABBYY Vantage** | commercial OCR; on-prem / SDK / cloud; searchable PDF / fields | [FineReader](https://www.abbyy.com/finereader/)<br>[Vantage](https://www.abbyy.com/vantage/) |
 
-### Scientific OCR and Managed Parsing APIs
+
+</details>
+
+<details open>
+<summary><h3>Scientific OCR and Managed Parsing APIs</h3></summary>
+
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
@@ -316,6 +383,9 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 | 2026 | [![Product docs 2026](https://img.shields.io/badge/Product%20docs-2026-6f42c1)](https://cloud.baidu.com/product/wenxinworkshop)<br>**Baidu Qianfan / Wenxin document services** | managed document OCR and model API access | [Website](https://cloud.baidu.com/product/wenxinworkshop) |
 | 2025 | [![Product docs 2025](https://img.shields.io/badge/Product%20docs-2025-6f42c1)](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/)<br>**Mistral OCR** | managed OCR API; Markdown / structured response | [Docs](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/) |
 | 2025 | [![Product docs 2025](https://img.shields.io/badge/Product%20docs-2025-6f42c1)](https://help.aliyun.com/zh/model-studio/)<br>**Qwen-OCR API** | managed OCR API; structured OCR output | [Docs](https://help.aliyun.com/zh/model-studio/) |
+
+
+</details>
 
 </details>
 
