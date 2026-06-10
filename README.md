@@ -22,7 +22,7 @@ OCR is treated here in a broad but bounded sense: visual text and document image
 - [F3. Hybrid Document Parsing Workflows](#f3-hybrid-document-parsing-workflows)
 - [F4. General-Purpose VLMs Used as OCR Interfaces](#f4-general-purpose-vlms-used-as-ocr-interfaces)
 - [F5. Commercial OCR and Document AI Services](#f5-commercial-ocr-and-document-ai-services)
-- [Benchmarks](resources/benchmarks.md)
+- [Benchmarks and Datasets](#benchmarks-and-datasets)
 - [Cross-era OCR Arena](arena/README.md)
 - [Related Awesome Lists](#related-awesome-lists)
 
@@ -446,10 +446,125 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 
 </details>
 
+<a id="benchmarks-and-datasets"></a>
+
+## Benchmark and Dataset Collections
+
+Benchmarks are organized by the capability layer they evaluate rather than by a single leaderboard. The table below keeps representative OCR, document parsing, document understanding, and VLM-OCR datasets visible on the front page; the fuller inventory is maintained in [`resources/benchmarks.md`](resources/benchmarks.md).
+
+<details open>
+<summary><strong>B1. Cropped Text Recognition and Line Recognition</strong></summary>
+
+| Date | Name | Type | Input / Target | Metric / Scale | Links |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 2023 | [![arXiv 2023](https://img.shields.io/badge/arXiv-2023-b31b1b)](https://arxiv.org/abs/2303.16968)<br>**Union14M / Union14M-Benchmark** | training corpus / benchmark | word crops; multi-source text recognition | accuracy / NED; 14M-scale training pool | [Paper](https://arxiv.org/abs/2303.16968) |
+| 2015 | [![ICDAR 2015](https://img.shields.io/badge/ICDAR-2015-4b4b4b)](https://rrc.cvc.uab.es/?ch=4)<br>**ICDAR 2015 Recognition** | benchmark | cropped incidental scene text | word accuracy | [Website](https://rrc.cvc.uab.es/?ch=4) |
+| 2014 | [![Dataset 2014](https://img.shields.io/badge/Dataset-2014-4b4b4b)](https://www.robots.ox.ac.uk/~vgg/data/text/)<br>**MJSynth / Synth90k** | synthetic training data | rendered word crops | synthetic 9M word images | [Website](https://www.robots.ox.ac.uk/~vgg/data/text/) |
+| 2013 | [![ICDAR 2013](https://img.shields.io/badge/ICDAR-2013-4b4b4b)](https://rrc.cvc.uab.es/?ch=2)<br>**ICDAR 2013 Recognition** | benchmark | focused scene word crops | word accuracy | [Website](https://rrc.cvc.uab.es/?ch=2) |
+| 2011 | [![Dataset 2011](https://img.shields.io/badge/Dataset-2011-4b4b4b)](https://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset)<br>**IIIT5K** | benchmark | cropped word images | word accuracy; 3K test words | [Website](https://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset) |
+| 2011 | [![Dataset 2011](https://img.shields.io/badge/Dataset-2011-4b4b4b)](http://www.iapr-tc11.org/mediawiki/index.php/The_Street_View_Text_Dataset)<br>**SVT** | benchmark | street-view word crops | word accuracy | [Website](http://www.iapr-tc11.org/mediawiki/index.php/The_Street_View_Text_Dataset) |
+| 2011 | [![Dataset 2011](https://img.shields.io/badge/Dataset-2011-4b4b4b)](http://www.iapr-tc11.org/mediawiki/index.php/SVTP_Dataset)<br>**SVTP** | benchmark | perspective-distorted word crops | word accuracy | [Website](http://www.iapr-tc11.org/mediawiki/index.php/SVTP_Dataset) |
+| 2011 | [![Dataset 2011](https://img.shields.io/badge/Dataset-2011-4b4b4b)](http://cs-chan.com/downloads_CUTE80_dataset.html)<br>**CUTE80** | benchmark | curved cropped words | word accuracy | [Website](http://cs-chan.com/downloads_CUTE80_dataset.html) |
+| 2002 | [![Dataset 2002](https://img.shields.io/badge/Dataset-2002-4b4b4b)](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database)<br>**IAM** | handwriting benchmark | handwritten lines / words | CER / WER; line recognition | [Website](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database) |
+
+</details>
+
+<details open>
+<summary><strong>B2. Scene Text Detection, Spotting, and Dense Text</strong></summary>
+
+| Date | Name | Type | Input / Target | Metric / Scale | Links |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 2022 | [![CVPR 2022](https://img.shields.io/badge/CVPR-2022-4b4b4b)](https://arxiv.org/abs/2203.15143) [![Star](https://img.shields.io/github/stars/google-research-datasets/hiertext.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/google-research-datasets/hiertext)<br>**HierText** | benchmark | natural images; word/line/paragraph hierarchy | detection / recognition / hierarchy | [Paper](https://arxiv.org/abs/2203.15143)<br>[GitHub](https://github.com/google-research-datasets/hiertext) |
+| 2021 | [![Dataset 2021](https://img.shields.io/badge/Dataset-2021-4b4b4b)](https://textvqa.org/textocr/)<br>**TextOCR** | benchmark | natural images with dense text | localization + transcription | [Website](https://textvqa.org/textocr/) |
+| 2019 | [![ICDAR 2019](https://img.shields.io/badge/ICDAR-2019-4b4b4b)](https://rrc.cvc.uab.es/?ch=16)<br>**LSVT** | benchmark | large-scale Chinese scene text | detection / recognition / spotting | [Website](https://rrc.cvc.uab.es/?ch=16) |
+| 2019 | [![ICDAR 2019](https://img.shields.io/badge/ICDAR-2019-4b4b4b)](https://rrc.cvc.uab.es/?ch=14)<br>**ArT** | benchmark | arbitrary-shape scene text | polygon detection / spotting | [Website](https://rrc.cvc.uab.es/?ch=14) |
+| 2017 | [![ICDAR 2017](https://img.shields.io/badge/ICDAR-2017-4b4b4b)](https://rrc.cvc.uab.es/?ch=8)<br>**ICDAR 2017 MLT** | benchmark | multilingual scene text | multilingual detection / recognition | [Website](https://rrc.cvc.uab.es/?ch=8) |
+| 2017 | [![CVPR 2017](https://img.shields.io/badge/CVPR-2017-4b4b4b)](https://github.com/Yuliang-Liu/Curve-Text-Detector)<br>**CTW1500** | benchmark | curved text-line images | polygon detection F1 | [GitHub](https://github.com/Yuliang-Liu/Curve-Text-Detector) |
+| 2017 | [![CVPR 2017](https://img.shields.io/badge/CVPR-2017-4b4b4b)](https://github.com/cs-chan/Total-Text-Dataset)<br>**Total-Text** | benchmark | curved and horizontal scene text | polygon detection / spotting | [GitHub](https://github.com/cs-chan/Total-Text-Dataset) |
+| 2016 | [![CVPR 2016](https://img.shields.io/badge/CVPR-2016-4b4b4b)](https://www.robots.ox.ac.uk/~vgg/data/scenetext/)<br>**SynthText** | synthetic training data | synthetic text in natural images | detection / recognition training | [Website](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) |
+| 2015 | [![ICDAR 2015](https://img.shields.io/badge/ICDAR-2015-4b4b4b)](https://rrc.cvc.uab.es/?ch=4)<br>**ICDAR 2015 Incidental Text** | benchmark | camera-captured incidental text | detection / spotting Hmean | [Website](https://rrc.cvc.uab.es/?ch=4) |
+| 2012 | [![Dataset 2012](https://img.shields.io/badge/Dataset-2012-4b4b4b)](https://github.com/ut-text-detection/UTD-Text-Detection)<br>**MSRA-TD500** | benchmark | long multi-oriented text lines | text-line detection F1 | [GitHub](https://github.com/ut-text-detection/UTD-Text-Detection) |
+
+</details>
+
+<details open>
+<summary><strong>B3. Layout, KIE, Forms, and Receipts</strong></summary>
+
+| Date | Name | Type | Input / Target | Metric / Scale | Links |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 2022 | [![KDD 2022](https://img.shields.io/badge/KDD-2022-4b4b4b)](https://arxiv.org/abs/2206.01062)<br>**DocLayNet** | layout benchmark | diverse document pages; 11 layout classes | layout mAP; 80K pages | [Paper](https://arxiv.org/abs/2206.01062)<br>[HF](https://huggingface.co/datasets/ds4sd/DocLayNet) |
+| 2022 | [![ACL 2022](https://img.shields.io/badge/ACL-2022-4b4b4b)](https://arxiv.org/abs/2104.08836) [![Star](https://img.shields.io/github/stars/doc-analysis/XFUND.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/doc-analysis/XFUND)<br>**XFUND** | multilingual form understanding | form images; entities and relations | entity / relation F1 | [Paper](https://arxiv.org/abs/2104.08836)<br>[GitHub](https://github.com/doc-analysis/XFUND) |
+| 2021 | [![ICDAR 2021](https://img.shields.io/badge/ICDAR-2021-4b4b4b)](https://arxiv.org/abs/2103.10213)<br>**Kleister-NDA / Kleister-Charity** | KIE benchmark | long business documents | key-value extraction F1 | [Paper](https://arxiv.org/abs/2103.10213) |
+| 2020 | [![COLING 2020](https://img.shields.io/badge/COLING-2020-4b4b4b)](https://arxiv.org/abs/2006.01038)<br>**DocBank** | layout / token benchmark | PDF pages; token-level labels | token classification; 500K pages | [Paper](https://arxiv.org/abs/2006.01038) |
+| 2019 | [![ICDAR 2019](https://img.shields.io/badge/ICDAR-2019-4b4b4b)](https://rrc.cvc.uab.es/?ch=13)<br>**SROIE** | receipt KIE benchmark | scanned receipts | OCR + field extraction F1 | [Website](https://rrc.cvc.uab.es/?ch=13) |
+| 2019 | [![NeurIPS 2019](https://img.shields.io/badge/NeurIPS-2019-4b4b4b)](https://arxiv.org/abs/1908.07836)<br>**PubLayNet** | layout benchmark | scientific articles; 5 layout classes | layout mAP; 340K pages | [Paper](https://arxiv.org/abs/1908.07836) |
+| 2019 | [![Dataset 2019](https://img.shields.io/badge/Dataset-2019-4b4b4b)](https://github.com/clovaai/cord) [![Star](https://img.shields.io/github/stars/clovaai/cord.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/clovaai/cord)<br>**CORD** | receipt KIE benchmark | receipt images; semantic fields | entity F1 | [GitHub](https://github.com/clovaai/cord) |
+| 2019 | [![ICDAR 2019](https://img.shields.io/badge/ICDAR-2019-4b4b4b)](https://guillaumejaume.github.io/FUNSD/)<br>**FUNSD** | form understanding benchmark | scanned forms; entities and links | entity / relation F1 | [Website](https://guillaumejaume.github.io/FUNSD/) |
+
+</details>
+
+<details open>
+<summary><strong>B4. Tables, Formulas, and Structured Objects</strong></summary>
+
+| Date | Name | Type | Input / Target | Metric / Scale | Links |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 2024 | [![arXiv 2024](https://img.shields.io/badge/arXiv-2024-b31b1b)](https://arxiv.org/abs/2404.15254) [![Star](https://img.shields.io/github/stars/opendatalab/UniMERNet.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/opendatalab/UniMERNet)<br>**UniMER-1M** | formula dataset | printed / handwritten formulas to LaTeX | edit distance; 1M-scale | [Paper](https://arxiv.org/abs/2404.15254)<br>[GitHub](https://github.com/opendatalab/UniMERNet) |
+| 2021 | [![CVPR 2021](https://img.shields.io/badge/CVPR-2021-4b4b4b)](https://arxiv.org/abs/2110.00061) [![Star](https://img.shields.io/github/stars/microsoft/table-transformer.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/microsoft/table-transformer)<br>**PubTables-1M** | table benchmark | PDF tables; structure and cells | AP / GriTS; 1M tables | [Paper](https://arxiv.org/abs/2110.00061)<br>[GitHub](https://github.com/microsoft/table-transformer) |
+| 2021 | [![Dataset 2021](https://img.shields.io/badge/Dataset-2021-4b4b4b)](https://github.com/wangwen-whu/WTW-Dataset) [![Star](https://img.shields.io/github/stars/wangwen-whu/WTW-Dataset.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/wangwen-whu/WTW-Dataset)<br>**WTW** | wild table benchmark | natural-scene / document tables | table detection / structure | [GitHub](https://github.com/wangwen-whu/WTW-Dataset) |
+| 2020 | [![Dataset 2020](https://img.shields.io/badge/Dataset-2020-4b4b4b)](https://developer.ibm.com/exchanges/data/all/fintabnet/)<br>**FinTabNet** | table benchmark | financial report tables to HTML | TEDS / structure | [Website](https://developer.ibm.com/exchanges/data/all/fintabnet/) |
+| 2020 | [![ECCV 2020](https://img.shields.io/badge/ECCV-2020-4b4b4b)](https://arxiv.org/abs/1911.10683)<br>**PubTabNet** | table benchmark | table images to HTML | TEDS; 500K+ tables | [Paper](https://arxiv.org/abs/1911.10683) |
+| 2019 | [![arXiv 2019](https://img.shields.io/badge/arXiv-2019-b31b1b)](https://arxiv.org/abs/1908.04729)<br>**SciTSR** | table benchmark | scientific tables; cell structure | structure F1 | [Paper](https://arxiv.org/abs/1908.04729) |
+| 2019 | [![arXiv 2019](https://img.shields.io/badge/arXiv-2019-b31b1b)](https://arxiv.org/abs/1903.01949)<br>**TableBank** | table benchmark | Word / LaTeX document tables | detection / structure; 417K tables | [Paper](https://arxiv.org/abs/1903.01949) |
+| 2016 | [![arXiv 2016](https://img.shields.io/badge/arXiv-2016-b31b1b)](https://arxiv.org/abs/1609.04938)<br>**Im2LaTeX-100K** | formula dataset | rendered formulas to LaTeX | edit distance; 100K formulas | [Paper](https://arxiv.org/abs/1609.04938) |
+| 2014- | [![Competition 2014-](https://img.shields.io/badge/Competition-2014--4b4b4b)](https://www.isical.ac.in/~crohme/)<br>**CROHME** | handwritten formula benchmark | online/offline math expressions | expression recognition rate | [Website](https://www.isical.ac.in/~crohme/) |
+| 2020 | [![Dataset 2020](https://img.shields.io/badge/Dataset-2020-4b4b4b)](https://github.com/HCIILAB/HME100K-Dataset)<br>**HME100K** | formula benchmark | handwritten math images to LaTeX | edit distance / expression rate | [GitHub](https://github.com/HCIILAB/HME100K-Dataset) |
+
+</details>
+
+<details open>
+<summary><strong>B5. Document QA, Chart QA, and OCR-Dependent Understanding</strong></summary>
+
+| Date | Name | Type | Input / Target | Metric / Scale | Links |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 2024.07 | [![arXiv 2024.07](https://img.shields.io/badge/arXiv-2024.07-b31b1b)](https://arxiv.org/abs/2407.01523)<br>**MMLongBench-Doc** | long-document VQA benchmark | long documents + questions | answer accuracy / LLM judging | [Paper](https://arxiv.org/abs/2407.01523) |
+| 2023 | [![ICCV 2023](https://img.shields.io/badge/ICCV-2023-4b4b4b)](https://arxiv.org/abs/2305.14828)<br>**DUDE** | document QA benchmark | diverse documents + questions | ANLS / accuracy | [Paper](https://arxiv.org/abs/2305.14828) |
+| 2023 | [![Dataset 2023](https://img.shields.io/badge/Dataset-2023-4b4b4b)](https://rrc.cvc.uab.es/?ch=17)<br>**MP-DocVQA** | multi-page document QA | multi-page documents + questions | ANLS | [Website](https://rrc.cvc.uab.es/?ch=17) |
+| 2022 | [![ACL 2022](https://img.shields.io/badge/ACL-2022-4b4b4b)](https://arxiv.org/abs/2203.10244) [![Star](https://img.shields.io/github/stars/vis-nlp/ChartQA.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/vis-nlp/ChartQA)<br>**ChartQA** | chart QA benchmark | chart images + questions | relaxed accuracy | [Paper](https://arxiv.org/abs/2203.10244)<br>[GitHub](https://github.com/vis-nlp/ChartQA) |
+| 2021 | [![WACV 2021](https://img.shields.io/badge/WACV-2021-4b4b4b)](https://arxiv.org/abs/2104.12756)<br>**InfographicVQA** | infographic QA benchmark | infographics + questions | ANLS / accuracy | [Paper](https://arxiv.org/abs/2104.12756)<br>[Website](https://www.docvqa.org/datasets/infographicvqa) |
+| 2020 | [![WACV 2020](https://img.shields.io/badge/WACV-2020-4b4b4b)](https://arxiv.org/abs/2007.00398)<br>**DocVQA** | document QA benchmark | document images + questions | ANLS | [Paper](https://arxiv.org/abs/2007.00398)<br>[Website](https://www.docvqa.org/) |
+| 2019 | [![ICCV 2019](https://img.shields.io/badge/ICCV-2019-4b4b4b)](https://arxiv.org/abs/1904.08920)<br>**TextVQA** | text-rich VQA benchmark | natural images + questions | VQA accuracy | [Paper](https://arxiv.org/abs/1904.08920)<br>[Website](https://textvqa.org/) |
+| 2019 | [![ICDAR 2019](https://img.shields.io/badge/ICDAR-2019-4b4b4b)](https://rrc.cvc.uab.es/?ch=11)<br>**ST-VQA** | scene-text VQA benchmark | text-rich images + questions | ANLS | [Website](https://rrc.cvc.uab.es/?ch=11) |
+| 2018 | [![ICLR 2018](https://img.shields.io/badge/ICLR-2018-4b4b4b)](https://arxiv.org/abs/1710.07300)<br>**FigureQA** | chart / figure QA | synthetic figures + questions | accuracy | [Paper](https://arxiv.org/abs/1710.07300) |
+
+</details>
+
+<details open>
+<summary><strong>B6. Page-Level Parsing and VLM-OCR Stress Tests</strong></summary>
+
+| Date | Name | Type | Input / Target | Metric / Scale | Links |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 2026.06 | [![arXiv 2026.06](https://img.shields.io/badge/arXiv-2026.06-b31b1b)](https://arxiv.org/abs/2606.07401)<br>**RealDocBench** | real-world parsing benchmark | degraded real documents | parsing robustness | [Paper](https://arxiv.org/abs/2606.07401) |
+| 2026.05 | [![arXiv 2026.05](https://img.shields.io/badge/arXiv-2026.05-b31b1b)](https://arxiv.org/abs/2605.22100)<br>**MPDocBench-Parse** | multi-page parsing benchmark | multi-page documents to structured output | parsing / multi-page consistency | [Paper](https://arxiv.org/abs/2605.22100) |
+| 2026.05 | [![arXiv 2026.05](https://img.shields.io/badge/arXiv-2026.05-b31b1b)](https://arxiv.org/abs/2605.07492)<br>**PureDocBench** | page parsing benchmark | text-free / layout-focused document pages | structural parsing | [Paper](https://arxiv.org/abs/2605.07492) |
+| 2026.05 | [![arXiv 2026.05](https://img.shields.io/badge/arXiv-2026.05-b31b1b)](https://arxiv.org/abs/2605.03903)<br>**CC-OCR v2** | VLM-OCR benchmark | multi-domain text-rich images | OCR capability and reasoning scores | [Paper](https://arxiv.org/abs/2605.03903) |
+| 2025.12 | [![arXiv 2025.12](https://img.shields.io/badge/arXiv-2025.12-b31b1b)](https://arxiv.org/abs/2512.15872) [![Star](https://img.shields.io/github/stars/Topdu/DocPTBench.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/Topdu/DocPTBench)<br>**DocPTBench** | photographed document parsing | physical capture / perspective / lighting | parsing robustness | [Paper](https://arxiv.org/abs/2512.15872)<br>[GitHub](https://github.com/Topdu/DocPTBench) |
+| 2025.08 | [![arXiv 2025.08](https://img.shields.io/badge/arXiv-2025.08-b31b1b)](https://arxiv.org/abs/2508.11236)<br>**Real5-OmniDocBench** | real-world parsing benchmark | five real degradation types | parse score / degradation drop | [Paper](https://arxiv.org/abs/2508.11236)<br>[HF](https://huggingface.co/datasets/PaddlePaddle/Real5-OmniDocBench) |
+| 2025.05 | [![arXiv 2025.05](https://img.shields.io/badge/arXiv-2025.05-b31b1b)](https://arxiv.org/abs/2505.17163) [![Star](https://img.shields.io/github/stars/SCUT-DLVCLab/OCR-Reasoning.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/SCUT-DLVCLab/OCR-Reasoning)<br>**OCR-Reasoning** | reasoning-heavy OCR benchmark | text-rich images + questions | OCR reasoning accuracy | [Paper](https://arxiv.org/abs/2505.17163)<br>[GitHub](https://github.com/SCUT-DLVCLab/OCR-Reasoning)<br>[Project](https://ocr-reasoning.github.io/) |
+| 2025.05 | [![arXiv 2025.05](https://img.shields.io/badge/arXiv-2025.05-b31b1b)](https://arxiv.org/abs/2505.12766)<br>**Reasoning-OCR** | reasoning-oriented OCR benchmark | text-rich images + reasoning tasks | answer accuracy | [Paper](https://arxiv.org/abs/2505.12766) |
+| 2025.05 | [![arXiv 2025.05](https://img.shields.io/badge/arXiv-2025.05-b31b1b)](https://arxiv.org/abs/2505.05438)<br>**MDPBench** | multilingual parsing benchmark | multilingual document pages | multilingual parse score | [Paper](https://arxiv.org/abs/2505.05438) |
+| 2025.02 | [![arXiv 2025.02](https://img.shields.io/badge/arXiv-2025.02-b31b1b)](https://arxiv.org/abs/2502.18411)<br>**olmOCR-Bench** | document OCR benchmark | PDF pages to text / Markdown | OCR parsing quality | [Paper](https://arxiv.org/abs/2502.18411) |
+| 2025.02 | [![arXiv 2025.02](https://img.shields.io/badge/arXiv-2025.02-b31b1b)](https://arxiv.org/abs/2502.14949)<br>**KITAB-Bench** | multilingual OCR / document benchmark | Arabic text-rich documents | OCR and document understanding scores | [Paper](https://arxiv.org/abs/2502.14949) |
+| 2025.01 | [![arXiv 2025.01](https://img.shields.io/badge/arXiv-2025.01-b31b1b)](https://arxiv.org/abs/2501.00321)<br>**OCRBench v2** | VLM-OCR benchmark | text-rich natural / document / chart images | scenario scores / total score | [Paper](https://arxiv.org/abs/2501.00321) |
+| 2024.12 | [![arXiv 2024.12](https://img.shields.io/badge/arXiv-2024.12-b31b1b)](https://arxiv.org/abs/2412.07626) [![Star](https://img.shields.io/github/stars/opendatalab/OmniDocBench.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/opendatalab/OmniDocBench)<br>**OmniDocBench** | page-level parsing benchmark | PDF/page images to Markdown-like structure | module-level parse scores | [Paper](https://arxiv.org/abs/2412.07626)<br>[GitHub](https://github.com/opendatalab/OmniDocBench) |
+| 2024.12 | [![arXiv 2024.12](https://img.shields.io/badge/arXiv-2024.12-b31b1b)](https://arxiv.org/abs/2412.02210)<br>**CC-OCR** | VLM-OCR benchmark | cross-domain text-rich images | OCR literacy scores | [Paper](https://arxiv.org/abs/2412.02210) |
+| 2023.05 | [![arXiv 2023.05](https://img.shields.io/badge/arXiv-2023.05-b31b1b)](https://arxiv.org/abs/2305.07895) [![Star](https://img.shields.io/github/stars/Yuliang-Liu/MultimodalOCR.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/Yuliang-Liu/MultimodalOCR)<br>**OCRBench** | VLM-OCR benchmark | mixed text-rich images | OCR task accuracy / total score | [Paper](https://arxiv.org/abs/2305.07895)<br>[GitHub](https://github.com/Yuliang-Liu/MultimodalOCR) |
+
+</details>
+
 ## Other Resource Files
 
 - `resources/models.md`: standalone expandable model collections for longer maintenance notes.
-- `resources/benchmarks.md`: OCR, document parsing, document understanding, and VLM-OCR benchmarks.
+- `resources/benchmarks.md`: fuller OCR, document parsing, document understanding, and VLM-OCR benchmark inventory.
 - `arena/README.md`: proposed cross-era evaluation tracks and result-table schema.
 
 ## Update Policy
