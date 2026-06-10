@@ -204,7 +204,7 @@ End-to-end or near end-to-end models that read page images and generate structur
 </details>
 
 <details open>
-<summary>Early Document VLMs</summary>
+<summary>Document-VLM Precursors and Adaptations</summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -229,7 +229,7 @@ End-to-end or near end-to-end models that read page images and generate structur
 </details>
 
 <details open>
-<summary>2025-2026 OCR-Specialized Parsers</summary>
+<summary>OCR-Specialized Page Parsers</summary>
 
 
 | Date | Title | Task / Tags | Links |

@@ -114,7 +114,7 @@ Legend: **F1** modular OCR toolkit/component; **F2** foundation-model document p
 | **Pix2Struct** | 2023 | screenshot/page-to-sequence pretraining | [arXiv](https://arxiv.org/abs/2210.03347) | [GitHub](https://github.com/google-research/pix2struct) | - |
 | **Nougat** | 2023 | scholarly PDF-to-Markdown parser | [arXiv](https://arxiv.org/abs/2308.13418) | [GitHub](https://github.com/facebookresearch/nougat) | - |
 
-### Early Document VLMs
+### Document-VLM Precursors and Adaptations
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
@@ -126,7 +126,7 @@ Legend: **F1** modular OCR toolkit/component; **F2** foundation-model document p
 | **TextHawk** | 2024 | fine-grained text perception in MLLMs | [arXiv](https://arxiv.org/abs/2404.09204) | - | [Hugging Face](https://huggingface.co/TencentBAC) |
 | **Fox** | 2024 | multi-page document understanding system | [arXiv](https://arxiv.org/abs/2405.14295) | [GitHub](https://github.com/ucaslcl/Fox) | - |
 
-### 2025-2026 OCR-Specialized Parsers
+### OCR-Specialized Page Parsers
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
