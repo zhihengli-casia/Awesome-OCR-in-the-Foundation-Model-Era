@@ -52,7 +52,7 @@ Badges indicate venue/source and year when available; Star badges follow the liv
 <a id="f1-modular-ocr-toolkits-and-specialized-components"></a>
 
 <details open>
-<summary><strong>F1. Modular OCR Toolkits and Specialized Components</strong></summary>
+<summary><h3>F1. Modular OCR Toolkits and Specialized Components</h3></summary>
 
 
 Systems that follow or support the detector-recognizer pipeline: OCR engines, open toolkits, text detectors, cropped recognizers, formula recognizers, and structured-object components.
@@ -182,7 +182,7 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 <a id="f2-foundation-model-document-parsers"></a>
 
 <details open>
-<summary><strong>F2. Foundation-Model Document Parsers</strong></summary>
+<summary><h3>F2. Foundation-Model Document Parsers</h3></summary>
 
 
 End-to-end or near end-to-end models that read page images and generate structured representations such as Markdown, HTML, LaTeX, JSON, or OCR-formatted text.
@@ -289,7 +289,7 @@ End-to-end or near end-to-end models that read page images and generate structur
 <a id="f3-hybrid-document-parsing-workflows"></a>
 
 <details open>
-<summary><strong>F3. Hybrid Document Parsing Workflows</strong></summary>
+<summary><h3>F3. Hybrid Document Parsing Workflows</h3></summary>
 
 
 Systems that combine layout detection, OCR, region decomposition, VLM generation, rule-based validators, and document assembly.
@@ -339,7 +339,7 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 <a id="f4-general-purpose-vlms-used-as-ocr-interfaces"></a>
 
 <details open>
-<summary><strong>F4. General-Purpose VLMs Used as OCR Interfaces</strong></summary>
+<summary><h3>F4. General-Purpose VLMs Used as OCR Interfaces</h3></summary>
 
 
 General multimodal models that can perform OCR-related tasks through prompts, while OCR is only one part of their capability.
@@ -432,7 +432,7 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 <a id="f5-commercial-ocr-and-document-ai-services"></a>
 
 <details open>
-<summary><strong>F5. Commercial OCR and Document AI Services</strong></summary>
+<summary><h3>F5. Commercial OCR and Document AI Services</h3></summary>
 
 
 Closed-source or managed systems for document conversion, enterprise OCR, scientific document parsing, formula OCR, receipts, forms, invoices, and other vertical workflows.
@@ -480,7 +480,7 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 Benchmarks are organized by the capability layer they evaluate rather than by a single leaderboard. The table below keeps representative OCR, document parsing, document understanding, and VLM-OCR datasets visible on the front page; the fuller inventory is maintained in [`resources/benchmarks.md`](resources/benchmarks.md).
 
 <details open>
-<summary><strong>B1. Cropped Text Recognition and Line Recognition</strong></summary>
+<summary><h3>B1. Cropped Text Recognition and Line Recognition</h3></summary>
 
 | Date | Name | Type | Input / Target | Metric / Scale | Links |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -497,7 +497,7 @@ Benchmarks are organized by the capability layer they evaluate rather than by a 
 </details>
 
 <details open>
-<summary><strong>B2. Scene Text Detection, Spotting, and Dense Text</strong></summary>
+<summary><h3>B2. Scene Text Detection, Spotting, and Dense Text</h3></summary>
 
 | Date | Name | Type | Input / Target | Metric / Scale | Links |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -515,7 +515,7 @@ Benchmarks are organized by the capability layer they evaluate rather than by a 
 </details>
 
 <details open>
-<summary><strong>B3. Layout, KIE, Forms, and Receipts</strong></summary>
+<summary><h3>B3. Layout, KIE, Forms, and Receipts</h3></summary>
 
 | Date | Name | Type | Input / Target | Metric / Scale | Links |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -531,7 +531,7 @@ Benchmarks are organized by the capability layer they evaluate rather than by a 
 </details>
 
 <details open>
-<summary><strong>B4. Tables, Formulas, and Structured Objects</strong></summary>
+<summary><h3>B4. Tables, Formulas, and Structured Objects</h3></summary>
 
 | Date | Name | Type | Input / Target | Metric / Scale | Links |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -549,7 +549,7 @@ Benchmarks are organized by the capability layer they evaluate rather than by a 
 </details>
 
 <details open>
-<summary><strong>B5. Document QA, Chart QA, and OCR-Dependent Understanding</strong></summary>
+<summary><h3>B5. Document QA, Chart QA, and OCR-Dependent Understanding</h3></summary>
 
 | Date | Name | Type | Input / Target | Metric / Scale | Links |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -566,7 +566,7 @@ Benchmarks are organized by the capability layer they evaluate rather than by a 
 </details>
 
 <details open>
-<summary><strong>B6. Page-Level Parsing and VLM-OCR Stress Tests</strong></summary>
+<summary><h3>B6. Page-Level Parsing and VLM-OCR Stress Tests</h3></summary>
 
 | Date | Name | Type | Input / Target | Metric / Scale | Links |
 |:---:|:---:|:---:|:---:|:---:|:---:|
