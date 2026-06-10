@@ -29,7 +29,7 @@ OCR is treated here in a broad but bounded sense: visual text and document image
 <a id="related-awesome-lists"></a>
 
 <details open>
-<summary>Related Awesome Lists</summary>
+<summary><small>Related Awesome Lists</small></summary>
 
 Existing OCR awesome lists remain useful, especially for classical OCR tooling, preprocessing, GUI utilities, OCR file formats, historical document OCR, and scene-text-specific papers. This repository focuses on connecting those older OCR resources with foundation-model-era document parsers, VLM interfaces, commercial APIs, and cross-era evaluation.
 
@@ -58,7 +58,7 @@ Badges indicate venue/source and year when available; Star badges follow the liv
 Systems that follow or support the detector-recognizer pipeline: OCR engines, open toolkits, text detectors, cropped recognizers, formula recognizers, and structured-object components.
 
 <details open>
-<summary>OCR Engines and Toolkits</summary>
+<summary><small>OCR Engines and Toolkits</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -82,7 +82,7 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 </details>
 
 <details open>
-<summary>Text Detection and Spotting Components</summary>
+<summary><small>Text Detection and Spotting Components</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -116,7 +116,7 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 </details>
 
 <details open>
-<summary>Cropped Text Recognizers</summary>
+<summary><small>Cropped Text Recognizers</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -150,7 +150,7 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 </details>
 
 <details open>
-<summary>Formula, Table, and Structured-Object Components</summary>
+<summary><small>Formula, Table, and Structured-Object Components</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -188,7 +188,7 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 End-to-end or near end-to-end models that read page images and generate structured representations such as Markdown, HTML, LaTeX, JSON, or OCR-formatted text.
 
 <details open>
-<summary>OCR-Free and Transitional Encoder-Decoders</summary>
+<summary><small>OCR-Free and Transitional Encoder-Decoders</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -204,7 +204,7 @@ End-to-end or near end-to-end models that read page images and generate structur
 </details>
 
 <details open>
-<summary>Document-VLM Precursors and Adaptations</summary>
+<summary><small>Document-VLM Precursors and Adaptations</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -229,7 +229,7 @@ End-to-end or near end-to-end models that read page images and generate structur
 </details>
 
 <details open>
-<summary>OCR-Specialized Page Parsers</summary>
+<summary><small>OCR-Specialized Page Parsers</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -271,7 +271,7 @@ End-to-end or near end-to-end models that read page images and generate structur
 </details>
 
 <details open>
-<summary>Emerging Generation and Training Routes</summary>
+<summary><small>Emerging Generation and Training Routes</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -295,7 +295,7 @@ End-to-end or near end-to-end models that read page images and generate structur
 Systems that combine layout detection, OCR, region decomposition, VLM generation, rule-based validators, and document assembly.
 
 <details open>
-<summary>Full Document Parsing Workflows</summary>
+<summary><small>Full Document Parsing Workflows</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -315,7 +315,7 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 </details>
 
 <details open>
-<summary>PDF-to-Structured-Output Workflows</summary>
+<summary><small>PDF-to-Structured-Output Workflows</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -345,7 +345,7 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 General multimodal models that can perform OCR-related tasks through prompts, while OCR is only one part of their capability.
 
 <details open>
-<summary>Open General VLMs</summary>
+<summary><small>Open General VLMs</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -413,7 +413,7 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 </details>
 
 <details open>
-<summary>Closed/API General VLMs</summary>
+<summary><small>Closed/API General VLMs</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -438,7 +438,7 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 Closed-source or managed systems for document conversion, enterprise OCR, scientific document parsing, formula OCR, receipts, forms, invoices, and other vertical workflows.
 
 <details open>
-<summary>Enterprise OCR and Document AI</summary>
+<summary><small>Enterprise OCR and Document AI</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -456,7 +456,7 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 </details>
 
 <details open>
-<summary>Scientific OCR and Managed Parsing APIs</summary>
+<summary><small>Scientific OCR and Managed Parsing APIs</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
