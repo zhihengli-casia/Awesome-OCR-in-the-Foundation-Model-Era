@@ -6,7 +6,7 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 
 | Field | Meaning |
 |:---:|:---|
-| Date | First public release, paper year, or challenge year. |
+| Date | arXiv `YYYY.MM` month when an arXiv version exists; otherwise the available public release, dataset, or challenge date. |
 | Type | Benchmark, training corpus, challenge, or evaluation suite. |
 | Input | Word crop, line image, scene image, document page, table crop, formula crop, PDF page, multi-page document, or QA pair. |
 | Target / Metric | Typical target representation and common metrics. |
@@ -16,7 +16,7 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2023 | Union14M / Union14M-Benchmark | training corpus / benchmark | word crops | word accuracy / NED | modern harder recognition pool and benchmark | [Paper](https://arxiv.org/abs/2307.08723) |
+| 2023.07 | Union14M / Union14M-Benchmark | training corpus / benchmark | word crops | word accuracy / NED | modern harder recognition pool and benchmark | [Paper](https://arxiv.org/abs/2307.08723) |
 | 2015 | ICDAR 2015 Recognition | benchmark | incidental cropped words | word accuracy | blurred / oriented scene text crops | [Website](https://rrc.cvc.uab.es/?ch=4) |
 | 2014 | MJSynth / Synth90k | synthetic training data | rendered word crops | training corpus | classic synthetic data for CRNN-era recognition | [Website](https://www.robots.ox.ac.uk/~vgg/data/text/) |
 | 2014 | RIMES | handwriting benchmark | French handwriting lines / pages | CER / WER | handwriting recognition and document analysis | [Website](http://www.a2ialab.com/doku.php?id=rimes_database:start) |
@@ -35,7 +35,7 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2022 | HierText | benchmark | natural images | word / line / paragraph hierarchy | dense hierarchical text detection and recognition | [Paper](https://arxiv.org/abs/2203.15143), [GitHub](https://github.com/google-research-datasets/hiertext) |
+| 2022.03 | HierText | benchmark | natural images | word / line / paragraph hierarchy | dense hierarchical text detection and recognition | [Paper](https://arxiv.org/abs/2203.15143), [GitHub](https://github.com/google-research-datasets/hiertext) |
 | 2021 | TextOCR | benchmark | natural images | text boxes and transcriptions | dense text in everyday images | [Website](https://textvqa.org/textocr/) |
 | 2019 | ReCTS | benchmark | Chinese signboards | detection / recognition / end-to-end | Chinese scene text reading | [Website](https://rrc.cvc.uab.es/?ch=12) |
 | 2019 | LSVT | benchmark | large-scale street-view Chinese text | detection / recognition / spotting | large-scale Chinese scene text | [Website](https://rrc.cvc.uab.es/?ch=16) |
@@ -55,12 +55,12 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2024 | DocStructBench | benchmark | document pages | fine-grained structure detection | fine-grained document structure | [Paper](https://arxiv.org/abs/2406.10021) |
-| 2022 | DocLayNet | benchmark | diverse document pages | layout mAP | 11-class layout detection across document types | [Paper](https://arxiv.org/abs/2206.01062), [HF](https://huggingface.co/datasets/ds4sd/DocLayNet) |
-| 2022 | XFUND | multilingual form benchmark | form pages | entity / relation F1 | multilingual form understanding | [Paper](https://arxiv.org/abs/2104.08836), [GitHub](https://github.com/doc-analysis/XFUND) |
-| 2021 | Kleister-NDA / Kleister-Charity | KIE benchmark | long business documents | key-value extraction F1 | long document key information extraction | [Paper](https://arxiv.org/abs/2105.05796) |
-| 2020 | DocBank | layout / token benchmark | PDF pages | token-level structure labels | large-scale token-level document layout labels | [Paper](https://arxiv.org/abs/2006.01038) |
-| 2019 | PubLayNet | layout benchmark | scientific document pages | layout mAP | large document layout benchmark | [Paper](https://arxiv.org/abs/1908.07836) |
+| 2024.06 | DocStructBench | benchmark | document pages | fine-grained structure detection | fine-grained document structure | [Paper](https://arxiv.org/abs/2406.10021) |
+| 2022.06 | DocLayNet | benchmark | diverse document pages | layout mAP | 11-class layout detection across document types | [Paper](https://arxiv.org/abs/2206.01062), [HF](https://huggingface.co/datasets/ds4sd/DocLayNet) |
+| 2021.04 | XFUND | multilingual form benchmark | form pages | entity / relation F1 | multilingual form understanding | [Paper](https://arxiv.org/abs/2104.08836), [GitHub](https://github.com/doc-analysis/XFUND) |
+| 2021.05 | Kleister-NDA / Kleister-Charity | KIE benchmark | long business documents | key-value extraction F1 | long document key information extraction | [Paper](https://arxiv.org/abs/2105.05796) |
+| 2020.06 | DocBank | layout / token benchmark | PDF pages | token-level structure labels | large-scale token-level document layout labels | [Paper](https://arxiv.org/abs/2006.01038) |
+| 2019.08 | PubLayNet | layout benchmark | scientific document pages | layout mAP | large document layout benchmark | [Paper](https://arxiv.org/abs/1908.07836) |
 | 2019 | SROIE | receipt benchmark | receipt images | OCR + field extraction F1 | receipt information extraction challenge | [Website](https://rrc.cvc.uab.es/?ch=13) |
 | 2019 | CORD | receipt KIE benchmark | receipt images | semantic field extraction F1 | receipt understanding | [GitHub](https://github.com/clovaai/cord) |
 | 2019 | FUNSD | form understanding benchmark | scanned forms | entity / relation F1 | noisy form understanding | [Website](https://guillaumejaume.github.io/FUNSD/) |
@@ -70,59 +70,59 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2025 | Tex80M / TexTeller data | formula training corpus | synthetic and handwritten formula images | LaTeX recognition training | large-scale HMER training data introduced with TexTeller | [Paper](https://arxiv.org/abs/2508.09220), [GitHub](https://github.com/OleehyO/TexTeller) |
-| 2024 | UniMER-1M | formula dataset | formula images | LaTeX edit distance | large-scale formula recognition data | [Paper](https://arxiv.org/abs/2404.15254), [GitHub](https://github.com/opendatalab/UniMERNet) |
-| 2024 | MathWriting | handwritten formula benchmark | online/offline handwritten formulas | CER / expression recognition | 230K human-written and 400K synthetic HME samples | [Paper](https://arxiv.org/abs/2404.10690) |
-| 2021 | PubTables-1M | table benchmark | PDF tables | AP / GriTS / cell structure | large table detection and structure benchmark | [Paper](https://arxiv.org/abs/2110.00061), [GitHub](https://github.com/microsoft/table-transformer) |
+| 2025.08 | Tex80M / TexTeller data | formula training corpus | synthetic and handwritten formula images | LaTeX recognition training | large-scale HMER training data introduced with TexTeller | [Paper](https://arxiv.org/abs/2508.09220), [GitHub](https://github.com/OleehyO/TexTeller) |
+| 2024.04 | UniMER-1M | formula dataset | formula images | LaTeX edit distance | large-scale formula recognition data | [Paper](https://arxiv.org/abs/2404.15254), [GitHub](https://github.com/opendatalab/UniMERNet) |
+| 2024.04 | MathWriting | handwritten formula benchmark | online/offline handwritten formulas | CER / expression recognition | 230K human-written and 400K synthetic HME samples | [Paper](https://arxiv.org/abs/2404.10690) |
+| 2021.10 | PubTables-1M | table benchmark | PDF tables | AP / GriTS / cell structure | large table detection and structure benchmark | [Paper](https://arxiv.org/abs/2110.00061), [GitHub](https://github.com/microsoft/table-transformer) |
 | 2021 | WTW | table benchmark | wild tables | table detection / structure | natural-scene and document tables | [GitHub](https://github.com/wangwen-whu/WTW-Dataset) |
 | 2020 | FinTabNet | table benchmark | financial report tables | TEDS / structure | complex financial tables | [Website](https://developer.ibm.com/exchanges/data/all/fintabnet/) |
-| 2020 | PubTabNet | table benchmark | table images | HTML / TEDS | table image-to-HTML benchmark | [Paper](https://arxiv.org/abs/1911.10683) |
+| 2019.11 | PubTabNet | table benchmark | table images | HTML / TEDS | table image-to-HTML benchmark | [Paper](https://arxiv.org/abs/1911.10683) |
 | 2020 | HME100K | formula benchmark | handwritten formula images | LaTeX / expression rate | handwritten mathematical expression recognition | [GitHub](https://github.com/HCIILAB/HME100K-Dataset) |
-| 2019 | SciTSR | table benchmark | scientific tables | cell structure F1 | scientific table structure recognition | [Paper](https://arxiv.org/abs/1908.04729) |
-| 2019 | TableBank | table benchmark | Word / LaTeX document tables | detection / structure | large table dataset from office and LaTeX documents | [Paper](https://arxiv.org/abs/1903.01949) |
-| 2016 | Im2LaTeX-100K | formula dataset | rendered formulas | LaTeX edit distance | image-to-markup formula generation | [Paper](https://arxiv.org/abs/1609.04938) |
+| 2019.08 | SciTSR | table benchmark | scientific tables | cell structure F1 | scientific table structure recognition | [Paper](https://arxiv.org/abs/1908.04729) |
+| 2019.03 | TableBank | table benchmark | Word / LaTeX document tables | detection / structure | large table dataset from office and LaTeX documents | [Paper](https://arxiv.org/abs/1903.01949) |
+| 2016.09 | Im2LaTeX-100K | formula dataset | rendered formulas | LaTeX edit distance | image-to-markup formula generation | [Paper](https://arxiv.org/abs/1609.04938) |
 | 2014- | CROHME | formula competition | handwritten math expressions | expression recognition rate | handwriting math expression recognition | [Website](https://www.isical.ac.in/~crohme/) |
 
 ## Document QA, Chart QA, and OCR-Dependent Understanding
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2024 | MMLongBench-Doc | benchmark | long documents + questions | answer accuracy / LLM judging | long document VQA / reasoning | [Paper](https://arxiv.org/abs/2407.01523) |
-| 2023 | DUDE | document QA benchmark | diverse documents + questions | ANLS / accuracy | diverse document understanding | [Paper](https://arxiv.org/abs/2305.08455) |
+| 2024.07 | MMLongBench-Doc | benchmark | long documents + questions | answer accuracy / LLM judging | long document VQA / reasoning | [Paper](https://arxiv.org/abs/2407.01523) |
+| 2023.05 | DUDE | document QA benchmark | diverse documents + questions | ANLS / accuracy | diverse document understanding | [Paper](https://arxiv.org/abs/2305.08455) |
 | 2023 | MP-DocVQA | multi-page document QA | multi-page documents + questions | ANLS | multi-page document question answering | [Website](https://rrc.cvc.uab.es/?ch=17) |
-| 2022 | ChartQA | chart QA benchmark | chart images + questions | relaxed accuracy | visual and logical chart reasoning | [Paper](https://arxiv.org/abs/2203.10244), [GitHub](https://github.com/vis-nlp/ChartQA) |
-| 2021 | InfographicVQA | infographic QA benchmark | infographics + questions | ANLS / accuracy | infographic document understanding | [Paper](https://arxiv.org/abs/2104.12756), [Website](https://www.docvqa.org/datasets/infographicvqa) |
-| 2020 | DocVQA | document QA benchmark | document image + question | ANLS | classic document visual question answering | [Paper](https://arxiv.org/abs/2007.00398), [Website](https://www.docvqa.org/) |
-| 2019 | TextVQA | text-rich VQA benchmark | natural images + questions | VQA accuracy | natural-image QA requiring OCR | [Paper](https://arxiv.org/abs/1904.08920), [Website](https://textvqa.org/) |
+| 2022.03 | ChartQA | chart QA benchmark | chart images + questions | relaxed accuracy | visual and logical chart reasoning | [Paper](https://arxiv.org/abs/2203.10244), [GitHub](https://github.com/vis-nlp/ChartQA) |
+| 2021.04 | InfographicVQA | infographic QA benchmark | infographics + questions | ANLS / accuracy | infographic document understanding | [Paper](https://arxiv.org/abs/2104.12756), [Website](https://www.docvqa.org/datasets/infographicvqa) |
+| 2020.07 | DocVQA | document QA benchmark | document image + question | ANLS | classic document visual question answering | [Paper](https://arxiv.org/abs/2007.00398), [Website](https://www.docvqa.org/) |
+| 2019.04 | TextVQA | text-rich VQA benchmark | natural images + questions | VQA accuracy | natural-image QA requiring OCR | [Paper](https://arxiv.org/abs/1904.08920), [Website](https://textvqa.org/) |
 | 2019 | ST-VQA | scene-text VQA benchmark | text-rich images + questions | ANLS | scene text visual question answering | [Website](https://rrc.cvc.uab.es/?ch=11) |
-| 2018 | FigureQA | chart / figure QA | synthetic figures + questions | accuracy | synthetic chart and figure reasoning | [Paper](https://arxiv.org/abs/1710.07300) |
-| 2019 | PlotQA | plot QA benchmark | chart images + questions | accuracy | chart reasoning benchmark | [Paper](https://arxiv.org/abs/1909.00997) |
+| 2017.10 | FigureQA | chart / figure QA | synthetic figures + questions | accuracy | synthetic chart and figure reasoning | [Paper](https://arxiv.org/abs/1710.07300) |
+| 2019.09 | PlotQA | plot QA benchmark | chart images + questions | accuracy | chart reasoning benchmark | [Paper](https://arxiv.org/abs/1909.00997) |
 
 ## Page-Level Parsing and VLM-OCR Evaluation
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2026 | RealDocBench | real-world parsing benchmark | degraded real documents | parsing robustness | real degraded document parsing | [Paper](https://arxiv.org/abs/2606.07401) |
-| 2026 | MPDocBench-Parse | multi-page parsing benchmark | multi-page documents | structured output / consistency | multi-page parsing stress test | [Paper](https://arxiv.org/abs/2605.22100) |
-| 2026 | PureDocBench | page parsing benchmark | page images | structure / layout parsing | structural parsing without semantic shortcuts | [Paper](https://arxiv.org/abs/2605.07492) |
-| 2026 | CC-OCR v2 | VLM-OCR benchmark | multi-domain text-rich images | OCR capability and reasoning scores | expanded CC-OCR evaluation | [Paper](https://arxiv.org/abs/2605.03903) |
-| 2026 | Real5-OmniDocBench | real-world parsing benchmark | physically reconstructed OmniDocBench pages | parse score / degradation drop | five physical reconstruction conditions for robust document parsing | [Paper](https://arxiv.org/abs/2603.04205), [HF](https://huggingface.co/datasets/PaddlePaddle/Real5-OmniDocBench) |
-| 2026 | MDPBench | multilingual parsing benchmark | digital and photographed multilingual documents | per-language parsing scores / robustness drop | 3,400 images across 17 languages and varied photographic conditions | [Paper](https://arxiv.org/abs/2603.28130), [GitHub](https://github.com/Yuliang-Liu/MultimodalOCR), [HF](https://huggingface.co/datasets/Delores-Lin/MDPBench) |
-| 2025 | DocPTBench | photographed document parsing and translation | photographed documents | parsing and translation robustness | perspective / lighting / capture degradation | [Paper](https://arxiv.org/abs/2511.18434), [GitHub](https://github.com/Topdu/DocPTBench) |
-| 2025 | OCR-Reasoning | reasoning-heavy OCR benchmark | text-rich images + questions | OCR reasoning accuracy | OCR-centered multimodal reasoning benchmark | [Paper](https://arxiv.org/abs/2505.17163), [GitHub](https://github.com/SCUT-DLVCLab/OCR-Reasoning), [Project](https://ocr-reasoning.github.io/) |
-| 2025 | Reasoning-OCR | reasoning-oriented OCR benchmark | text-rich images + reasoning tasks | answer accuracy | OCR reasoning evaluation | [Paper](https://arxiv.org/abs/2505.12766) |
-| 2025 | KITAB-Bench | multilingual OCR / document benchmark | Arabic text-rich documents | OCR and document understanding scores | Arabic-centric OCR and document understanding | [Paper](https://arxiv.org/abs/2502.14949) |
-| 2025 | olmOCR-Bench | document OCR benchmark | PDF pages | OCR / Markdown quality via unit tests | document OCR evaluation accompanying olmOCR | [Paper](https://arxiv.org/abs/2502.18443), [GitHub](https://github.com/allenai/olmocr), [HF](https://huggingface.co/datasets/allenai/olmOCR-bench) |
-| 2025 | OCRBench v2 | VLM-OCR benchmark | mixed text-rich images | scenario scores / total score | expanded VLM OCR capability evaluation | [Paper](https://arxiv.org/abs/2501.00321) |
-| 2024 | OmniDocBench | page-level parsing benchmark | PDF / page images | text / layout / table / formula parse scores | widely used full-page parsing benchmark | [Paper](https://arxiv.org/abs/2412.07626), [GitHub](https://github.com/opendatalab/OmniDocBench) |
-| 2024 | CC-OCR | VLM-OCR benchmark | cross-domain text-rich images | OCR literacy scores | Chinese-centric and cross-domain OCR evaluation | [Paper](https://arxiv.org/abs/2412.02210) |
-| 2023 | OCRBench | VLM-OCR benchmark | mixed text-rich images | task accuracy / total score | early OCR-oriented MLLM benchmark | [Paper](https://arxiv.org/abs/2305.07895), [GitHub](https://github.com/Yuliang-Liu/MultimodalOCR) |
+| 2026.06 | RealDocBench | real-world parsing benchmark | degraded real documents | parsing robustness | real degraded document parsing | [Paper](https://arxiv.org/abs/2606.07401) |
+| 2026.05 | MPDocBench-Parse | multi-page parsing benchmark | multi-page documents | structured output / consistency | multi-page parsing stress test | [Paper](https://arxiv.org/abs/2605.22100) |
+| 2026.05 | PureDocBench | page parsing benchmark | page images | structure / layout parsing | structural parsing without semantic shortcuts | [Paper](https://arxiv.org/abs/2605.07492) |
+| 2026.05 | CC-OCR v2 | VLM-OCR benchmark | multi-domain text-rich images | OCR capability and reasoning scores | expanded CC-OCR evaluation | [Paper](https://arxiv.org/abs/2605.03903) |
+| 2026.03 | Real5-OmniDocBench | real-world parsing benchmark | physically reconstructed OmniDocBench pages | parse score / degradation drop | five physical reconstruction conditions for robust document parsing | [Paper](https://arxiv.org/abs/2603.04205), [HF](https://huggingface.co/datasets/PaddlePaddle/Real5-OmniDocBench) |
+| 2026.03 | MDPBench | multilingual parsing benchmark | digital and photographed multilingual documents | per-language parsing scores / robustness drop | 3,400 images across 17 languages and varied photographic conditions | [Paper](https://arxiv.org/abs/2603.28130), [GitHub](https://github.com/Yuliang-Liu/MultimodalOCR), [HF](https://huggingface.co/datasets/Delores-Lin/MDPBench) |
+| 2025.11 | DocPTBench | photographed document parsing and translation | photographed documents | parsing and translation robustness | perspective / lighting / capture degradation | [Paper](https://arxiv.org/abs/2511.18434), [GitHub](https://github.com/Topdu/DocPTBench) |
+| 2025.05 | OCR-Reasoning | reasoning-heavy OCR benchmark | text-rich images + questions | OCR reasoning accuracy | OCR-centered multimodal reasoning benchmark | [Paper](https://arxiv.org/abs/2505.17163), [GitHub](https://github.com/SCUT-DLVCLab/OCR-Reasoning), [Project](https://ocr-reasoning.github.io/) |
+| 2025.05 | Reasoning-OCR | reasoning-oriented OCR benchmark | text-rich images + reasoning tasks | answer accuracy | OCR reasoning evaluation | [Paper](https://arxiv.org/abs/2505.12766) |
+| 2025.02 | KITAB-Bench | multilingual OCR / document benchmark | Arabic text-rich documents | OCR and document understanding scores | Arabic-centric OCR and document understanding | [Paper](https://arxiv.org/abs/2502.14949) |
+| 2025.02 | olmOCR-Bench | document OCR benchmark | PDF pages | OCR / Markdown quality via unit tests | document OCR evaluation accompanying olmOCR | [Paper](https://arxiv.org/abs/2502.18443), [GitHub](https://github.com/allenai/olmocr), [HF](https://huggingface.co/datasets/allenai/olmOCR-bench) |
+| 2025.01 | OCRBench v2 | VLM-OCR benchmark | mixed text-rich images | scenario scores / total score | expanded VLM OCR capability evaluation | [Paper](https://arxiv.org/abs/2501.00321) |
+| 2024.12 | OmniDocBench | page-level parsing benchmark | PDF / page images | text / layout / table / formula parse scores | widely used full-page parsing benchmark | [Paper](https://arxiv.org/abs/2412.07626), [GitHub](https://github.com/opendatalab/OmniDocBench) |
+| 2024.12 | CC-OCR | VLM-OCR benchmark | cross-domain text-rich images | OCR literacy scores | Chinese-centric and cross-domain OCR evaluation | [Paper](https://arxiv.org/abs/2412.02210) |
+| 2023.05 | OCRBench | VLM-OCR benchmark | mixed text-rich images | task accuracy / total score | early OCR-oriented MLLM benchmark | [Paper](https://arxiv.org/abs/2305.07895), [GitHub](https://github.com/Yuliang-Liu/MultimodalOCR) |
 
 ## Training Corpora and Synthetic Data
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2023 | Union14M | training corpus | word crops | recognition training | unified large-scale STR training data | [Paper](https://arxiv.org/abs/2307.08723) |
+| 2023.07 | Union14M | training corpus | word crops | recognition training | unified large-scale STR training data | [Paper](https://arxiv.org/abs/2307.08723) |
 | 2022 | SynthDoG | synthetic document generator | document pages | document images / labels | synthetic data for Donut-style document understanding | [GitHub](https://github.com/clovaai/donut) |
 | 2021 | SynthTIGER | synthetic text image generator | cropped and scene text | detection / recognition training | configurable text-image generation | [GitHub](https://github.com/clovaai/synthtiger) |
 | 2016 | SynthText | synthetic scene text | natural images with rendered text | detection / recognition labels | detection and spotting pretraining | [Website](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) |
@@ -132,6 +132,6 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2024 | Needle-in-a-Document / long-document QA suites | stress tests | long PDFs / docs + questions | answer accuracy | useful for downstream document intelligence, not OCR itself | [MMLongBench-Doc](https://arxiv.org/abs/2407.01523) |
-| 2023 | MMMU / multimodal exam benchmarks | VLM benchmark | images + questions | accuracy | may contain text-rich questions but mixes OCR with reasoning | [Paper](https://arxiv.org/abs/2311.16502) |
-| 2023 | MathVista | VLM benchmark | math diagrams + questions | accuracy | formula/chart-heavy reasoning, not a pure OCR benchmark | [Paper](https://arxiv.org/abs/2310.02255) |
+| 2024.07 | Needle-in-a-Document / long-document QA suites | stress tests | long PDFs / docs + questions | answer accuracy | useful for downstream document intelligence, not OCR itself | [MMLongBench-Doc](https://arxiv.org/abs/2407.01523) |
+| 2023.11 | MMMU / multimodal exam benchmarks | VLM benchmark | images + questions | accuracy | may contain text-rich questions but mixes OCR with reasoning | [Paper](https://arxiv.org/abs/2311.16502) |
+| 2023.10 | MathVista | VLM benchmark | math diagrams + questions | accuracy | formula/chart-heavy reasoning, not a pure OCR benchmark | [Paper](https://arxiv.org/abs/2310.02255) |
