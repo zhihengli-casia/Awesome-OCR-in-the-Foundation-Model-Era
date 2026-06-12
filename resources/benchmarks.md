@@ -16,7 +16,7 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2023 | Union14M / Union14M-Benchmark | training corpus / benchmark | word crops | word accuracy / NED | modern harder recognition pool and benchmark | [Paper](https://arxiv.org/abs/2303.16968) |
+| 2023 | Union14M / Union14M-Benchmark | training corpus / benchmark | word crops | word accuracy / NED | modern harder recognition pool and benchmark | [Paper](https://arxiv.org/abs/2307.08723) |
 | 2015 | ICDAR 2015 Recognition | benchmark | incidental cropped words | word accuracy | blurred / oriented scene text crops | [Website](https://rrc.cvc.uab.es/?ch=4) |
 | 2014 | MJSynth / Synth90k | synthetic training data | rendered word crops | training corpus | classic synthetic data for CRNN-era recognition | [Website](https://www.robots.ox.ac.uk/~vgg/data/text/) |
 | 2014 | RIMES | handwriting benchmark | French handwriting lines / pages | CER / WER | handwriting recognition and document analysis | [Website](http://www.a2ialab.com/doku.php?id=rimes_database:start) |
@@ -58,7 +58,7 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 | 2024 | DocStructBench | benchmark | document pages | fine-grained structure detection | fine-grained document structure | [Paper](https://arxiv.org/abs/2406.10021) |
 | 2022 | DocLayNet | benchmark | diverse document pages | layout mAP | 11-class layout detection across document types | [Paper](https://arxiv.org/abs/2206.01062), [HF](https://huggingface.co/datasets/ds4sd/DocLayNet) |
 | 2022 | XFUND | multilingual form benchmark | form pages | entity / relation F1 | multilingual form understanding | [Paper](https://arxiv.org/abs/2104.08836), [GitHub](https://github.com/doc-analysis/XFUND) |
-| 2021 | Kleister-NDA / Kleister-Charity | KIE benchmark | long business documents | key-value extraction F1 | long document key information extraction | [Paper](https://arxiv.org/abs/2103.10213) |
+| 2021 | Kleister-NDA / Kleister-Charity | KIE benchmark | long business documents | key-value extraction F1 | long document key information extraction | [Paper](https://arxiv.org/abs/2105.05796) |
 | 2020 | DocBank | layout / token benchmark | PDF pages | token-level structure labels | large-scale token-level document layout labels | [Paper](https://arxiv.org/abs/2006.01038) |
 | 2019 | PubLayNet | layout benchmark | scientific document pages | layout mAP | large document layout benchmark | [Paper](https://arxiv.org/abs/1908.07836) |
 | 2019 | SROIE | receipt benchmark | receipt images | OCR + field extraction F1 | receipt information extraction challenge | [Website](https://rrc.cvc.uab.es/?ch=13) |
@@ -86,7 +86,7 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
 | 2024 | MMLongBench-Doc | benchmark | long documents + questions | answer accuracy / LLM judging | long document VQA / reasoning | [Paper](https://arxiv.org/abs/2407.01523) |
-| 2023 | DUDE | document QA benchmark | diverse documents + questions | ANLS / accuracy | diverse document understanding | [Paper](https://arxiv.org/abs/2305.14828) |
+| 2023 | DUDE | document QA benchmark | diverse documents + questions | ANLS / accuracy | diverse document understanding | [Paper](https://arxiv.org/abs/2305.08455) |
 | 2023 | MP-DocVQA | multi-page document QA | multi-page documents + questions | ANLS | multi-page document question answering | [Website](https://rrc.cvc.uab.es/?ch=17) |
 | 2022 | ChartQA | chart QA benchmark | chart images + questions | relaxed accuracy | visual and logical chart reasoning | [Paper](https://arxiv.org/abs/2203.10244), [GitHub](https://github.com/vis-nlp/ChartQA) |
 | 2021 | InfographicVQA | infographic QA benchmark | infographics + questions | ANLS / accuracy | infographic document understanding | [Paper](https://arxiv.org/abs/2104.12756), [Website](https://www.docvqa.org/datasets/infographicvqa) |
@@ -104,13 +104,13 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 | 2026 | MPDocBench-Parse | multi-page parsing benchmark | multi-page documents | structured output / consistency | multi-page parsing stress test | [Paper](https://arxiv.org/abs/2605.22100) |
 | 2026 | PureDocBench | page parsing benchmark | page images | structure / layout parsing | structural parsing without semantic shortcuts | [Paper](https://arxiv.org/abs/2605.07492) |
 | 2026 | CC-OCR v2 | VLM-OCR benchmark | multi-domain text-rich images | OCR capability and reasoning scores | expanded CC-OCR evaluation | [Paper](https://arxiv.org/abs/2605.03903) |
-| 2025 | DocPTBench | photographed document parsing | photographed documents | parsing robustness | perspective / lighting / capture degradation | [Paper](https://arxiv.org/abs/2512.15872), [GitHub](https://github.com/Topdu/DocPTBench) |
-| 2025 | Real5-OmniDocBench | real-world parsing benchmark | degraded page images | parse score / degradation drop | real degradation robustness for document parsers | [Paper](https://arxiv.org/abs/2508.11236), [HF](https://huggingface.co/datasets/PaddlePaddle/Real5-OmniDocBench) |
+| 2026 | Real5-OmniDocBench | real-world parsing benchmark | physically reconstructed OmniDocBench pages | parse score / degradation drop | five physical reconstruction conditions for robust document parsing | [Paper](https://arxiv.org/abs/2603.04205), [HF](https://huggingface.co/datasets/PaddlePaddle/Real5-OmniDocBench) |
+| 2026 | MDPBench | multilingual parsing benchmark | digital and photographed multilingual documents | per-language parsing scores / robustness drop | 3,400 images across 17 languages and varied photographic conditions | [Paper](https://arxiv.org/abs/2603.28130), [GitHub](https://github.com/Yuliang-Liu/MultimodalOCR), [HF](https://huggingface.co/datasets/Delores-Lin/MDPBench) |
+| 2025 | DocPTBench | photographed document parsing and translation | photographed documents | parsing and translation robustness | perspective / lighting / capture degradation | [Paper](https://arxiv.org/abs/2511.18434), [GitHub](https://github.com/Topdu/DocPTBench) |
 | 2025 | OCR-Reasoning | reasoning-heavy OCR benchmark | text-rich images + questions | OCR reasoning accuracy | OCR-centered multimodal reasoning benchmark | [Paper](https://arxiv.org/abs/2505.17163), [GitHub](https://github.com/SCUT-DLVCLab/OCR-Reasoning), [Project](https://ocr-reasoning.github.io/) |
 | 2025 | Reasoning-OCR | reasoning-oriented OCR benchmark | text-rich images + reasoning tasks | answer accuracy | OCR reasoning evaluation | [Paper](https://arxiv.org/abs/2505.12766) |
-| 2025 | MDPBench | multilingual parsing benchmark | multilingual documents | multilingual parse scores | multilingual document parsing evaluation | [Paper](https://arxiv.org/abs/2505.05438) |
 | 2025 | KITAB-Bench | multilingual OCR / document benchmark | Arabic text-rich documents | OCR and document understanding scores | Arabic-centric OCR and document understanding | [Paper](https://arxiv.org/abs/2502.14949) |
-| 2025 | olmOCR-Bench | document OCR benchmark | PDF pages | OCR / Markdown quality | document OCR evaluation accompanying olmOCR | [Paper](https://arxiv.org/abs/2502.18411) |
+| 2025 | olmOCR-Bench | document OCR benchmark | PDF pages | OCR / Markdown quality via unit tests | document OCR evaluation accompanying olmOCR | [Paper](https://arxiv.org/abs/2502.18443), [GitHub](https://github.com/allenai/olmocr), [HF](https://huggingface.co/datasets/allenai/olmOCR-bench) |
 | 2025 | OCRBench v2 | VLM-OCR benchmark | mixed text-rich images | scenario scores / total score | expanded VLM OCR capability evaluation | [Paper](https://arxiv.org/abs/2501.00321) |
 | 2024 | OmniDocBench | page-level parsing benchmark | PDF / page images | text / layout / table / formula parse scores | widely used full-page parsing benchmark | [Paper](https://arxiv.org/abs/2412.07626), [GitHub](https://github.com/opendatalab/OmniDocBench) |
 | 2024 | CC-OCR | VLM-OCR benchmark | cross-domain text-rich images | OCR literacy scores | Chinese-centric and cross-domain OCR evaluation | [Paper](https://arxiv.org/abs/2412.02210) |
@@ -120,7 +120,7 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2023 | Union14M | training corpus | word crops | recognition training | unified large-scale STR training data | [Paper](https://arxiv.org/abs/2303.16968) |
+| 2023 | Union14M | training corpus | word crops | recognition training | unified large-scale STR training data | [Paper](https://arxiv.org/abs/2307.08723) |
 | 2022 | SynthDoG | synthetic document generator | document pages | document images / labels | synthetic data for Donut-style document understanding | [GitHub](https://github.com/clovaai/donut) |
 | 2021 | SynthTIGER | synthetic text image generator | cropped and scene text | detection / recognition training | configurable text-image generation | [GitHub](https://github.com/clovaai/synthtiger) |
 | 2016 | SynthText | synthetic scene text | natural images with rendered text | detection / recognition labels | detection and spotting pretraining | [Website](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) |
