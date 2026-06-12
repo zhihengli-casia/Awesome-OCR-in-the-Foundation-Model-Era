@@ -95,9 +95,24 @@ Legend: **F1** modular OCR toolkit/component; **F2** foundation-model document p
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **UniMERNet** | 2024 | formula recognition | [arXiv](https://arxiv.org/abs/2404.15254) | [GitHub](https://github.com/opendatalab/UniMERNet) | - |
+| **IMPO / From Pixel to Precision** | 2026 | HMER with image-level reward | [CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_From_Pixel_to_Precision_Enhancing_Handwritten_Mathematical_Expression_Recognition_with_CVPR_2026_paper.html) | - | - |
+| **Texo** | 2026 | compact formula recognizer | [arXiv](https://arxiv.org/abs/2602.17189) | - | - |
+| **TexTeller / Tex80M** | 2025 | scalable handwritten formula recognition | [arXiv](https://arxiv.org/abs/2508.09220) | [GitHub](https://github.com/OleehyO/TexTeller) | [HF](https://huggingface.co/OleehyO/TexTeller) |
 | **PP-FormulaNet** | 2025 | formula recognition | [arXiv](https://arxiv.org/abs/2503.18382) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
 | **StructEqTable** | 2025 | equation/table structure parsing | - | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) | - |
+| **SemiHMER** | 2025 | semi-supervised HMER | [arXiv](https://arxiv.org/abs/2502.07172) | - | - |
+| **TAMER** | 2025 | tree-aware transformer for HMER | [arXiv](https://arxiv.org/abs/2408.08578) | [GitHub](https://github.com/qingzhenduyu/TAMER) | - |
+| **PosFormer** | 2024 | position-aware HMER | [arXiv](https://arxiv.org/abs/2407.07764) | [GitHub](https://github.com/SJTU-DeepVisionLab/PosFormer) | - |
+| **UniMERNet** | 2024 | formula recognition | [arXiv](https://arxiv.org/abs/2404.15254) | [GitHub](https://github.com/opendatalab/UniMERNet) | - |
+| **GAP** | 2024 | grammar- and position-aware multi-line formula recognition | [DOI](https://doi.org/10.1145/3616855.3635776) | - | - |
+| **LAST** | 2023 | line-aware semi-autoregressive HMER | [DOI](https://doi.org/10.1145/3581783.3612499) | [GitHub](https://github.com/HCIILAB/LAST) | - |
+| **SGRL** | 2023 | semantic graph representation learning for HMER | [arXiv](https://arxiv.org/abs/2308.10493) | - | - |
+| **CoMER** | 2022 | coverage modeling for transformer-based HMER | [arXiv](https://arxiv.org/abs/2207.04410) | [GitHub](https://github.com/Green-Wood/CoMER) | - |
+| **CAN** | 2022 | counting-aware HMER | [arXiv](https://arxiv.org/abs/2207.11463) | [GitHub](https://github.com/LBH1024/CAN) | - |
+| **SAN** | 2022 | syntax-aware HMER | [arXiv](https://arxiv.org/abs/2203.01601) | - | - |
+| **BTTR** | 2021 | bidirectionally trained transformer for HMER | [arXiv](https://arxiv.org/abs/2105.02412) | [GitHub](https://github.com/Green-Wood/BTTR) | - |
+| **WAP** | 2017 | handwritten mathematical expression recognition | [DOI](https://doi.org/10.1016/j.patcog.2017.06.017) | - | - |
+| **Im2Markup** | 2016 | image-to-LaTeX generation | [arXiv](https://arxiv.org/abs/1609.04938) | - | - |
 
 </details>
 

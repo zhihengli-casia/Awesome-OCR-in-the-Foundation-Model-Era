@@ -70,7 +70,9 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
+| 2025 | Tex80M / TexTeller data | formula training corpus | synthetic and handwritten formula images | LaTeX recognition training | large-scale HMER training data introduced with TexTeller | [Paper](https://arxiv.org/abs/2508.09220), [GitHub](https://github.com/OleehyO/TexTeller) |
 | 2024 | UniMER-1M | formula dataset | formula images | LaTeX edit distance | large-scale formula recognition data | [Paper](https://arxiv.org/abs/2404.15254), [GitHub](https://github.com/opendatalab/UniMERNet) |
+| 2024 | MathWriting | handwritten formula benchmark | online/offline handwritten formulas | CER / expression recognition | 230K human-written and 400K synthetic HME samples | [Paper](https://arxiv.org/abs/2404.10690) |
 | 2021 | PubTables-1M | table benchmark | PDF tables | AP / GriTS / cell structure | large table detection and structure benchmark | [Paper](https://arxiv.org/abs/2110.00061), [GitHub](https://github.com/microsoft/table-transformer) |
 | 2021 | WTW | table benchmark | wild tables | table detection / structure | natural-scene and document tables | [GitHub](https://github.com/wangwen-whu/WTW-Dataset) |
 | 2020 | FinTabNet | table benchmark | financial report tables | TEDS / structure | complex financial tables | [Website](https://developer.ibm.com/exchanges/data/all/fintabnet/) |
