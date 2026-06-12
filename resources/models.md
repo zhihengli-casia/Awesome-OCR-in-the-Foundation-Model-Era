@@ -198,6 +198,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **MinerU-Popo** | 2026.05 | document-level post-processing for OCR outputs and document-tree assembly | [arXiv](https://arxiv.org/abs/2605.24973) | [GitHub](https://github.com/opendatalab/MinerU-Popo) | [HF](https://huggingface.co/DreamEternal/MinerU-Popo) |
 | **MinerU / MinerU2.5-Pro** | 2026.04 | layout decomposition + VLM parsing | [arXiv](https://arxiv.org/abs/2604.04771) | [GitHub](https://github.com/opendatalab/MinerU) | - |
 | **Dolphin-v2** | 2026.02 | anchor prompting + document parsing workflow | [arXiv](https://arxiv.org/abs/2602.05384) | [GitHub](https://github.com/bytedance/Dolphin) | - |
 | **Docling** | 2024.08 | production document conversion workflow | [arXiv](https://arxiv.org/abs/2408.09869) | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) |
