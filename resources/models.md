@@ -4,7 +4,7 @@ This page organizes representative OCR systems as expandable collections. Each f
 
 Legend: **F1** modular OCR toolkit/component; **F2** foundation-model document parser; **F3** hybrid document parsing workflow; **F4** general-purpose VLM used as an OCR interface; **F5** commercial OCR or document AI service.
 
-For entries with an arXiv version, the Date column uses the arXiv `YYYY.MM` month. Accepted venues should be shown in the paper/source label when tracked; entries without arXiv keep the available public source or project date.
+For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month, with multiple releases listed slash-separated when a row groups several papers. Accepted venues should be shown in the paper/source label when tracked; entries without arXiv keep the available public source or project date.
 
 ## Category Directory
 
@@ -66,7 +66,7 @@ For entries with an arXiv version, the Date column uses the arXiv `YYYY.MM` mont
 |---|:---:|---|---|---|---|
 | **Tesseract** | 2007 | OCR engine | [ICDAR](https://doi.org/10.1109/ICDAR.2007.4376991) | [GitHub](https://github.com/tesseract-ocr/tesseract) | [Docs](https://tesseract-ocr.github.io/) |
 | **EasyOCR** | 2020 | OCR engine | - | [GitHub](https://github.com/JaidedAI/EasyOCR) | - |
-| **PaddleOCR / PP-OCR** | 2020-2025 | industrial OCR toolkit | [arXiv](https://arxiv.org/abs/2009.09941) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
+| **PaddleOCR / PP-OCR** | 2020.09 | industrial OCR toolkit | [arXiv](https://arxiv.org/abs/2009.09941) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
 | **MMOCR** | 2021 | OCR research toolkit | - | [GitHub](https://github.com/open-mmlab/mmocr) | [Docs](https://mmocr.readthedocs.io/) |
 | **docTR** | 2021-2023 | document OCR toolkit | - | [GitHub](https://github.com/mindee/doctr) | [Docs](https://mindee.github.io/doctr/) |
 
@@ -77,20 +77,20 @@ For entries with an arXiv version, the Date column uses the arXiv `YYYY.MM` mont
 | **EAST** | 2017.04 | text detection | [arXiv](https://arxiv.org/abs/1704.03155) | - | - |
 | **CRAFT** | 2019.04 | text detection | [arXiv](https://arxiv.org/abs/1904.01941) | [GitHub](https://github.com/clovaai/CRAFT-pytorch) | - |
 | **PSENet** | 2018.06 | arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/1806.02559) | [GitHub](https://github.com/whai362/PSENet) | - |
-| **DBNet / DBNet++** | 2020-2023 | text detection | [AAAI](https://doi.org/10.1609/aaai.v34i07.6812) / [TPAMI](https://doi.org/10.1109/TPAMI.2022.3155612) | [GitHub](https://github.com/MhLiao/DB) | - |
+| **DBNet / DBNet++** | 2019.11 / 2022.02 | text detection | [AAAI](https://arxiv.org/abs/1911.08947) / [TPAMI](https://arxiv.org/abs/2202.10304) | [GitHub](https://github.com/MhLiao/DB) | - |
 | **FCENet** | 2021.04 | arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2104.10442) | - | - |
 
 ### Cropped Text Recognizers
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **CRNN** | 2015 / 2017 | cropped text recognition | [TPAMI](https://doi.org/10.1109/TPAMI.2016.2646371) | [GitHub](https://github.com/meijieru/crnn.pytorch) | - |
+| **CRNN** | 2015.07 | cropped text recognition | [TPAMI](https://arxiv.org/abs/1507.05717) | [GitHub](https://github.com/meijieru/crnn.pytorch) | - |
 | **ASTER** | 2018 / 2019 | irregular text recognition | [TPAMI](https://doi.org/10.1109/TPAMI.2018.2848939) | [GitHub](https://github.com/bgshih/aster) | - |
 | **SRN** | 2020.03 | semantic reasoning recognizer | [arXiv](https://arxiv.org/abs/2003.12294) | - | - |
 | **ABINet** | 2021.03 | language-aware recognizer | [arXiv](https://arxiv.org/abs/2103.06495) | - | - |
 | **ViTSTR** | 2021.05 | ViT recognizer | [arXiv](https://arxiv.org/abs/2105.08582) | [GitHub](https://github.com/roatienza/deep-text-recognition-benchmark) | - |
 | **PARSeq** | 2022.07 | autoregressive recognizer | [arXiv](https://arxiv.org/abs/2207.06966) | [GitHub](https://github.com/baudm/parseq) | - |
-| **SVTR / SVTRv2** | 2022 / 2025 | efficient cropped recognizer | [IJCAI](https://doi.org/10.24963/ijcai.2022/124) / [arXiv](https://arxiv.org/abs/2411.15858) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
+| **SVTR / SVTRv2** | 2022.05 / 2024.11 | efficient cropped recognizer | [IJCAI](https://arxiv.org/abs/2205.00159) / [arXiv](https://arxiv.org/abs/2411.15858) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
 | **TrOCR** | 2021.09 | pretrained encoder-decoder recognizer | [arXiv](https://arxiv.org/abs/2109.10282) | - | [HF Docs](https://huggingface.co/docs/transformers/model_doc/trocr) |
 
 ### Formula, Table, and Structured-Object Components
@@ -99,7 +99,7 @@ For entries with an arXiv version, the Date column uses the arXiv `YYYY.MM` mont
 |---|:---:|---|---|---|---|
 | **IMPO / From Pixel to Precision** | 2026 | HMER with image-level reward | [CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_From_Pixel_to_Precision_Enhancing_Handwritten_Mathematical_Expression_Recognition_with_CVPR_2026_paper.html) | - | - |
 | **Texo** | 2026.02 | compact formula recognizer | [arXiv](https://arxiv.org/abs/2602.17189) | - | - |
-| **TexTeller / Tex80M** | 2025 | scalable handwritten formula recognition | [arXiv](https://arxiv.org/abs/2508.09220) | [GitHub](https://github.com/OleehyO/TexTeller) | [HF](https://huggingface.co/OleehyO/TexTeller) |
+| **TexTeller / Tex80M** | 2025.08 | scalable handwritten formula recognition | [arXiv](https://arxiv.org/abs/2508.09220) | [GitHub](https://github.com/OleehyO/TexTeller) | [HF](https://huggingface.co/OleehyO/TexTeller) |
 | **PP-FormulaNet** | 2025.03 | formula recognition | [arXiv](https://arxiv.org/abs/2503.18382) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
 | **StructEqTable** | 2025 | equation/table structure parsing | - | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) | - |
 | **SemiHMER** | 2025.02 | semi-supervised HMER | [arXiv](https://arxiv.org/abs/2502.07172) | - | - |
@@ -135,10 +135,10 @@ For entries with an arXiv version, the Date column uses the arXiv `YYYY.MM` mont
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **DocOwl / DocOwl 1.5 / DocOwl 2** | 2023-2024 | document-oriented VLM | [DocOwl](https://arxiv.org/abs/2307.02499), [1.5](https://arxiv.org/abs/2403.12895), [2](https://arxiv.org/abs/2409.03420) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) | - |
+| **DocOwl / DocOwl 1.5 / DocOwl 2** | 2023.07 / 2024.03 / 2024.09 | document-oriented VLM | [DocOwl](https://arxiv.org/abs/2307.02499), [1.5](https://arxiv.org/abs/2403.12895), [2](https://arxiv.org/abs/2409.03420) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) | - |
 | **Vary** | 2023.12 | document-specialized VLM | [arXiv](https://arxiv.org/abs/2312.06109) | [GitHub](https://github.com/Ucas-HaoranWei/Vary) | - |
 | **GOT-OCR 2.0** | 2024.09 | unified OCR-specialized VLM | [arXiv](https://arxiv.org/abs/2409.01704) | [GitHub](https://github.com/Ucas-HaoranWei/GOT-OCR2.0) | - |
-| **Monkey / TextMonkey** | 2024 | text-centric OCR-free MLLM | [Monkey](https://arxiv.org/abs/2311.06607), [TextMonkey](https://arxiv.org/abs/2403.04473) | [GitHub](https://github.com/Yuliang-Liu/Monkey) | - |
+| **Monkey / TextMonkey** | 2023.11 / 2024.03 | text-centric OCR-free MLLM | [Monkey](https://arxiv.org/abs/2311.06607), [TextMonkey](https://arxiv.org/abs/2403.04473) | [GitHub](https://github.com/Yuliang-Liu/Monkey) | - |
 | **UReader** | 2023.10 | OCR-free visually situated language understanding | [arXiv](https://arxiv.org/abs/2310.05126) | - | - |
 | **TextHawk** | 2024.04 | fine-grained text perception in MLLMs | [arXiv](https://arxiv.org/abs/2404.09204) | - | [Hugging Face](https://huggingface.co/TencentBAC) |
 | **Fox** | 2024.05 | multi-page document understanding system | [arXiv](https://arxiv.org/abs/2405.14295) | [GitHub](https://github.com/ucaslcl/Fox) | - |
@@ -176,7 +176,7 @@ For entries with an arXiv version, the Date column uses the arXiv `YYYY.MM` mont
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **MinerU / MinerU2.5-Pro** | 2025-2026 | layout decomposition + VLM parsing | [arXiv](https://arxiv.org/abs/2604.04771) | [GitHub](https://github.com/opendatalab/MinerU) | - |
+| **MinerU / MinerU2.5-Pro** | 2026.04 | layout decomposition + VLM parsing | [arXiv](https://arxiv.org/abs/2604.04771) | [GitHub](https://github.com/opendatalab/MinerU) | - |
 | **Dolphin-v2** | 2026.02 | anchor prompting + document parsing workflow | [arXiv](https://arxiv.org/abs/2602.05384) | [GitHub](https://github.com/bytedance/Dolphin) | - |
 | **Docling** | 2024.08 | production document conversion workflow | [arXiv](https://arxiv.org/abs/2408.09869) | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) |
 
@@ -202,7 +202,7 @@ For entries with an arXiv version, the Date column uses the arXiv `YYYY.MM` mont
 | **Qwen-VL** | 2023.08 | visual text reading, grounding, document QA | [arXiv](https://arxiv.org/abs/2308.12966) | [GitHub](https://github.com/QwenLM/Qwen-VL) | - |
 | **Qwen2-VL** | 2024.09 | dynamic resolution VLM with OCR ability | [arXiv](https://arxiv.org/abs/2409.12191) | [GitHub](https://github.com/QwenLM/Qwen2-VL) | - |
 | **Qwen2.5-VL** | 2025.02 | general VLM OCR and document prompting | [arXiv](https://arxiv.org/abs/2502.13923) | [GitHub](https://github.com/QwenLM/Qwen2.5-VL) | [Demo](https://chat.qwen.ai/) |
-| **InternVL / InternVL 1.5 / InternVL3** | 2024-2025 | open general VLM baseline | [InternVL](https://arxiv.org/abs/2312.14238), [1.5](https://arxiv.org/abs/2404.16821), [3](https://arxiv.org/abs/2504.10479) | [GitHub](https://github.com/OpenGVLab/InternVL) | [Demo](https://chat.intern-ai.org.cn/) |
+| **InternVL / InternVL 1.5 / InternVL3** | 2023.12 / 2024.04 / 2025.04 | open general VLM baseline | [InternVL](https://arxiv.org/abs/2312.14238), [1.5](https://arxiv.org/abs/2404.16821), [3](https://arxiv.org/abs/2504.10479) | [GitHub](https://github.com/OpenGVLab/InternVL) | [Demo](https://chat.intern-ai.org.cn/) |
 | **LLaVA** | 2023.04 | visual instruction tuning baseline | [arXiv](https://arxiv.org/abs/2304.08485) | [GitHub](https://github.com/haotian-liu/LLaVA) | - |
 | **CogVLM** | 2023.11 | visual expert for language models | [arXiv](https://arxiv.org/abs/2311.03079) | [GitHub](https://github.com/THUDM/CogVLM) | - |
 | **DeepSeek-VL** | 2024.03 | general VLM baseline for text-rich images | [arXiv](https://arxiv.org/abs/2403.05525) | [GitHub](https://github.com/deepseek-ai/DeepSeek-VL) | - |
@@ -215,7 +215,7 @@ For entries with an arXiv version, the Date column uses the arXiv `YYYY.MM` mont
 | Model / System | Date | OCR-Relevant Role | Paper | Code | Demo / Docs |
 |---|:---:|---|---|---|---|
 | **GPT-4V / GPT-4o** | 2023-2024 | closed general VLM OCR interface | [GPT-4V system card](https://cdn.openai.com/papers/GPTV_System_Card.pdf) | - | [Docs](https://platform.openai.com/docs) |
-| **Gemini family** | 2024-2025 | closed general VLM OCR interface | [arXiv](https://arxiv.org/abs/2312.11805) | - | [Docs](https://ai.google.dev/gemini-api/docs) |
+| **Gemini family** | 2023.12 | closed general VLM OCR interface | [arXiv](https://arxiv.org/abs/2312.11805) | - | [Docs](https://ai.google.dev/gemini-api/docs) |
 | **Claude 3 / 3.5 / 4** | 2024-2025 | closed general VLM OCR interface | - | - | [Docs](https://docs.anthropic.com/) |
 
 </details>
