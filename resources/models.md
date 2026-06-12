@@ -67,7 +67,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **Tesseract** | 2007 | OCR engine | [ICDAR](https://doi.org/10.1109/ICDAR.2007.4376991) | [GitHub](https://github.com/tesseract-ocr/tesseract) | [Docs](https://tesseract-ocr.github.io/) |
 | **EasyOCR** | 2020 | OCR engine | - | [GitHub](https://github.com/JaidedAI/EasyOCR) | - |
 | **PaddleOCR / PP-OCR** | 2020.09 | industrial OCR toolkit | [arXiv](https://arxiv.org/abs/2009.09941) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
-| **MMOCR** | 2021 | OCR research toolkit | - | [GitHub](https://github.com/open-mmlab/mmocr) | [Docs](https://mmocr.readthedocs.io/) |
+| **MMOCR** | 2021.08 | OCR research toolkit | [arXiv](https://arxiv.org/abs/2108.06543) | [GitHub](https://github.com/open-mmlab/mmocr) | [Docs](https://mmocr.readthedocs.io/) |
 | **docTR** | 2021-2023 | document OCR toolkit | - | [GitHub](https://github.com/mindee/doctr) | [Docs](https://mindee.github.io/doctr/) |
 
 ### Text Detection and Spotting Components
@@ -199,7 +199,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
 | **MinerU-Popo** | 2026.05 | document-level post-processing for OCR outputs and document-tree assembly | [arXiv](https://arxiv.org/abs/2605.24973) | [GitHub](https://github.com/opendatalab/MinerU-Popo) | [HF](https://huggingface.co/DreamEternal/MinerU-Popo) |
-| **MinerU / MinerU2.5-Pro** | 2026.04 | layout decomposition + VLM parsing | [arXiv](https://arxiv.org/abs/2604.04771) | [GitHub](https://github.com/opendatalab/MinerU) | - |
+| **MinerU / MinerU2.5-Pro** | 2024.09 / 2026.04 | layout decomposition + VLM parsing | [MinerU](https://arxiv.org/abs/2409.18839) / [2.5-Pro](https://arxiv.org/abs/2604.04771) | [GitHub](https://github.com/opendatalab/MinerU) | - |
 | **Dolphin-v2** | 2026.02 | anchor prompting + document parsing workflow | [arXiv](https://arxiv.org/abs/2602.05384) | [GitHub](https://github.com/bytedance/Dolphin) | - |
 | **Docling** | 2024.08 | production document conversion workflow | [arXiv](https://arxiv.org/abs/2408.09869) | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) |
 
@@ -207,9 +207,9 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **Marker** | 2023 | PDF-to-Markdown workflow | - | [GitHub](https://github.com/datalab-to/marker) | - |
+| **Pix2Text** | 2024.08 | layout + formula + OCR workflow | [arXiv](https://arxiv.org/abs/2408.04015) | [GitHub](https://github.com/breezedeus/Pix2Text) | - |
 | **Surya** | 2024 | OCR, layout, reading order, line detection | - | [GitHub](https://github.com/datalab-to/surya) | - |
-| **Pix2Text** | 2024 | layout + formula + OCR workflow | - | [GitHub](https://github.com/breezedeus/Pix2Text) | - |
+| **Marker** | 2023 | PDF-to-Markdown workflow | - | [GitHub](https://github.com/datalab-to/marker) | - |
 
 </details>
 

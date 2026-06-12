@@ -41,9 +41,9 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 | 2019 | LSVT | benchmark | large-scale street-view Chinese text | detection / recognition / spotting | large-scale Chinese scene text | [Website](https://rrc.cvc.uab.es/?ch=16) |
 | 2019 | ArT | benchmark | arbitrary-shape scene text | polygon detection / spotting | arbitrary-shape text benchmark | [Website](https://rrc.cvc.uab.es/?ch=14) |
 | 2017 | ICDAR 2017 MLT | benchmark | multilingual scene images | detection / recognition | multilingual robust reading | [Website](https://rrc.cvc.uab.es/?ch=8) |
-| 2017 | CTW1500 | benchmark | curved text-line images | polygon F1 | curved long text lines | [GitHub](https://github.com/Yuliang-Liu/Curve-Text-Detector) |
-| 2017 | Total-Text | benchmark | curved / horizontal scene text | polygon detection / spotting | curved text benchmark | [GitHub](https://github.com/cs-chan/Total-Text-Dataset) |
-| 2016 | SynthText | synthetic training data | text pasted into natural images | detection / recognition training | classic scene-text synthetic data | [Website](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) |
+| 2017.12 | CTW1500 | benchmark | curved text-line images | polygon F1 | curved long text lines | [Paper](https://arxiv.org/abs/1712.02170), [GitHub](https://github.com/Yuliang-Liu/Curve-Text-Detector) |
+| 2017.10 | Total-Text | benchmark | curved / horizontal scene text | polygon detection / spotting | curved text benchmark | [Paper](https://arxiv.org/abs/1710.10400), [GitHub](https://github.com/cs-chan/Total-Text-Dataset) |
+| 2016.04 | SynthText | synthetic training data | text pasted into natural images | detection / recognition training | classic scene-text synthetic data | [Paper](https://arxiv.org/abs/1604.06646), [Website](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) |
 | 2016 | COCO-Text | benchmark | MS-COCO images with text | detection / recognition | natural image text benchmark | [Website](https://bgshih.github.io/cocotext/) |
 | 2015 | ICDAR 2015 Incidental Text | benchmark | camera-captured scene images | detection / spotting Hmean | incidental blurred / oriented text | [Website](https://rrc.cvc.uab.es/?ch=4) |
 | 2013 | ICDAR 2013 Robust Reading | benchmark | focused scene images | detection / recognition | focused scene text baseline | [Website](https://rrc.cvc.uab.es/?ch=2) |
@@ -73,11 +73,11 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 | 2025.08 | Tex80M / TexTeller data | formula training corpus | synthetic and handwritten formula images | LaTeX recognition training | large-scale HMER training data introduced with TexTeller | [Paper](https://arxiv.org/abs/2508.09220), [GitHub](https://github.com/OleehyO/TexTeller) |
 | 2024.04 | UniMER-1M | formula dataset | formula images | LaTeX edit distance | large-scale formula recognition data | [Paper](https://arxiv.org/abs/2404.15254), [GitHub](https://github.com/opendatalab/UniMERNet) |
 | 2024.04 | MathWriting | handwritten formula benchmark | online/offline handwritten formulas | CER / expression recognition | 230K human-written and 400K synthetic HME samples | [Paper](https://arxiv.org/abs/2404.10690) |
+| 2022.03 | HME100K | formula benchmark | handwritten formula images | LaTeX / expression rate | handwritten mathematical expression recognition | [Paper](https://arxiv.org/abs/2203.01601), [GitHub](https://github.com/HCIILAB/HME100K-Dataset) |
 | 2021.10 | PubTables-1M | table benchmark | PDF tables | AP / GriTS / cell structure | large table detection and structure benchmark | [Paper](https://arxiv.org/abs/2110.00061), [GitHub](https://github.com/microsoft/table-transformer) |
-| 2021 | WTW | table benchmark | wild tables | table detection / structure | natural-scene and document tables | [GitHub](https://github.com/wangwen-whu/WTW-Dataset) |
+| 2021.09 | WTW | table benchmark | wild tables | table detection / structure | natural-scene and document tables | [Paper](https://arxiv.org/abs/2109.02199), [GitHub](https://github.com/wangwen-whu/WTW-Dataset) |
 | 2020 | FinTabNet | table benchmark | financial report tables | TEDS / structure | complex financial tables | [Website](https://developer.ibm.com/exchanges/data/all/fintabnet/) |
 | 2019.11 | PubTabNet | table benchmark | table images | HTML / TEDS | table image-to-HTML benchmark | [Paper](https://arxiv.org/abs/1911.10683), [GitHub](https://github.com/ibm-aur-nlp/PubTabNet), [EDD](https://github.com/ibm-aur-nlp/EDD) |
-| 2020 | HME100K | formula benchmark | handwritten formula images | LaTeX / expression rate | handwritten mathematical expression recognition | [GitHub](https://github.com/HCIILAB/HME100K-Dataset) |
 | 2019.08 | SciTSR | table benchmark | scientific tables | cell structure F1 | scientific table structure recognition | [Paper](https://arxiv.org/abs/1908.04729), [GitHub](https://github.com/Academic-Hammer/SciTSR) |
 | 2019.03 | TableBank | table benchmark | Word / LaTeX document tables | detection / structure | large table dataset from office and LaTeX documents | [Paper](https://arxiv.org/abs/1903.01949), [GitHub](https://github.com/doc-analysis/TableBank) |
 | 2016.09 | Im2LaTeX-100K | formula dataset | rendered formulas | LaTeX edit distance | image-to-markup formula generation | [Paper](https://arxiv.org/abs/1609.04938), [GitHub](https://github.com/harvardnlp/im2markup) |
@@ -133,7 +133,7 @@ OCR benchmarks should not be read as a single leaderboard. Different benchmark f
 | 2023.07 | Union14M | training corpus | word crops | recognition training | unified large-scale STR training data | [Paper](https://arxiv.org/abs/2307.08723), [GitHub](https://github.com/Mountchicken/Union14M) |
 | 2022 | SynthDoG | synthetic document generator | document pages | document images / labels | synthetic data for Donut-style document understanding | [GitHub](https://github.com/clovaai/donut) |
 | 2021 | SynthTIGER | synthetic text image generator | cropped and scene text | detection / recognition training | configurable text-image generation | [GitHub](https://github.com/clovaai/synthtiger) |
-| 2016 | SynthText | synthetic scene text | natural images with rendered text | detection / recognition labels | detection and spotting pretraining | [Website](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) |
+| 2016.04 | SynthText | synthetic scene text | natural images with rendered text | detection / recognition labels | detection and spotting pretraining | [Paper](https://arxiv.org/abs/1604.06646), [Website](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) |
 | 2014 | MJSynth / Synth90k | synthetic word crops | rendered words | text labels | recognition pretraining | [Website](https://www.robots.ox.ac.uk/~vgg/data/text/) |
 
 ## Adjacent but Useful Evaluation Resources
