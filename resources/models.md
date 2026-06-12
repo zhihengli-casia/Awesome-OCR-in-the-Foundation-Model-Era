@@ -74,11 +74,11 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **EAST** | 2017.04 | text detection | [arXiv](https://arxiv.org/abs/1704.03155) | - | - |
+| **EAST** | 2017.04 | text detection | [arXiv](https://arxiv.org/abs/1704.03155) | [GitHub](https://github.com/argman/EAST) | - |
 | **CRAFT** | 2019.04 | text detection | [arXiv](https://arxiv.org/abs/1904.01941) | [GitHub](https://github.com/clovaai/CRAFT-pytorch) | - |
 | **PSENet** | 2018.06 | arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/1806.02559) | [GitHub](https://github.com/whai362/PSENet) | - |
 | **DBNet / DBNet++** | 2019.11 / 2022.02 | text detection | [AAAI](https://arxiv.org/abs/1911.08947) / [TPAMI](https://arxiv.org/abs/2202.10304) | [GitHub](https://github.com/MhLiao/DB) | - |
-| **FCENet** | 2021.04 | arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2104.10442) | - | - |
+| **FCENet** | 2021.04 | arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2104.10442) | [GitHub](https://github.com/yuchenwang815/FCENet) | - |
 
 ### Cropped Text Recognizers
 
@@ -87,11 +87,11 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **CRNN** | 2015.07 | cropped text recognition | [TPAMI](https://arxiv.org/abs/1507.05717) | [GitHub](https://github.com/meijieru/crnn.pytorch) | - |
 | **ASTER** | 2018 / 2019 | irregular text recognition | [TPAMI](https://doi.org/10.1109/TPAMI.2018.2848939) | [GitHub](https://github.com/bgshih/aster) | - |
 | **SRN** | 2020.03 | semantic reasoning recognizer | [arXiv](https://arxiv.org/abs/2003.12294) | - | - |
-| **ABINet** | 2021.03 | language-aware recognizer | [arXiv](https://arxiv.org/abs/2103.06495) | - | - |
+| **ABINet** | 2021.03 | language-aware recognizer | [arXiv](https://arxiv.org/abs/2103.06495) | [GitHub](https://github.com/FangShancheng/ABINet) | - |
 | **ViTSTR** | 2021.05 | ViT recognizer | [arXiv](https://arxiv.org/abs/2105.08582) | [GitHub](https://github.com/roatienza/deep-text-recognition-benchmark) | - |
 | **PARSeq** | 2022.07 | autoregressive recognizer | [arXiv](https://arxiv.org/abs/2207.06966) | [GitHub](https://github.com/baudm/parseq) | - |
 | **SVTR / SVTRv2** | 2022.05 / 2024.11 | efficient cropped recognizer | [IJCAI](https://arxiv.org/abs/2205.00159) / [arXiv](https://arxiv.org/abs/2411.15858) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
-| **TrOCR** | 2021.09 | pretrained encoder-decoder recognizer | [arXiv](https://arxiv.org/abs/2109.10282) | - | [HF Docs](https://huggingface.co/docs/transformers/model_doc/trocr) |
+| **TrOCR** | 2021.09 | pretrained encoder-decoder recognizer | [arXiv](https://arxiv.org/abs/2109.10282) | [GitHub](https://github.com/microsoft/unilm/tree/master/trocr) | [HF Docs](https://huggingface.co/docs/transformers/model_doc/trocr) |
 
 ### Formula, Table, and Structured-Object Components
 
@@ -111,10 +111,10 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **SGRL** | 2023.08 | semantic graph representation learning for HMER | [arXiv](https://arxiv.org/abs/2308.10493) | - | - |
 | **CoMER** | 2022.07 | coverage modeling for transformer-based HMER | [arXiv](https://arxiv.org/abs/2207.04410) | [GitHub](https://github.com/Green-Wood/CoMER) | - |
 | **CAN** | 2022.07 | counting-aware HMER | [arXiv](https://arxiv.org/abs/2207.11463) | [GitHub](https://github.com/LBH1024/CAN) | - |
-| **SAN** | 2022.03 | syntax-aware HMER | [arXiv](https://arxiv.org/abs/2203.01601) | - | - |
+| **SAN** | 2022.03 | syntax-aware HMER | [arXiv](https://arxiv.org/abs/2203.01601) | [GitHub](https://github.com/tal-tech/san) | - |
 | **BTTR** | 2021.05 | bidirectionally trained transformer for HMER | [arXiv](https://arxiv.org/abs/2105.02412) | [GitHub](https://github.com/Green-Wood/BTTR) | - |
 | **WAP** | 2017 | handwritten mathematical expression recognition | [DOI](https://doi.org/10.1016/j.patcog.2017.06.017) | - | - |
-| **Im2Markup** | 2016.09 | image-to-LaTeX generation | [arXiv](https://arxiv.org/abs/1609.04938) | - | - |
+| **Im2Markup** | 2016.09 | image-to-LaTeX generation | [arXiv](https://arxiv.org/abs/1609.04938) | [GitHub](https://github.com/harvardnlp/im2markup) | - |
 
 </details>
 
@@ -127,9 +127,12 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **Donut** | 2021.11 | OCR-free encoder-decoder | [arXiv](https://arxiv.org/abs/2111.15664) | [GitHub](https://github.com/clovaai/donut) | - |
-| **Pix2Struct** | 2022.10 | screenshot/page-to-sequence pretraining | [arXiv](https://arxiv.org/abs/2210.03347) | [GitHub](https://github.com/google-research/pix2struct) | - |
+| **KOSMOS-2.5** | 2023.09 | multimodal literate model for text-intensive images | [arXiv](https://arxiv.org/abs/2309.11419) | [GitHub](https://github.com/microsoft/unilm/tree/master/kosmos-2.5) | [HF](https://huggingface.co/microsoft/kosmos-2.5) |
 | **Nougat** | 2023.08 | scholarly PDF-to-Markdown parser | [arXiv](https://arxiv.org/abs/2308.13418) | [GitHub](https://github.com/facebookresearch/nougat) | - |
+| **UDOP** | 2022.12 | unified vision-text-layout generation | [arXiv](https://arxiv.org/abs/2212.02623) | [GitHub](https://github.com/microsoft/UDOP) | - |
+| **Pix2Struct** | 2022.10 | screenshot/page-to-sequence pretraining | [arXiv](https://arxiv.org/abs/2210.03347) | [GitHub](https://github.com/google-research/pix2struct) | - |
+| **Dessurt** | 2022.03 | end-to-end document recognition and understanding | [arXiv](https://arxiv.org/abs/2203.16618) | [GitHub](https://github.com/herobd/dessurt) | - |
+| **Donut** | 2021.11 | OCR-free encoder-decoder | [arXiv](https://arxiv.org/abs/2111.15664) | [GitHub](https://github.com/clovaai/donut) | - |
 
 ### Document-VLM Precursors and Adaptations
 
@@ -139,24 +142,33 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **Vary** | 2023.12 | document-specialized VLM | [arXiv](https://arxiv.org/abs/2312.06109) | [GitHub](https://github.com/Ucas-HaoranWei/Vary) | - |
 | **GOT-OCR 2.0** | 2024.09 | unified OCR-specialized VLM | [arXiv](https://arxiv.org/abs/2409.01704) | [GitHub](https://github.com/Ucas-HaoranWei/GOT-OCR2.0) | - |
 | **Monkey / TextMonkey** | 2023.11 / 2024.03 | text-centric OCR-free MLLM | [Monkey](https://arxiv.org/abs/2311.06607), [TextMonkey](https://arxiv.org/abs/2403.04473) | [GitHub](https://github.com/Yuliang-Liu/Monkey) | - |
-| **UReader** | 2023.10 | OCR-free visually situated language understanding | [arXiv](https://arxiv.org/abs/2310.05126) | - | - |
-| **TextHawk** | 2024.04 | fine-grained text perception in MLLMs | [arXiv](https://arxiv.org/abs/2404.09204) | - | [Hugging Face](https://huggingface.co/TencentBAC) |
+| **UReader** | 2023.10 | OCR-free visually situated language understanding | [arXiv](https://arxiv.org/abs/2310.05126) | [GitHub](https://github.com/LukeForeverYoung/UReader) | - |
+| **TextHawk** | 2024.04 | fine-grained text perception in MLLMs | [arXiv](https://arxiv.org/abs/2404.09204) | [GitHub](https://github.com/yuyq96/TextHawk) | [Hugging Face](https://huggingface.co/TencentBAC) |
 | **Fox** | 2024.05 | multi-page document understanding system | [arXiv](https://arxiv.org/abs/2405.14295) | [GitHub](https://github.com/ucaslcl/Fox) | - |
 
 ### OCR-Specialized Page Parsers
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **SmolDocling** | 2025.03 | ultra-compact document conversion VLM | [arXiv](https://arxiv.org/abs/2503.11576) | - | [Hugging Face](https://huggingface.co/ds4sd/SmolDocling-256M-preview) |
-| **MonkeyOCR** | 2025.06 | structure-recognition-relation document parser | [arXiv](https://arxiv.org/abs/2506.05218) | [GitHub](https://github.com/Yuliang-Liu/MonkeyOCR) | - |
-| **DeepSeek-OCR** | 2025 | visual token compression for OCR | - | [GitHub](https://github.com/deepseek-ai/DeepSeek-OCR) | - |
-| **HunyuanOCR** | 2025.11 | OCR-specialized document VLM | [arXiv](https://arxiv.org/abs/2511.19575) | - | - |
-| **dots.ocr** | 2025.12 | multilingual document layout parsing VLM | [arXiv](https://arxiv.org/abs/2512.02498) | - | - |
-| **olmOCR-2** | 2025.10 | unit-test reward training for document OCR | [arXiv](https://arxiv.org/abs/2510.19817) | [GitHub](https://github.com/allenai/olmocr) | - |
-| **PaddleOCR-VL-1.5** | 2026.01 | compact multi-task document parsing VLM | [arXiv](https://arxiv.org/abs/2601.21957) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
-| **GLM-OCR** | 2026.03 | OCR-specialized document parser | [arXiv](https://arxiv.org/abs/2603.10910) | - | - |
+| **PaddleOCR-VL-1.6** | 2026.06 | latest compact document parsing VLM in the PaddleOCR-VL line | [arXiv](https://arxiv.org/abs/2606.03264) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
+| **ABot-OCR** | 2026.05 | AMap end-to-end OCR VLM | [arXiv](https://arxiv.org/abs/2605.27978) | [GitHub](https://github.com/amap-cvlab/ABot-OCR) | - |
 | **Qianfan-OCR** | 2026.03 | end-to-end document intelligence model | [arXiv](https://arxiv.org/abs/2603.13398) | - | [Website](https://cloud.baidu.com/product/wenxinworkshop) |
+| **GLM-OCR** | 2026.03 | OCR-specialized document parser | [arXiv](https://arxiv.org/abs/2603.10910) | [GitHub](https://github.com/zai-org/GLM-OCR) | [HF](https://huggingface.co/zai-org/GLM-OCR) |
 | **FireRed-OCR** | 2026.03 | OCR-specialized VLM | [arXiv](https://arxiv.org/abs/2603.01840) | [GitHub](https://github.com/FireRedTeam/FireRed-OCR) | - |
+| **GutenOCR** | 2026.01 | grounded OCR front-end fine-tuned from Qwen2.5-VL | [arXiv](https://arxiv.org/abs/2601.14490) | [GitHub](https://github.com/Roots-Automation/GutenOCR) | - |
+| **LightOnOCR-2-1B** | 2026.01 | 1B multilingual end-to-end OCR VLM | [arXiv](https://arxiv.org/abs/2601.14251) | - | [HF](https://huggingface.co/lightonai/LightOnOCR-2-1B) |
+| **OCRVerse** | 2026.01 | holistic OCR VLM for text-centric and vision-centric OCR | [arXiv](https://arxiv.org/abs/2601.21639) | [GitHub](https://github.com/DocTron-hub/OCRVerse) | - |
+| **PaddleOCR-VL-1.5** | 2026.01 | compact multi-task document parsing VLM | [arXiv](https://arxiv.org/abs/2601.21957) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
+| **DeepSeek-OCR / DeepSeek-OCR 2** | 2026.01 / 2025.10 | visual token compression and causal-flow document parsing | [arXiv](https://arxiv.org/abs/2601.20552) / [arXiv](https://arxiv.org/abs/2510.18234) | [GitHub](https://github.com/deepseek-ai/DeepSeek-OCR) | - |
+| **dots.ocr** | 2025.12 | multilingual document layout parsing VLM | [arXiv](https://arxiv.org/abs/2512.02498) | [GitHub](https://github.com/rednote-hilab/dots.ocr) | [HF](https://huggingface.co/rednote-hilab/dots.ocr) |
+| **HunyuanOCR** | 2025.11 | OCR-specialized document VLM | [arXiv](https://arxiv.org/abs/2511.19575) | [GitHub](https://github.com/Tencent-Hunyuan/HunyuanOCR) | [HF](https://huggingface.co/tencent/HunyuanOCR) |
+| **olmOCR / olmOCR-2** | 2025.10 / 2025.02 | open PDF-to-Markdown OCR and unit-test reward training | [arXiv](https://arxiv.org/abs/2510.19817) / [arXiv](https://arxiv.org/abs/2502.18443) | [GitHub](https://github.com/allenai/olmocr) | [HF Bench](https://huggingface.co/datasets/allenai/olmOCR-bench) |
+| **PaddleOCR-VL** | 2025.10 | compact multilingual document parsing VLM | [arXiv](https://arxiv.org/abs/2510.14528) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
+| **PP-DocBee2** | 2025.06 | efficient data and stronger document baselines | [arXiv](https://arxiv.org/abs/2506.18023) | [GitHub](https://github.com/PaddlePaddle/PaddleMIX/tree/develop/paddlemix/examples/ppdocbee2) | - |
+| **Infinity-Parser** | 2025.06 | layout-aware reinforcement learning for scanned document parsing | [arXiv](https://arxiv.org/abs/2506.03197) | [GitHub](https://github.com/infly-ai/INF-MLLM/tree/main/research/InfM2/Infinity-Parser) | [HF](https://huggingface.co/infly/Infinity-Parser-7B) |
+| **MonkeyOCR** | 2025.06 | structure-recognition-relation document parser | [arXiv](https://arxiv.org/abs/2506.05218) | [GitHub](https://github.com/Yuliang-Liu/MonkeyOCR) | - |
+| **SmolDocling** | 2025.03 | ultra-compact document conversion VLM | [arXiv](https://arxiv.org/abs/2503.11576) | - | [Hugging Face](https://huggingface.co/ds4sd/SmolDocling-256M-preview) |
+| **PP-DocBee** | 2025.03 | multimodal document understanding baseline | [arXiv](https://arxiv.org/abs/2503.04065) | [GitHub](https://github.com/PaddlePaddle/PaddleMIX/tree/develop/paddlemix/examples/ppdocbee) | - |
 
 ### Emerging Generation and Training Routes
 
