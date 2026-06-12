@@ -174,8 +174,10 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **FDRL for Document OCR** | 2026.01 | format-decoupled reinforcement learning | [arXiv](https://arxiv.org/abs/2601.08834) | - | - |
 | **MinerU-Diffusion** | 2026.03 | diffusion-style inverse-rendering OCR | [arXiv](https://arxiv.org/abs/2603.22458) | - | - |
+| **Teaching VLMs to Admit Uncertainty in OCR** | 2026.01 | uncertainty-aware OCR with explicit unreliable-span tags | [ICLR](https://openreview.net/forum?id=zyCjizqOxB) | [GitHub](https://github.com/NikoGuan/Uncertainty_OCR) | - |
+| **FDRL for Document OCR** | 2026.01 | format-decoupled reinforcement learning | [arXiv](https://arxiv.org/abs/2601.08834) | - | - |
+| **Seeing is Believing? / KIE-HVQA** | 2025.06 | OCR hallucination mitigation under visual degradation | [arXiv](https://arxiv.org/abs/2506.20168) | - | [HF Dataset](https://huggingface.co/datasets/bytedance-research/KIE-HVQA) |
 
 </details>
 
