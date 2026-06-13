@@ -384,9 +384,28 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **LiteParse** | 2026.02 | fast local PDF parsing with OCR merge, bounding boxes, JSON, text, and screenshots | - | [GitHub](https://github.com/run-llama/liteparse) | [Docs](https://developers.llamaindex.ai/liteparse/) |
+| **OCRFlux** | 2025.06 | PDF/document parsing workflow; Markdown-oriented OCR pipeline | - | [GitHub](https://github.com/chatdoc-com/OCRFlux) | [HF](https://huggingface.co/ChatDOC/OCRFlux-3B), [Bench](https://huggingface.co/datasets/ChatDOC/OCRFlux-bench-single) |
+| **OpenDataLoader PDF** | 2025.05 | PDF parser for Markdown, JSON with bounding boxes, HTML, and tagged-PDF workflows | - | [GitHub](https://github.com/opendataloader-project/opendataloader-pdf) | [Website](https://opendataloader.org/) |
+| **Kreuzberg** | 2025.01 | multi-format document extraction framework with OCR and Markdown/structured-output options | - | [GitHub](https://github.com/kreuzberg-dev/kreuzberg) | [Docs](https://kreuzberg.dev/) |
+| **Vision Parse** | 2024.12 | VLM-based PDF-to-Markdown workflow for scanned documents, tables, and equations | - | [GitHub](https://github.com/iamarunbrahma/vision-parse) | - |
+| **MarkItDown** | 2024.11 | Microsoft document-to-Markdown conversion utility | - | [GitHub](https://github.com/microsoft/markitdown) | - |
+| **Chunkr** | 2024.08 | document intelligence API/service for OCR, layout, semantic chunks, HTML, and Markdown | - | [GitHub](https://github.com/lumina-ai-inc/chunkr) | [Website](https://www.chunkr.ai/) |
 | **Pix2Text** | 2024.08 | layout + formula + OCR workflow | [arXiv](https://arxiv.org/abs/2408.04015) | [GitHub](https://github.com/breezedeus/Pix2Text) | - |
-| **Surya** | 2024 | OCR, layout, reading order, line detection | - | [GitHub](https://github.com/datalab-to/surya) | - |
-| **Marker** | 2023 | PDF-to-Markdown workflow | - | [GitHub](https://github.com/datalab-to/marker) | - |
+| **E2M** | 2024.08 | everything-to-Markdown parser/converter for PDF, Office, HTML, EPUB, and media inputs | - | [GitHub](https://github.com/wisupai/e2m) | [PyPI](https://pypi.org/project/wisup-e2m/) |
+| **Zerox** | 2024.07 | vision-model OCR workflow for converting PDFs and documents to Markdown and schema outputs | - | [GitHub](https://github.com/getomni-ai/zerox) | - |
+| **MegaParse** | 2024.05 | document-to-Markdown parsing workflow for RAG ingestion | - | [GitHub](https://github.com/QuivrHQ/MegaParse) | [Docs](https://megaparse.com/) |
+| **OpenParse** | 2024.03 | visually driven document parser for semantic chunks, Markdown, and table extraction | - | [GitHub](https://github.com/Filimoa/open-parse) | - |
+| **PyMuPDF4LLM** | 2024.03 | PDF-to-Markdown / RAG document ingestion utility | - | [GitHub](https://github.com/pymupdf/pymupdf4llm) | [Docs](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/) |
+| **Surya** | 2024.01 | OCR, layout, reading order, line detection | - | [GitHub](https://github.com/datalab-to/surya) | - |
+| **PaperMage** | 2023.12 | scientific PDF processing toolkit with text, visual elements, entities, boxes, and JSON serialization | [EMNLP](https://aclanthology.org/2023.emnlp-demo.45/) | [GitHub](https://github.com/allenai/papermage) | [Project](https://papermage.org/) |
+| **Marker** | 2023.10 | PDF-to-Markdown workflow | - | [GitHub](https://github.com/datalab-to/marker) | - |
+| **pdfplumber** | 2015.08 | born-digital PDF text/table extraction utility | - | [GitHub](https://github.com/jsvine/pdfplumber) | [Docs](https://github.com/jsvine/pdfplumber) |
+| **pdfminer.six** | 2014.08 | low-level PDF text and layout extraction utility | - | [GitHub](https://github.com/pdfminer/pdfminer.six) | [Docs](https://pdfminersix.readthedocs.io/) |
+| **PyMuPDF** | 2012.10 | PDF page rendering and extraction utility | - | [GitHub](https://github.com/pymupdf/PyMuPDF) | [Docs](https://pymupdf.readthedocs.io/) |
+| **GROBID** | 2012.09 | scholarly PDF structure extraction workflow | - | [GitHub](https://github.com/grobidOrg/grobid) | [Docs](https://grobid.readthedocs.io/) |
+| **pypdf** | 2012.01 | pure-Python PDF text extraction and document manipulation utility | - | [GitHub](https://github.com/py-pdf/pypdf) | [Docs](https://pypdf.readthedocs.io/) |
+| **Apache Tika** | 2009.05 | multi-format text and metadata extraction toolkit for PDF and office documents | - | [GitHub](https://github.com/apache/tika) | [Website](https://tika.apache.org/) |
 
 </details>
 
