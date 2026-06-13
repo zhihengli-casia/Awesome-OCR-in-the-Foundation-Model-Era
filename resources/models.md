@@ -352,8 +352,8 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **HalluText / OCRAssistor** | 2025.09 | OCR hallucination diagnosis and plug-and-play mitigation | [OpenReview](https://openreview.net/forum?id=LRnt6foJ3q) | - | - |
 | **ReViCo** | 2025.09 | real-world visual spelling correction for VLMs | [arXiv](https://arxiv.org/abs/2509.17418) | - | - |
 | **When Semantics Mislead Vision / TextHalu-Bench** | 2025.06 | training-free mitigation of semantic hallucination in scene-text perception | [arXiv](https://arxiv.org/abs/2506.05551) | [GitHub](https://github.com/shuyansy/MLLM-Semantic-Hallucination) | [HF Dataset](https://huggingface.co/datasets/sy1998/TextHalu-Bench) |
-| **Seeing is Believing? / KIE-HVQA** | 2025.06 | OCR hallucination mitigation under visual degradation | [arXiv](https://arxiv.org/abs/2506.20168), [NeurIPS 2025](https://arxiv.org/abs/2506.20168) | - | [HF Dataset](https://huggingface.co/datasets/bytedance-research/KIE-HVQA) |
-| **Consensus Entropy / CE-OCR** | 2025.04 | multi-VLM agreement for self-verifying and self-improving OCR | [CVPR](https://arxiv.org/abs/2504.11101) | [GitHub](https://github.com/Aslan-yulong/consensus-entropy) | [HF Dataset](https://huggingface.co/datasets/Aslan-mingye/OCR-Quality) |
+| **Seeing is Believing? / KIE-HVQA** | 2025.06 | OCR hallucination mitigation under visual degradation | [arXiv](https://arxiv.org/abs/2506.20168), [NeurIPS](https://openreview.net/forum?id=bjoHB7IN6b) | - | [HF Dataset](https://huggingface.co/datasets/bytedance-research/KIE-HVQA) |
+| **Consensus Entropy / CE-OCR** | 2025.04 | multi-VLM agreement for self-verifying and self-improving OCR | [arXiv](https://arxiv.org/abs/2504.11101), [CVPR](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Consensus_Entropy_Harnessing_Multi-VLM_Agreement_for_Self-Verifying_and_Self-Improving_OCR_CVPR_2026_paper.html) | [GitHub](https://github.com/Aslan-yulong/consensus-entropy) | [HF Dataset](https://huggingface.co/datasets/Aslan-mingye/OCR-Quality) |
 
 </details>
 
