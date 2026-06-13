@@ -333,12 +333,20 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **AGAR** | 2026.06 | attention-guided adaptive rendering for visual text comprehension | [arXiv](https://arxiv.org/abs/2606.12898) | - | - |
+| **LoMo** | 2026.05 | local modality substitution for cross-modal visual-text carrier alignment | [arXiv](https://arxiv.org/abs/2605.30265) | - | - |
 | **FastOCR** | 2026.05 | training-free dynamic visual fixation and KV-cache pruning for efficient VLM document parsing | [arXiv](https://arxiv.org/abs/2605.17447) | - | - |
+| **RTPrune** | 2026.05 | reading-twice inspired token pruning for efficient DeepSeek-OCR inference | [arXiv](https://arxiv.org/abs/2605.00392) | - | - |
+| **TexOCR** | 2026.04 | SFT and RL with verifiable LaTeX unit-test rewards for page-to-LaTeX OCR | [arXiv](https://arxiv.org/abs/2604.22880) | [GitHub](https://github.com/QDRhhhh/TexOCR) | - |
 | **MinerU-Diffusion** | 2026.03 | diffusion-style inverse-rendering OCR | [arXiv](https://arxiv.org/abs/2603.22458) | - | - |
 | **Risk-Controlled Generative OCR / GRC** | 2026.03 | selective accept/abstain risk control for frozen VLM OCR | [arXiv](https://arxiv.org/abs/2603.19790) | [GitHub](https://github.com/phare111/GRC) | - |
+| **SimpleOCR** | 2026.02 | rendered visualized-question training to force MLLMs to read text visually | [arXiv](https://arxiv.org/abs/2602.22426) | [GitHub](https://github.com/aiming-lab/SimpleOCR) | - |
 | **PAR for Faithful OCR / GlitchText** | 2026.01 | training-free mitigation of linguistic-prior OCR hallucination | [OpenReview](https://openreview.net/forum?id=M8zr7QvasK) | [GitHub](https://github.com/Zoeyyao27/PAR-for-Faithful-OCR) | - |
 | **Teaching VLMs to Admit Uncertainty in OCR** | 2026.01 | uncertainty-aware OCR with explicit unreliable-span tags | [ICLR](https://openreview.net/forum?id=zyCjizqOxB) | [GitHub](https://github.com/NikoGuan/Uncertainty_OCR) | - |
 | **FDRL for Document OCR** | 2026.01 | format-decoupled reinforcement learning | [arXiv](https://arxiv.org/abs/2601.08834) | - | - |
+| **DOCR-Inspector** | 2025.12 | fine-grained evaluation and strategic optimization for document OCR parsing | [arXiv](https://arxiv.org/abs/2512.10619) | [GitHub](https://github.com/ZZZZZQT/DOCR-Inspector) | - |
+| **DocVAL** | 2025.11 | validated chain-of-thought distillation for grounded document VQA | [arXiv](https://arxiv.org/abs/2511.22521) | [GitHub](https://github.com/ahmad-shirazi/DocVAL) | - |
+| **CropVLM** | 2025.11 | RL-trained dynamic zoom wrapper for scene-text and document perception | [arXiv](https://arxiv.org/abs/2511.19820) | [GitHub](https://github.com/miguelscarv/cropvlm) | - |
 | **Reading Between the Lines / LRP** | 2025.11 | latent-representation probes for abstaining from VLM-generated OCR errors | [arXiv](https://arxiv.org/abs/2511.19806) | - | - |
 | **OCR-Critic / OCR-ERROR** | 2025.10 | critical feedback alignment and OCR error diagnosis for MLLMs | [ACM DL](https://dl.acm.org/doi/10.1145/3746027.3754585) | - | - |
 | **HalluText / OCRAssistor** | 2025.09 | OCR hallucination diagnosis and plug-and-play mitigation | [OpenReview](https://openreview.net/forum?id=LRnt6foJ3q) | - | - |
