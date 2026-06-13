@@ -242,12 +242,17 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **PILOT / VISTA-OCR** | 2025.04 | promptable layout-aware encoder-decoder for full-page OCR, region reading, and text spotting | [arXiv](https://arxiv.org/abs/2504.03621) | - | - |
+| **Arctic-TILT** | 2024.08 | efficient text-image-layout encoder-decoder for business document understanding | [arXiv](https://arxiv.org/abs/2408.04632), [ACL](https://aclanthology.org/2025.acl-industry.20/) | [GitHub](https://github.com/Snowflake-Labs/arctic-tilt) | [HF](https://huggingface.co/Snowflake/snowflake-arctic-tilt-v1.3) |
+| **muGAT** | 2024.08 | Nougat-style multi-page context for document parsing | [arXiv](https://arxiv.org/abs/2408.15646) | [GitHub](https://github.com/aimagelab/mugat) | - |
+| **LOCR** | 2024.03 | location-guided autoregressive document OCR to Markdown | [arXiv](https://arxiv.org/abs/2403.02127), [ACL](https://aclanthology.org/2024.findings-emnlp.314/) | [GitHub](https://github.com/Merry-bee/LOCR) | - |
 | **KOSMOS-2.5** | 2023.09 | multimodal literate model for text-intensive images | [arXiv](https://arxiv.org/abs/2309.11419) | [GitHub](https://github.com/microsoft/unilm/tree/master/kosmos-2.5) | [HF](https://huggingface.co/microsoft/kosmos-2.5) |
-| **Nougat** | 2023.08 | scholarly PDF-to-Markdown parser | [arXiv](https://arxiv.org/abs/2308.13418) | [GitHub](https://github.com/facebookresearch/nougat) | - |
+| **Nougat** | 2023.08 | scholarly PDF-to-Markdown parser | [arXiv](https://arxiv.org/abs/2308.13418) | [GitHub](https://github.com/facebookresearch/nougat) | [Project](https://facebookresearch.github.io/nougat/) |
 | **UDOP** | 2022.12 | unified vision-text-layout generation | [arXiv](https://arxiv.org/abs/2212.02623) | [GitHub](https://github.com/microsoft/UDOP) | - |
 | **Pix2Struct** | 2022.10 | screenshot/page-to-sequence pretraining | [arXiv](https://arxiv.org/abs/2210.03347) | [GitHub](https://github.com/google-research/pix2struct) | - |
 | **Dessurt** | 2022.03 | end-to-end document recognition and understanding | [arXiv](https://arxiv.org/abs/2203.16618) | [GitHub](https://github.com/herobd/dessurt) | - |
-| **Donut** | 2021.11 | OCR-free encoder-decoder | [arXiv](https://arxiv.org/abs/2111.15664) | [GitHub](https://github.com/clovaai/donut) | - |
+| **Donut** | 2021.11 | OCR-free encoder-decoder | [arXiv](https://arxiv.org/abs/2111.15664) | [GitHub](https://github.com/clovaai/donut) | [HF Docs](https://huggingface.co/docs/transformers/model_doc/donut) |
+| **TILT** | 2021.02 | OCR-assisted text-image-layout encoder-decoder for document understanding | [arXiv](https://arxiv.org/abs/2102.09550) | [GitHub (impl.)](https://github.com/uakarsh/TiLT-Implementation) | - |
 
 ### Document-VLM Precursors and Adaptations
 
