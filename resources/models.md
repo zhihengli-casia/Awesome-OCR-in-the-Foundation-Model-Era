@@ -277,7 +277,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **TextHawk** | 2024.04 | fine-grained text perception in MLLMs | [arXiv](https://arxiv.org/abs/2404.09204) | [GitHub](https://github.com/yuyq96/TextHawk) | [Hugging Face](https://huggingface.co/TencentBAC) |
 | **LayoutLLM** | 2024.04 | layout instruction tuning for document understanding | [arXiv](https://arxiv.org/abs/2404.05225) | [GitHub/Data](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/DocumentUnderstanding/LayoutLLM) | - |
 | **DocOwl 1.5** | 2024.03 | OCR-free structure learning | [arXiv](https://arxiv.org/abs/2403.12895) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) | - |
-| **TextMonkey** | 2024.03 | OCR-free document MLLM | [arXiv](https://arxiv.org/abs/2403.04473) | [GitHub](https://github.com/Yuliang-Liu/Monkey) | - |
+| **TextMonkey** | 2024.03 | OCR-free document MLLM | [arXiv](https://arxiv.org/abs/2403.04473), [TPAMI](https://www.computer.org/csdl/journal/tp/2026/05/11364328/2dAZUa3VEUE) | [GitHub](https://github.com/Yuliang-Liu/Monkey) | - |
 | **DoCo** | 2024.02 | contrastive pretraining for fine-grained visual document understanding in LVLMs | [arXiv](https://arxiv.org/abs/2402.19014) | - | - |
 | **DocLLM** | 2023.12 | layout-aware generative LLM for multimodal document understanding | [arXiv](https://arxiv.org/abs/2401.00908), [ACL](https://aclanthology.org/2024.acl-long.463/) | [GitHub](https://github.com/dswang2011/DocLLM) | - |
 | **Vary** | 2023.12 | document-specialized VLM | [arXiv](https://arxiv.org/abs/2312.06109) | [GitHub](https://github.com/Ucas-HaoranWei/Vary) | - |
@@ -288,7 +288,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **UReader** | 2023.10 | OCR-free visually situated language understanding | [arXiv](https://arxiv.org/abs/2310.05126) | [GitHub](https://github.com/LukeForeverYoung/UReader) | - |
 | **UniDoc** | 2023.08 | simultaneous text detection, recognition, spotting, and understanding | [arXiv](https://arxiv.org/abs/2308.11592) | - | - |
 | **DocOwl** | 2023.07 | document-oriented VLM | [arXiv](https://arxiv.org/abs/2307.02499) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) | - |
-| **LLaVAR** | 2023.06 | visual instruction tuning for text-rich image understanding | [arXiv](https://arxiv.org/abs/2306.17107) | [GitHub](https://github.com/llavar/LLaVAR) | [Project](https://llavar.github.io/) |
+| **LLaVAR** | 2023.06 | visual instruction tuning for text-rich image understanding | [arXiv](https://arxiv.org/abs/2306.17107) | [GitHub](https://github.com/SALT-NLP/LLaVAR) | [Project](https://llavar.github.io/) |
 
 ### OCR-Specialized Page Parsers
 
