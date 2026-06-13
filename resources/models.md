@@ -296,13 +296,13 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 |---|:---:|---|---|---|---|
 | **PaddleOCR-VL-1.6** | 2026.06 | latest compact document parsing VLM in the PaddleOCR-VL line | [arXiv](https://arxiv.org/abs/2606.03264) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
 | **ABot-OCR** | 2026.05 | AMap end-to-end OCR VLM | [arXiv](https://arxiv.org/abs/2605.27978) | [GitHub](https://github.com/amap-cvlab/ABot-OCR) | - |
-| **Qianfan-OCR** | 2026.03 | end-to-end document intelligence model | [arXiv](https://arxiv.org/abs/2603.13398) | - | [Website](https://cloud.baidu.com/product/wenxinworkshop) |
+| **Qianfan-OCR** | 2026.03 | end-to-end document intelligence model | [arXiv](https://arxiv.org/abs/2603.13398) | [GitHub](https://github.com/baidubce/Qianfan-VL) | [HF](https://huggingface.co/baidu/Qianfan-OCR), [Website](https://cloud.baidu.com/product/wenxinworkshop) |
 | **GLM-OCR** | 2026.03 | OCR-specialized document parser | [arXiv](https://arxiv.org/abs/2603.10910) | [GitHub](https://github.com/zai-org/GLM-OCR) | [HF](https://huggingface.co/zai-org/GLM-OCR) |
 | **FireRed-OCR** | 2026.03 | OCR-specialized VLM | [arXiv](https://arxiv.org/abs/2603.01840) | [GitHub](https://github.com/FireRedTeam/FireRed-OCR) | - |
 | **Logics-Parsing-Omni** | 2026.03 | Alibaba unified parser for heterogeneous documents and videos | [arXiv](https://arxiv.org/abs/2603.09677) | [GitHub](https://github.com/alibaba/Logics-Parsing) | - |
 | **MOCR / dots.mocr** | 2026.03 | multimodal OCR parser for text, charts, diagrams, tables, icons, and code-level outputs | [arXiv](https://arxiv.org/abs/2603.13032) | [GitHub](https://github.com/rednote-hilab/dots.mocr) | - |
 | **Chandra / Chandra OCR 2** | 2026.03 | full-page HTML / Markdown / JSON OCR model | - | [GitHub](https://github.com/datalab-to/chandra) | [HF](https://huggingface.co/datalab-to/chandra-ocr-2), [Blog](https://www.datalab.to/blog/chandra-2) |
-| **MeDocVL** | 2026.02 | medical document understanding and parsing VLM | [arXiv](https://arxiv.org/abs/2602.06402) | - | - |
+| **MeDocVL** | 2026.02 | medical document understanding and parsing VLM | [arXiv](https://arxiv.org/abs/2602.06402) | [GitHub](https://github.com/Dejavuvvw/MeDocVL) | - |
 | **PaddleOCR-VL-1.5** | 2026.01 | compact multi-task document parsing VLM | [arXiv](https://arxiv.org/abs/2601.21957) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
 | **DeepSeek-OCR 2** | 2026.01 | causal-flow reordering and document parsing | [arXiv](https://arxiv.org/abs/2601.20552) | [GitHub](https://github.com/deepseek-ai/DeepSeek-OCR) | - |
 | **Typhoon OCR / Typhoon OCR v1.5** | 2026.01 | Thai-English document extraction with Markdown/HTML layout reconstruction | [arXiv](https://arxiv.org/abs/2601.14722) | [GitHub](https://github.com/scb-10x/typhoon-ocr) | [HF](https://huggingface.co/typhoon-ai/typhoon-ocr-3b), [Docs](https://docs.opentyphoon.ai/en/ocr/) |
@@ -315,17 +315,17 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **olmOCR-2** | 2025.10 | unit-test reward training for document OCR | [arXiv](https://arxiv.org/abs/2510.19817) | [GitHub](https://github.com/allenai/olmocr) | - |
 | **DeepSeek-OCR** | 2025.10 | visual token compression for OCR | [arXiv](https://arxiv.org/abs/2510.18234) | [GitHub](https://github.com/deepseek-ai/DeepSeek-OCR) | - |
 | **PaddleOCR-VL** | 2025.10 | compact multilingual document parsing VLM | [arXiv](https://arxiv.org/abs/2510.14528) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
-| **Nanonets-OCR2** | 2025.10 | image-to-Markdown OCR2 family for tables, formulas, flowcharts, handwriting, and checkboxes | - | - | [Website](https://nanonets.com/research/nanonets-ocr-2/), [HF](https://huggingface.co/nanonets/Nanonets-OCR2-1.5B-exp) |
+| **Nanonets-OCR2** | 2025.10 | image-to-Markdown OCR2 family for tables, formulas, flowcharts, handwriting, and checkboxes | - | [GitHub](https://github.com/NanoNets/docstrange), [Cookbooks](https://github.com/NanoNets/Nanonets-OCR2) | [Website](https://nanonets.com/research/nanonets-ocr-2/), [HF](https://huggingface.co/nanonets/Nanonets-OCR2-3B) |
 | **POINTS-Reader** | 2025.09 | distillation-free VLM adaptation for document conversion | [arXiv](https://arxiv.org/abs/2509.01215) | [GitHub](https://github.com/Tencent/POINTS-Reader) | [HF](https://huggingface.co/tencent/POINTS-Reader) |
 | **Logics-Parsing** | 2025.09 | structured document parsing with logical extraction and LLM framework | [arXiv](https://arxiv.org/abs/2509.19760) | [GitHub](https://github.com/alibaba/Logics-Parsing) | - |
-| **Granite-Docling-258M** | 2025.09 | compact DocTags document conversion model | - | - | [HF](https://huggingface.co/ibm-granite/granite-docling-258M), [Docs](https://www.ibm.com/granite/docs/models/docling) |
+| **Granite-Docling-258M** | 2025.09 | compact DocTags document conversion model | - | [Docling](https://github.com/docling-project/docling) | [HF](https://huggingface.co/ibm-granite/granite-docling-258M), [Docs](https://www.ibm.com/granite/docs/models/docling) |
 | **OCRFlux-3B** | 2025.06 | 3B PDF/image-to-Markdown parser with page parsing and cross-page merging | - | [GitHub](https://github.com/chatdoc-com/OCRFlux) | [HF](https://huggingface.co/ChatDOC/OCRFlux-3B) |
 | **PP-DocBee2** | 2025.06 | efficient data and stronger document baselines | [arXiv](https://arxiv.org/abs/2506.18023) | [GitHub](https://github.com/PaddlePaddle/PaddleMIX/tree/develop/paddlemix/examples/ppdocbee2) | - |
 | **Infinity-Parser** | 2025.06 | layout-aware reinforcement learning for scanned document parsing | [arXiv](https://arxiv.org/abs/2506.03197) | [GitHub](https://github.com/infly-ai/INF-MLLM) | [HF](https://huggingface.co/infly/Infinity-Parser-7B) |
 | **MonkeyOCR** | 2025.06 | structure-recognition-relation document parser | [arXiv](https://arxiv.org/abs/2506.05218) | [GitHub](https://github.com/Yuliang-Liu/MonkeyOCR) | - |
 | **Nanonets-OCR-s** | 2025.06 | 3B structured Markdown OCR model for LaTeX, tables, signatures, watermarks, and checkboxes | - | [docext](https://github.com/NanoNets/docext) | [Blog](https://nanonets.com/research/nanonets-ocr-s/), [HF](https://huggingface.co/nanonets/Nanonets-OCR-s) |
 | **RolmOCR** | 2025.04 | lightweight Qwen2.5-VL-based page text extraction model | - | - | [HF](https://huggingface.co/reducto/RolmOCR) |
-| **SmolDocling** | 2025.03 | ultra-compact document conversion VLM | [arXiv](https://arxiv.org/abs/2503.11576) | - | [Hugging Face](https://huggingface.co/ds4sd/SmolDocling-256M-preview) |
+| **SmolDocling** | 2025.03 | ultra-compact document conversion VLM | [arXiv](https://arxiv.org/abs/2503.11576) | [Docling](https://github.com/docling-project/docling) | [Hugging Face](https://huggingface.co/docling-project/SmolDocling-256M-preview) |
 | **PP-DocBee** | 2025.03 | multimodal document understanding baseline | [arXiv](https://arxiv.org/abs/2503.04065) | [GitHub](https://github.com/PaddlePaddle/PaddleMIX/tree/develop/paddlemix/examples/ppdocbee) | - |
 | **olmOCR** | 2025.02 | open PDF-to-Markdown / page linearization model | [arXiv](https://arxiv.org/abs/2502.18443) | [GitHub](https://github.com/allenai/olmocr) | [HF Bench](https://huggingface.co/datasets/allenai/olmOCR-bench) |
 
@@ -336,9 +336,9 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **AGAR** | 2026.06 | attention-guided adaptive rendering for visual text comprehension | [arXiv](https://arxiv.org/abs/2606.12898) | - | - |
 | **LoMo** | 2026.05 | local modality substitution for cross-modal visual-text carrier alignment | [arXiv](https://arxiv.org/abs/2605.30265) | - | - |
 | **FastOCR** | 2026.05 | training-free dynamic visual fixation and KV-cache pruning for efficient VLM document parsing | [arXiv](https://arxiv.org/abs/2605.17447) | - | - |
-| **RTPrune** | 2026.05 | reading-twice inspired token pruning for efficient DeepSeek-OCR inference | [arXiv](https://arxiv.org/abs/2605.00392) | - | - |
+| **RTPrune** | 2026.05 | reading-twice inspired token pruning for efficient DeepSeek-OCR inference | [arXiv](https://arxiv.org/abs/2605.00392) | [GitHub](https://github.com/BurnWan/RTPrune) | - |
 | **TexOCR** | 2026.04 | SFT and RL with verifiable LaTeX unit-test rewards for page-to-LaTeX OCR | [arXiv](https://arxiv.org/abs/2604.22880), [ACL](https://arxiv.org/abs/2604.22880) | [GitHub](https://github.com/QDRhhhh/TexOCR) | - |
-| **MinerU-Diffusion** | 2026.03 | diffusion-style inverse-rendering OCR | [arXiv](https://arxiv.org/abs/2603.22458) | - | - |
+| **MinerU-Diffusion** | 2026.03 | diffusion-style inverse-rendering OCR | [arXiv](https://arxiv.org/abs/2603.22458) | [GitHub](https://github.com/opendatalab/MinerU-Diffusion) | - |
 | **Risk-Controlled Generative OCR / GRC** | 2026.03 | selective accept/abstain risk control for frozen VLM OCR | [arXiv](https://arxiv.org/abs/2603.19790) | [GitHub](https://github.com/phare111/GRC) | - |
 | **SimpleOCR** | 2026.02 | rendered visualized-question training to force MLLMs to read text visually | [arXiv](https://arxiv.org/abs/2602.22426) | [GitHub](https://github.com/aiming-lab/SimpleOCR) | - |
 | **PAR for Faithful OCR / GlitchText** | 2026.01 | training-free mitigation of linguistic-prior OCR hallucination | [OpenReview](https://openreview.net/forum?id=M8zr7QvasK) | [GitHub](https://github.com/Zoeyyao27/PAR-for-Faithful-OCR) | - |
