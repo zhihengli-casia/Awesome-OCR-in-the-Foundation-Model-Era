@@ -186,22 +186,48 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **IMPO / From Pixel to Precision** | 2026 | HMER with image-level reward | [CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_From_Pixel_to_Precision_Enhancing_Handwritten_Mathematical_Expression_Recognition_with_CVPR_2026_paper.html) | - | - |
+| **FastTab** | 2026.05 | fast grid-centric table structure recognition | [arXiv](https://arxiv.org/abs/2605.22422) | [GitHub](https://github.com/hamdilaziz/FastTab) | - |
+| **TableSeq** | 2026.04 | unified generation of table structure, content, and layout | [arXiv](https://arxiv.org/abs/2604.16070) | [GitHub](https://github.com/hamdilaziz/TableSeq) | - |
+| **TDATR** | 2026.03 | end-to-end table recognition with detail-aware learning and cell alignment | [arXiv](https://arxiv.org/abs/2603.22819) | [GitHub](https://github.com/Chunchunwumu/TDATR) | - |
 | **Texo** | 2026.02 | compact formula recognizer | [arXiv](https://arxiv.org/abs/2602.17189) | - | - |
+| **Tables Decoded / DELTA** | 2026 | decoupled table reconstruction with OTSL output | [WACV](https://openaccess.thecvf.com/content/WACV2026/html/Rajput_Tables_Decoded_DELTA_for_Structure_TARQA_for_Understanding_WACV_2026_paper.html) | [GitHub](https://github.com/Bharatgen-Tech/Tables-Decoded) | - |
+| **IMPO / From Pixel to Precision** | 2026 | HMER with image-level reward | [CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_From_Pixel_to_Precision_Enhancing_Handwritten_Mathematical_Expression_Recognition_with_CVPR_2026_paper.html) | - | - |
 | **TexTeller / Tex80M** | 2025.08 | scalable handwritten formula recognition | [arXiv](https://arxiv.org/abs/2508.09220) | [GitHub](https://github.com/OleehyO/TexTeller) | [HF](https://huggingface.co/OleehyO/TexTeller) |
+| **TABLET** | 2025.06 | encoder-only transformer for table structure recognition | [arXiv](https://arxiv.org/abs/2506.07015) | - | - |
 | **PP-FormulaNet** | 2025.03 | formula recognition | [arXiv](https://arxiv.org/abs/2503.18382) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
-| **StructEqTable** | 2025 | equation/table structure parsing | - | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) | - |
 | **SemiHMER** | 2025.02 | semi-supervised HMER | [arXiv](https://arxiv.org/abs/2502.07172) | - | - |
+| **TFLOP** | 2025.01 | table structure recognition with layout pointer | [arXiv](https://arxiv.org/abs/2501.11800) | [GitHub](https://github.com/UpstageAI/TFLOP) | - |
+| **DocLayout-YOLO** | 2024.10 | document layout detection | [arXiv](https://arxiv.org/abs/2410.12628) | [GitHub](https://github.com/opendatalab/DocLayout-YOLO) | - |
 | **TAMER** | 2024.08 | tree-aware transformer for HMER | [arXiv](https://arxiv.org/abs/2408.08578) | [GitHub](https://github.com/qingzhenduyu/TAMER) | - |
 | **PosFormer** | 2024.07 | position-aware HMER | [arXiv](https://arxiv.org/abs/2407.07764) | [GitHub](https://github.com/SJTU-DeepVisionLab/PosFormer) | - |
+| **DLAFormer** | 2024.05 | unified document layout analysis with reading-order relations | [arXiv](https://arxiv.org/abs/2405.11757) | - | - |
 | **UniMERNet** | 2024.04 | formula recognition | [arXiv](https://arxiv.org/abs/2404.15254) | [GitHub](https://github.com/opendatalab/UniMERNet) | - |
+| **UniTable** | 2024.03 | unified table structure, cell content, and cell-box recognition | [arXiv](https://arxiv.org/abs/2403.04822) | [GitHub](https://github.com/poloclub/unitable) | [HF](https://huggingface.co/poloclub/UniTable) |
 | **GAP** | 2024 | grammar- and position-aware multi-line formula recognition | [DOI](https://doi.org/10.1145/3616855.3635776) | - | - |
-| **LAST** | 2023 | line-aware semi-autoregressive HMER | [DOI](https://doi.org/10.1145/3581783.3612499) | [GitHub](https://github.com/HCIILAB/LAST) | - |
+| **LAST** | 2023.10 | line-aware semi-autoregressive HMER | [DOI](https://doi.org/10.1145/3581783.3612499) | [GitHub](https://github.com/HCIILAB/LAST) | - |
+| **VGT** | 2023.08 | vision-grid transformer for document layout analysis | [arXiv](https://arxiv.org/abs/2308.14978) | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/DocumentUnderstanding/VGT) | - |
 | **SGRL** | 2023.08 | semantic graph representation learning for HMER | [arXiv](https://arxiv.org/abs/2308.10493) | - | - |
+| **UniChart** | 2023.05 | chart comprehension and chart-to-table pretraining | [arXiv](https://arxiv.org/abs/2305.14761) | [GitHub](https://github.com/vis-nlp/UniChart) | [HF](https://huggingface.co/ahmed-masry/unichart-base-960) |
+| **VAST** | 2023.03 | visual-alignment sequential coordinate modeling for TSR | [arXiv](https://arxiv.org/abs/2303.06949) | - | - |
+| **TSRFormer / DQ-DETR** | 2023.03 | dynamic-query DETR for robust table structure recognition | [arXiv](https://arxiv.org/abs/2303.11615) | - | - |
+| **MatCha** | 2022.12 | math reasoning and chart-derendering pretraining | [arXiv](https://arxiv.org/abs/2212.09662) | [GitHub](https://github.com/google-research/google-research/tree/master/deplot) | [HF](https://huggingface.co/google/matcha-chartqa) |
+| **DePlot** | 2022.12 | plot-to-table translation for chart reasoning | [arXiv](https://arxiv.org/abs/2212.10505) | [GitHub](https://github.com/google-research/google-research/tree/master/deplot) | [Kaggle](https://www.kaggle.com/models/google/deplot) |
+| **StructEqTable** | 2022.09 | equation/table structure parsing | - | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) | - |
 | **CoMER** | 2022.07 | coverage modeling for transformer-based HMER | [arXiv](https://arxiv.org/abs/2207.04410) | [GitHub](https://github.com/Green-Wood/CoMER) | - |
 | **CAN** | 2022.07 | counting-aware HMER | [arXiv](https://arxiv.org/abs/2207.11463) | [GitHub](https://github.com/LBH1024/CAN) | - |
+| **GriTS** | 2022.03 | grid table similarity metric for table structure recognition | [arXiv](https://arxiv.org/abs/2203.12555) | [GitHub](https://github.com/microsoft/table-transformer) | - |
+| **TableFormer** | 2022.03 | table structure recognition; table-to-HTML modeling | [arXiv](https://arxiv.org/abs/2203.01017) | - | - |
+| **LGPMA** | 2022.03 | table detection and structure recognition | [arXiv](https://arxiv.org/abs/2203.09056) | - | - |
 | **SAN** | 2022.03 | syntax-aware HMER | [arXiv](https://arxiv.org/abs/2203.01601) | [GitHub](https://github.com/tal-tech/san) | - |
+| **Table Transformer / TATR** | 2021.10 | table detection and structure recognition; PubTables-1M baseline | [arXiv](https://arxiv.org/abs/2110.00061) | [GitHub](https://github.com/microsoft/table-transformer) | [HF](https://huggingface.co/microsoft/table-transformer-structure-recognition) |
+| **SEM** | 2021.07 | split-embed-merge table structure recognition | [arXiv](https://arxiv.org/abs/2107.05214) | [GitHub](https://github.com/ZZR8066/SEM) | - |
+| **TableMaster** | 2021.05 | sequence-based table-to-HTML recognizer | [arXiv](https://arxiv.org/abs/2105.01848) | [GitHub](https://github.com/JiaquanYe/TableMASTER-mmocr) | - |
 | **BTTR** | 2021.05 | bidirectionally trained transformer for HMER | [arXiv](https://arxiv.org/abs/2105.02412) | [GitHub](https://github.com/Green-Wood/BTTR) | - |
+| **LayoutParser** | 2021.03 | layout analysis toolkit; model zoo and document layout pipelines | [arXiv](https://arxiv.org/abs/2103.15348) | [GitHub](https://github.com/Layout-Parser/layout-parser) | [Docs](https://layout-parser.github.io/) |
+| **ChartOCR / DeepRule** | 2021 | chart data extraction via structural keypoints and rules | [WACV](https://openaccess.thecvf.com/content/WACV2021/html/Luo_ChartOCR_Data_Extraction_From_Charts_Images_via_a_Deep_Hybrid_WACV_2021_paper.html) | [GitHub](https://github.com/soap117/DeepRule) | - |
+| **pix2tex / LaTeX-OCR** | 2020.12 | formula image to LaTeX | - | [GitHub](https://github.com/lukas-blecher/LaTeX-OCR) | - |
+| **CascadeTabNet** | 2020.04 | end-to-end table detection and structure recognition | [arXiv](https://arxiv.org/abs/2004.12629) | [GitHub](https://github.com/DevashishPrasad/CascadeTabNet) | - |
+| **PubTabNet / EDD** | 2019.11 | table structure recognition baseline | [arXiv](https://arxiv.org/abs/1911.10683) | [GitHub](https://github.com/ibm-aur-nlp/PubTabNet), [EDD](https://github.com/ibm-aur-nlp/EDD) | - |
 | **WAP** | 2017 | handwritten mathematical expression recognition | [DOI](https://doi.org/10.1016/j.patcog.2017.06.017) | - | - |
 | **Im2Markup** | 2016.09 | image-to-LaTeX generation | [arXiv](https://arxiv.org/abs/1609.04938) | [GitHub](https://github.com/harvardnlp/im2markup) | - |
 
