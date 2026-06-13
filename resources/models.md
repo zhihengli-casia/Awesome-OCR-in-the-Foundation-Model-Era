@@ -69,7 +69,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **OpenOCR** | 2024.05 | open OCR training and evaluation toolkit | - | [GitHub](https://github.com/topdu/openocr) | - |
 | **Surya** | 2024.01 | OCR, layout, reading-order, and line-detection toolkit | - | [GitHub](https://github.com/datalab-to/surya) | - |
 | **EffOCR / EfficientOCR** | 2023.10 | sample-efficient OCR package based on character / word image retrieval | [arXiv](https://arxiv.org/abs/2310.10050) | [GitHub](https://github.com/dell-research-harvard/efficient_ocr) | [Project](https://effocr.github.io/) |
-| **MMOCR** | 2021.08 | OCR research toolkit | [arXiv](https://arxiv.org/abs/2108.06543) | [GitHub](https://github.com/open-mmlab/mmocr) | [Docs](https://mmocr.readthedocs.io/) |
+| **MMOCR** | 2021.08 | OCR research toolkit | [arXiv](https://arxiv.org/abs/2108.06543), [ACM MM](https://dl.acm.org/doi/10.1145/3474085.3478328) | [GitHub](https://github.com/open-mmlab/mmocr) | [Docs](https://mmocr.readthedocs.io/) |
 | **eScriptorium** | 2021.05 | open OCR/HTR production platform for segmentation, transcription, correction, and model training | - | [GitLab](https://gitlab.com/scripta/escriptorium) | [Docs](https://escriptorium.readthedocs.io/) |
 | **docTR** | 2021.01 | document OCR toolkit | - | [GitHub](https://github.com/mindee/doctr) | [Docs](https://mindee.github.io/doctr/) |
 | **RapidOCR** | 2021.01 | lightweight OCR toolkit with ONNX, OpenVINO, Paddle, and PyTorch backends | - | [GitHub](https://github.com/RapidAI/RapidOCR) | [Docs](https://rapidai.github.io/RapidOCRDocs/) |
@@ -92,7 +92,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 |---|:---:|---|---|---|---|
 | **InstructOCR** | 2024.12 | instruction-boosted scene text spotting | [arXiv](https://arxiv.org/abs/2412.15523) | [GitHub](https://github.com/ChenD-VL/InstructOCR) | - |
 | **DNTextSpotter** | 2024.08 | denoising-training transformer for arbitrary-shape text spotting | [arXiv](https://arxiv.org/abs/2408.00355) | [GitHub](https://github.com/yyyyyxie/DNTextSpotter) | - |
-| **FastTextSpotter** | 2024.08 | high-efficiency multilingual transformer text spotting | [arXiv](https://arxiv.org/abs/2408.14998) | [GitHub](https://github.com/alloydas/Fast-Textspotter) | - |
+| **FastTextSpotter** | 2024.08 | high-efficiency multilingual transformer text spotting | [arXiv](https://arxiv.org/abs/2408.14998), [ICPR](https://doi.org/10.1007/978-3-031-78498-9_10) | [GitHub](https://github.com/alloydas/Fast-Textspotter) | - |
 | **Bridging Text Spotting** | 2024.04 | bridge between modular detector-recognizer and end-to-end spotting | [arXiv](https://arxiv.org/abs/2404.04624) | [GitHub](https://github.com/mxin262/Bridging-Text-Spotting) | - |
 | **SwinTextSpotter v2** | 2024.01 | recognition-conversion and recognition-alignment text spotting | [arXiv](https://arxiv.org/abs/2401.07641) | [GitHub](https://github.com/mxin262/SwinTextSpotterv2) | - |
 | **ESTextSpotter** | 2023.08 | explicit-synergy transformer text spotting | [arXiv](https://arxiv.org/abs/2308.10147) | [GitHub](https://github.com/mxin262/ESTextSpotter) | - |
@@ -106,7 +106,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **DBNet++** | 2022.02 | adaptive-scale DB text detection | [arXiv](https://arxiv.org/abs/2202.10304) | [GitHub](https://github.com/MhLiao/DB) | - |
 | **SPTS** | 2021.12 | single-point text spotting via sequence generation | [arXiv](https://arxiv.org/abs/2112.07917) | [GitHub](https://github.com/shannanyinxiang/SPTS) | - |
 | **FAST** | 2021.11 | faster arbitrary-shape text detector with minimalist kernel representation | [arXiv](https://arxiv.org/abs/2111.02394) | [GitHub](https://github.com/czczup/FAST) | - |
-| **ABCNet v2** | 2021.05 | Bezier-curve scene text spotting | [arXiv](https://arxiv.org/abs/2105.03620) | [GitHub](https://github.com/Yuliang-Liu/AdelaiDet) | - |
+| **ABCNet v2** | 2021.05 | Bezier-curve scene text spotting | [arXiv](https://arxiv.org/abs/2105.03620), [TPAMI](https://www.computer.org/csdl/journal/tp/2022/11/09525302/1wuoVjl3Eu4) | [GitHub](https://github.com/aim-uofa/AdelaiDet) | - |
 | **FCENet** | 2021.04 | Fourier-contour arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2104.10442) | [GitHub](https://github.com/yuchenwang815/FCENet) | - |
 | **MOST** | 2021.04 | multi-oriented text detection with localization refinement | [arXiv](https://arxiv.org/abs/2104.01070) | - | - |
 | **PGNet** | 2021.04 | real-time point-gathering arbitrary-shape text spotting | [arXiv](https://arxiv.org/abs/2104.05458) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
@@ -140,11 +140,11 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **MDiff4STR** | 2025.12 | mask-diffusion scene text recognizer | [arXiv](https://arxiv.org/abs/2512.01422) | [GitHub](https://github.com/Topdu/OpenOCR) | - |
 | **SVTRv2** | 2024.11 | CTC recognizer with irregular-text handling and semantic guidance | [arXiv](https://arxiv.org/abs/2411.15858) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
 | **SMTR / FocalSVTR** | 2024.07 | out-of-length text recognition with sub-string matching | [arXiv](https://arxiv.org/abs/2407.12317) | [GitHub](https://github.com/Topdu/OpenOCR/tree/main/configs/rec/smtr) | - |
-| **IGTR** | 2024.01 | instruction-guided scene text recognition | [arXiv](https://arxiv.org/abs/2401.17851) | [GitHub](https://github.com/Topdu/OpenOCR) | - |
+| **IGTR** | 2024.01 | instruction-guided scene text recognition | [arXiv](https://arxiv.org/abs/2401.17851), [TPAMI](https://www.computer.org/csdl/journal/tp/2025/04/10820836/23d1lCCI3sI) | [GitHub](https://github.com/Topdu/OpenOCR) | - |
 | **DTrOCR** | 2023.08 | decoder-only transformer for printed, handwritten, and scene text recognition | [arXiv](https://arxiv.org/abs/2308.15996) | [GitHub reimpl.](https://github.com/arvindrajan92/DTrOCR) | - |
 | **LISTER** | 2023.08 | length-insensitive scene text recognizer with neighbor decoding | [arXiv](https://arxiv.org/abs/2308.12774) | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) | - |
 | **CPPD** | 2023.07 | context-perception parallel decoder for fast STR | [arXiv](https://arxiv.org/abs/2307.12270) | [GitHub](https://github.com/Topdu/OpenOCR/tree/main/configs/rec/cppd) | - |
-| **MAERec / Union14M** | 2023.07 | data-centric STR benchmark and MAE-pretrained recognizer | [arXiv](https://arxiv.org/abs/2307.08723) | [GitHub](https://github.com/Mountchicken/Union14M) | [Project](https://union14m.github.io/) |
+| **MAERec / Union14M** | 2023.07 | data-centric STR benchmark and MAE-pretrained recognizer | [arXiv](https://arxiv.org/abs/2307.08723), [ICCV](https://openaccess.thecvf.com/content/ICCV2023/html/Jiang_Revisiting_Scene_Text_Recognition_A_Data_Perspective_ICCV_2023_paper.html) | [GitHub](https://github.com/Mountchicken/Union14M) | [Project](https://union14m.github.io/) |
 | **DiffusionSTR** | 2023.06 | diffusion model for scene text recognition | [arXiv](https://arxiv.org/abs/2306.16707) | - | - |
 | **CLIP4STR** | 2023.05 | CLIP-based vision-language scene text recognizer | [arXiv](https://arxiv.org/abs/2305.14014) | [GitHub reimpl.](https://github.com/VamosC/CLIP4STR) | [HF](https://huggingface.co/mzhaoshuai/CLIP4STR) |
 | **TPS++** | 2023.05 | attention-enhanced thin-plate-spline rectifier for STR | [arXiv](https://arxiv.org/abs/2305.05322) | [GitHub](https://github.com/simplify23/TPS_PP) | - |
@@ -199,7 +199,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **TFLOP** | 2025.01 | table structure recognition with layout pointer | [arXiv](https://arxiv.org/abs/2501.11800) | [GitHub](https://github.com/UpstageAI/TFLOP) | - |
 | **DocLayout-YOLO** | 2024.10 | document layout detection | [arXiv](https://arxiv.org/abs/2410.12628) | [GitHub](https://github.com/opendatalab/DocLayout-YOLO) | - |
 | **TAMER** | 2024.08 | tree-aware transformer for HMER | [arXiv](https://arxiv.org/abs/2408.08578) | [GitHub](https://github.com/qingzhenduyu/TAMER) | - |
-| **PosFormer** | 2024.07 | position-aware HMER | [arXiv](https://arxiv.org/abs/2407.07764) | [GitHub](https://github.com/SJTU-DeepVisionLab/PosFormer) | - |
+| **PosFormer** | 2024.07 | position-aware HMER | [arXiv](https://arxiv.org/abs/2407.07764), [ECCV](https://doi.org/10.1007/978-3-031-72670-5_8) | [GitHub](https://github.com/SJTU-DeepVisionLab/PosFormer) | - |
 | **DLAFormer** | 2024.05 | unified document layout analysis with reading-order relations | [arXiv](https://arxiv.org/abs/2405.11757) | - | - |
 | **UniMERNet** | 2024.04 | formula recognition | [arXiv](https://arxiv.org/abs/2404.15254) | [GitHub](https://github.com/opendatalab/UniMERNet) | - |
 | **UniTable** | 2024.03 | unified table structure, cell content, and cell-box recognition | [arXiv](https://arxiv.org/abs/2403.04822) | [GitHub](https://github.com/poloclub/unitable) | [HF](https://huggingface.co/poloclub/UniTable) |
@@ -213,7 +213,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **MatCha** | 2022.12 | math reasoning and chart-derendering pretraining | [arXiv](https://arxiv.org/abs/2212.09662) | [GitHub](https://github.com/google-research/google-research/tree/master/deplot) | [HF](https://huggingface.co/google/matcha-chartqa) |
 | **DePlot** | 2022.12 | plot-to-table translation for chart reasoning | [arXiv](https://arxiv.org/abs/2212.10505) | [GitHub](https://github.com/google-research/google-research/tree/master/deplot) | [Kaggle](https://www.kaggle.com/models/google/deplot) |
 | **StructEqTable** | 2022.09 | equation/table structure parsing | - | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) | - |
-| **CoMER** | 2022.07 | coverage modeling for transformer-based HMER | [arXiv](https://arxiv.org/abs/2207.04410) | [GitHub](https://github.com/Green-Wood/CoMER) | - |
+| **CoMER** | 2022.07 | coverage modeling for transformer-based HMER | [arXiv](https://arxiv.org/abs/2207.04410), [ECCV](https://doi.org/10.1007/978-3-031-19815-1_23) | [GitHub](https://github.com/Green-Wood/CoMER) | - |
 | **CAN** | 2022.07 | counting-aware HMER | [arXiv](https://arxiv.org/abs/2207.11463) | [GitHub](https://github.com/LBH1024/CAN) | - |
 | **GriTS** | 2022.03 | grid table similarity metric for table structure recognition | [arXiv](https://arxiv.org/abs/2203.12555) | [GitHub](https://github.com/microsoft/table-transformer) | - |
 | **TableFormer** | 2022.03 | table structure recognition; table-to-HTML modeling | [arXiv](https://arxiv.org/abs/2203.01017) | - | - |
@@ -222,14 +222,14 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **Table Transformer / TATR** | 2021.10 | table detection and structure recognition; PubTables-1M baseline | [arXiv](https://arxiv.org/abs/2110.00061) | [GitHub](https://github.com/microsoft/table-transformer) | [HF](https://huggingface.co/microsoft/table-transformer-structure-recognition) |
 | **SEM** | 2021.07 | split-embed-merge table structure recognition | [arXiv](https://arxiv.org/abs/2107.05214) | [GitHub](https://github.com/ZZR8066/SEM) | - |
 | **TableMaster** | 2021.05 | sequence-based table-to-HTML recognizer | [arXiv](https://arxiv.org/abs/2105.01848) | [GitHub](https://github.com/JiaquanYe/TableMASTER-mmocr) | - |
-| **BTTR** | 2021.05 | bidirectionally trained transformer for HMER | [arXiv](https://arxiv.org/abs/2105.02412) | [GitHub](https://github.com/Green-Wood/BTTR) | - |
+| **BTTR** | 2021.05 | bidirectionally trained transformer for HMER | [arXiv](https://arxiv.org/abs/2105.02412), [ICDAR](https://doi.org/10.1007/978-3-030-86331-9_37) | [GitHub](https://github.com/Green-Wood/BTTR) | - |
 | **LayoutParser** | 2021.03 | layout analysis toolkit; model zoo and document layout pipelines | [arXiv](https://arxiv.org/abs/2103.15348) | [GitHub](https://github.com/Layout-Parser/layout-parser) | [Docs](https://layout-parser.github.io/) |
 | **ChartOCR / DeepRule** | 2021 | chart data extraction via structural keypoints and rules | [WACV](https://openaccess.thecvf.com/content/WACV2021/html/Luo_ChartOCR_Data_Extraction_From_Charts_Images_via_a_Deep_Hybrid_WACV_2021_paper.html) | [GitHub](https://github.com/soap117/DeepRule) | - |
 | **pix2tex / LaTeX-OCR** | 2020.12 | formula image to LaTeX | - | [GitHub](https://github.com/lukas-blecher/LaTeX-OCR) | - |
-| **CascadeTabNet** | 2020.04 | end-to-end table detection and structure recognition | [arXiv](https://arxiv.org/abs/2004.12629) | [GitHub](https://github.com/DevashishPrasad/CascadeTabNet) | - |
+| **CascadeTabNet** | 2020.04 | end-to-end table detection and structure recognition | [arXiv](https://arxiv.org/abs/2004.12629), [CVPRW](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w34/Prasad_CascadeTabNet_An_Approach_for_End_to_End_Table_Detection_and_CVPRW_2020_paper.pdf) | [GitHub](https://github.com/DevashishPrasad/CascadeTabNet) | - |
 | **PubTabNet / EDD** | 2019.11 | table structure recognition baseline | [arXiv](https://arxiv.org/abs/1911.10683) | [GitHub](https://github.com/ibm-aur-nlp/PubTabNet), [EDD](https://github.com/ibm-aur-nlp/EDD) | - |
 | **WAP** | 2017 | handwritten mathematical expression recognition | [DOI](https://doi.org/10.1016/j.patcog.2017.06.017) | - | - |
-| **Im2Markup** | 2016.09 | image-to-LaTeX generation | [arXiv](https://arxiv.org/abs/1609.04938) | [GitHub](https://github.com/harvardnlp/im2markup) | - |
+| **Im2Markup** | 2016.09 | image-to-LaTeX generation | [arXiv](https://arxiv.org/abs/1609.04938), [ICML](https://proceedings.mlr.press/v70/deng17a.html) | [GitHub](https://github.com/harvardnlp/im2markup) | - |
 
 </details>
 
@@ -284,7 +284,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **Monkey** | 2023.11 | text-centric MLLM | [arXiv](https://arxiv.org/abs/2311.06607) | [GitHub](https://github.com/Yuliang-Liu/Monkey) | - |
 | **mPLUG-PaperOwl** | 2023.11 | scientific diagram and paper figure analysis with MLLMs | [arXiv](https://arxiv.org/abs/2311.18248) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl/tree/main/PaperOwl) | - |
 | **TGDoc** | 2023.11 | text-grounding document understanding with MLLMs | [arXiv](https://arxiv.org/abs/2311.13194) | [GitHub](https://github.com/harrytea/TGDoc) | - |
-| **DocPedia** | 2023.11 | frequency-domain OCR-free document understanding | [arXiv](https://arxiv.org/abs/2311.11810) | - | [HF Paper](https://huggingface.co/papers/2311.11810) |
+| **DocPedia** | 2023.11 | frequency-domain OCR-free document understanding | [arXiv](https://arxiv.org/abs/2311.11810), [SCIS](https://doi.org/10.1007/s11432-024-4250-y) | - | [HF Paper](https://huggingface.co/papers/2311.11810) |
 | **UReader** | 2023.10 | OCR-free visually situated language understanding | [arXiv](https://arxiv.org/abs/2310.05126) | [GitHub](https://github.com/LukeForeverYoung/UReader) | - |
 | **UniDoc** | 2023.08 | simultaneous text detection, recognition, spotting, and understanding | [arXiv](https://arxiv.org/abs/2308.11592) | - | - |
 | **DocOwl** | 2023.07 | document-oriented VLM | [arXiv](https://arxiv.org/abs/2307.02499) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) | - |
@@ -410,7 +410,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **Idefics2 / Idefics3** | 2024.05 / 2024.08 | open Hugging Face VLM line for OCR, document understanding, and visual reasoning | [Idefics2](https://arxiv.org/abs/2405.02246), [Idefics3](https://arxiv.org/abs/2408.12637) | - | [Idefics2 HF](https://huggingface.co/HuggingFaceM4/idefics2-8b), [Idefics3 HF](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3) |
 | **Mantis** | 2024.05 | interleaved multi-image instruction-tuned LMM with strong single-image and multi-image performance | [arXiv](https://arxiv.org/abs/2405.01483), [TMLR](https://openreview.net/forum?id=skLtdUVaJa) | [GitHub](https://github.com/TIGER-AI-Lab/Mantis) | [HF](https://huggingface.co/TIGER-Lab/Mantis-8B-siglip-llama3) |
 | **DeepSeek-VL / Yi-VL / Mini-Gemini** | 2024.03 / 2024.03 / 2024.03 | early 2024 open general VLM baselines for text-rich images and high-resolution visual detail | [DeepSeek-VL](https://arxiv.org/abs/2403.05525), [Yi-VL](https://arxiv.org/abs/2403.04652), [Mini-Gemini](https://arxiv.org/abs/2403.18814) | [DeepSeek-VL](https://github.com/deepseek-ai/DeepSeek-VL), [Yi](https://github.com/01-ai/Yi), [MGM](https://github.com/dvlab-research/MGM) | [Yi-VL HF](https://huggingface.co/01-ai/Yi-VL-34B), [MGM Project](https://mini-gemini.github.io/) |
-| **BLIP-2 / MiniGPT-4 / InstructBLIP / Florence-2 / VILA** | 2023.01 / 2023.04 / 2023.05 / 2023.11 / 2023.12 | earlier open VLM baselines used as OCR interfaces before modern document-specialized VLMs | [BLIP-2](https://arxiv.org/abs/2301.12597), [MiniGPT-4](https://arxiv.org/abs/2304.10592), [InstructBLIP](https://arxiv.org/abs/2305.06500), [Florence-2](https://arxiv.org/abs/2311.06242), [VILA](https://arxiv.org/abs/2312.07533) | [LAVIS](https://github.com/salesforce/LAVIS), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), [VILA](https://github.com/NVlabs/VILA) | [Florence-2 HF](https://huggingface.co/microsoft/Florence-2-large), [VILA Project](https://hanlab.mit.edu/projects/vila) |
+| **BLIP-2 / MiniGPT-4 / InstructBLIP / Florence-2 / VILA** | 2023.01 / 2023.04 / 2023.05 / 2023.11 / 2023.12 | earlier open VLM baselines used as OCR interfaces before modern document-specialized VLMs | [BLIP-2](https://arxiv.org/abs/2301.12597), [MiniGPT-4](https://arxiv.org/abs/2304.10592), [InstructBLIP](https://arxiv.org/abs/2305.06500), [Florence-2](https://arxiv.org/abs/2311.06242), [VILA](https://arxiv.org/abs/2312.07533), [VILA CVPR](https://openaccess.thecvf.com/content/CVPR2024/html/Lin_VILA_On_Pre-training_for_Visual_Language_Models_CVPR_2024_paper.html) | [LAVIS](https://github.com/salesforce/LAVIS), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4), [VILA](https://github.com/NVlabs/VILA) | [Florence-2 HF](https://huggingface.co/microsoft/Florence-2-large), [VILA Project](https://hanlab.mit.edu/projects/vila) |
 
 ### Closed/API General VLMs
 
