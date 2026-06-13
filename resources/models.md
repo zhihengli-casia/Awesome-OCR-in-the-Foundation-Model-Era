@@ -337,7 +337,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **MinerU-Diffusion** | 2026.03 | diffusion-style inverse-rendering OCR | [arXiv](https://arxiv.org/abs/2603.22458) | - | - |
 | **Risk-Controlled Generative OCR / GRC** | 2026.03 | selective accept/abstain risk control for frozen VLM OCR | [arXiv](https://arxiv.org/abs/2603.19790) | [GitHub](https://github.com/phare111/GRC) | - |
 | **PAR for Faithful OCR / GlitchText** | 2026.01 | training-free mitigation of linguistic-prior OCR hallucination | [OpenReview](https://openreview.net/forum?id=M8zr7QvasK) | [GitHub](https://github.com/Zoeyyao27/PAR-for-Faithful-OCR) | - |
-| **Teaching VLMs to Admit Uncertainty in OCR** | 2026.01 | uncertainty-aware OCR with explicit unreliable-span tags | [ICLR](https://openreview.net/forum?id=zyCjizqOxB) | [GitHub](https://github.com/NikoGuan/Uncertainty_OCR) | - |
+| **Teaching VLMs to Admit Uncertainty in OCR** | 2026.01 | uncertainty-aware OCR with explicit unreliable-span tags | [OpenReview](https://openreview.net/forum?id=zyCjizqOxB) | [GitHub](https://github.com/NikoGuan/Uncertainty_OCR) | - |
 | **FDRL for Document OCR** | 2026.01 | format-decoupled reinforcement learning | [arXiv](https://arxiv.org/abs/2601.08834) | - | - |
 | **Reading Between the Lines / LRP** | 2025.11 | latent-representation probes for abstaining from VLM-generated OCR errors | [arXiv](https://arxiv.org/abs/2511.19806) | - | - |
 | **OCR-Critic / OCR-ERROR** | 2025.10 | critical feedback alignment and OCR error diagnosis for MLLMs | [ACM DL](https://dl.acm.org/doi/10.1145/3746027.3754585) | - | - |
