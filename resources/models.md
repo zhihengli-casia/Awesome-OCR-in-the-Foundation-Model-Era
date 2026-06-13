@@ -136,14 +136,51 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **CRNN** | 2015.07 | cropped text recognition | [TPAMI](https://arxiv.org/abs/1507.05717) | [GitHub](https://github.com/meijieru/crnn.pytorch) | - |
-| **ASTER** | 2018 / 2019 | irregular text recognition | [TPAMI](https://doi.org/10.1109/TPAMI.2018.2848939) | [GitHub](https://github.com/bgshih/aster) | - |
-| **SRN** | 2020.03 | semantic reasoning recognizer | [arXiv](https://arxiv.org/abs/2003.12294) | - | - |
-| **ABINet** | 2021.03 | language-aware recognizer | [arXiv](https://arxiv.org/abs/2103.06495) | [GitHub](https://github.com/FangShancheng/ABINet) | - |
-| **ViTSTR** | 2021.05 | ViT recognizer | [arXiv](https://arxiv.org/abs/2105.08582) | [GitHub](https://github.com/roatienza/deep-text-recognition-benchmark) | - |
-| **PARSeq** | 2022.07 | autoregressive recognizer | [arXiv](https://arxiv.org/abs/2207.06966) | [GitHub](https://github.com/baudm/parseq) | - |
-| **SVTR / SVTRv2** | 2022.05 / 2024.11 | efficient cropped recognizer | [IJCAI](https://arxiv.org/abs/2205.00159) / [arXiv](https://arxiv.org/abs/2411.15858) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
+| **UniRec-0.1B** | 2025.12 | unified text and formula recognizer for word, line, paragraph, and document levels | [arXiv](https://arxiv.org/abs/2512.21095) | [GitHub](https://github.com/Topdu/OpenOCR) | [HF](https://huggingface.co/topdu/unirec-0.1b) |
+| **MDiff4STR** | 2025.12 | mask-diffusion scene text recognizer | [arXiv](https://arxiv.org/abs/2512.01422) | [GitHub](https://github.com/Topdu/OpenOCR) | - |
+| **SVTRv2** | 2024.11 | CTC recognizer with irregular-text handling and semantic guidance | [arXiv](https://arxiv.org/abs/2411.15858) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
+| **SMTR / FocalSVTR** | 2024.07 | out-of-length text recognition with sub-string matching | [arXiv](https://arxiv.org/abs/2407.12317) | [GitHub](https://github.com/Topdu/OpenOCR/tree/main/configs/rec/smtr) | - |
+| **IGTR** | 2024.01 | instruction-guided scene text recognition | [arXiv](https://arxiv.org/abs/2401.17851) | [GitHub](https://github.com/Topdu/OpenOCR) | - |
+| **DTrOCR** | 2023.08 | decoder-only transformer for printed, handwritten, and scene text recognition | [arXiv](https://arxiv.org/abs/2308.15996) | [GitHub reimpl.](https://github.com/arvindrajan92/DTrOCR) | - |
+| **LISTER** | 2023.08 | length-insensitive scene text recognizer with neighbor decoding | [arXiv](https://arxiv.org/abs/2308.12774) | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) | - |
+| **CPPD** | 2023.07 | context-perception parallel decoder for fast STR | [arXiv](https://arxiv.org/abs/2307.12270) | [GitHub](https://github.com/Topdu/OpenOCR/tree/main/configs/rec/cppd) | - |
+| **MAERec / Union14M** | 2023.07 | data-centric STR benchmark and MAE-pretrained recognizer | [arXiv](https://arxiv.org/abs/2307.08723) | [GitHub](https://github.com/Mountchicken/Union14M) | [Project](https://union14m.github.io/) |
+| **DiffusionSTR** | 2023.06 | diffusion model for scene text recognition | [arXiv](https://arxiv.org/abs/2306.16707) | - | - |
+| **CLIP4STR** | 2023.05 | CLIP-based vision-language scene text recognizer | [arXiv](https://arxiv.org/abs/2305.14014) | [GitHub reimpl.](https://github.com/VamosC/CLIP4STR) | [HF](https://huggingface.co/mzhaoshuai/CLIP4STR) |
+| **TPS++** | 2023.05 | attention-enhanced thin-plate-spline rectifier for STR | [arXiv](https://arxiv.org/abs/2305.05322) | [GitHub](https://github.com/simplify23/TPS_PP) | - |
+| **LPV** | 2023.05 | linguistic-perception vision model for efficient STR | [arXiv](https://arxiv.org/abs/2305.05140) | [GitHub](https://github.com/CyrilSterling/LPV) | - |
+| **LevOCR** | 2022.09 | Levenshtein-transformer STR with iterative sequence refinement | [arXiv](https://arxiv.org/abs/2209.03594) | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) | - |
+| **MGP-STR** | 2022.09 | multi-granularity prediction recognizer | [arXiv](https://arxiv.org/abs/2209.03592) | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) | - |
+| **PARSeq** | 2022.07 | permuted autoregressive recognizer | [arXiv](https://arxiv.org/abs/2207.06966) | [GitHub](https://github.com/baudm/parseq) | - |
+| **SVTR** | 2022.05 | efficient single-visual-model recognizer | [IJCAI](https://arxiv.org/abs/2205.00159) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
+| **MATRN** | 2021.11 | interactive visual-semantic text recognition network | [arXiv](https://arxiv.org/abs/2111.15263) | [GitHub](https://github.com/byeonghu-na/MATRN) | - |
+| **CDistNet** | 2021.11 | multi-domain character-distance recognizer | [arXiv](https://arxiv.org/abs/2111.11011) | [GitHub](https://github.com/simplify23/CDistNet) | - |
 | **TrOCR** | 2021.09 | pretrained encoder-decoder recognizer | [arXiv](https://arxiv.org/abs/2109.10282) | [GitHub](https://github.com/microsoft/unilm/tree/master/trocr) | [HF Docs](https://huggingface.co/docs/transformers/model_doc/trocr) |
+| **VisionLAN** | 2021.08 | visual-language modeling recognizer | [arXiv](https://arxiv.org/abs/2108.09661) | [GitHub](https://github.com/wangyuxin87/VisionLAN) | - |
+| **ViTSTR** | 2021.05 | ViT recognizer | [arXiv](https://arxiv.org/abs/2105.08582) | [GitHub](https://github.com/roatienza/deep-text-recognition-benchmark) | - |
+| **ABINet** | 2021.03 | language-aware recognizer | [arXiv](https://arxiv.org/abs/2103.06495) | [GitHub](https://github.com/FangShancheng/ABINet) | - |
+| **DiG** | 2021 | dictionary-guided scene text recognition | [CVF](https://openaccess.thecvf.com/content/CVPR2021/papers/Nguyen_Dictionary-Guided_Scene_Text_Recognition_CVPR_2021_paper.pdf) | [GitHub](https://github.com/VinAIResearch/dict-guided) | - |
+| **RobustScanner** | 2020.07 | positional-clue enhanced recognizer | [arXiv](https://arxiv.org/abs/2007.07542) | - | - |
+| **SEED** | 2020.05 | semantics-enhanced encoder-decoder recognizer | [arXiv](https://arxiv.org/abs/2005.10977) | [GitHub](https://github.com/Pay20Y/SEED) | - |
+| **SRN** | 2020.03 | semantic reasoning recognizer | [arXiv](https://arxiv.org/abs/2003.12294) | - | - |
+| **SCATTER** | 2020.03 | selective-context attention recognizer | [arXiv](https://arxiv.org/abs/2003.11288) | - | - |
+| **TextScanner** | 2019.12 | order-aware character scanner | [arXiv](https://arxiv.org/abs/1912.12422) | - | - |
+| **DAN** | 2019.12 | decoupled attention recognizer | [arXiv](https://arxiv.org/abs/1912.10205) | - | - |
+| **SATRN** | 2019.10 | 2D self-attention text recognizer | [arXiv](https://arxiv.org/abs/1910.04396) | [GitHub](https://github.com/clovaai/satrn) | - |
+| **MASTER** | 2019.10 | multi-aspect non-local recognizer | [arXiv](https://arxiv.org/abs/1910.02562) | [GitHub](https://github.com/wenwenyu/MASTER-pytorch) | - |
+| **2D-CTC** | 2019.07 | two-dimensional CTC recognizer for irregular scene text | [arXiv](https://arxiv.org/abs/1907.09705) | - | - |
+| **STR Benchmark (Baek et al.)** | 2019.04 | unified training and evaluation benchmark for cropped text recognition | [arXiv](https://arxiv.org/abs/1904.01906) | [GitHub](https://github.com/clovaai/deep-text-recognition-benchmark) | - |
+| **ASTER** | 2019 | rectified irregular text recognition | [TPAMI](https://doi.org/10.1109/TPAMI.2018.2848939) | [GitHub](https://github.com/bgshih/aster) | - |
+| **MORAN** | 2019.01 | rectified attention recognizer | [arXiv](https://arxiv.org/abs/1901.03003) | [GitHub](https://github.com/Canjie-Luo/MORAN_v2) | - |
+| **ESIR** | 2018.12 | iterative image rectification for irregular text recognition | [arXiv](https://arxiv.org/abs/1812.05824) | [GitHub](https://github.com/YuckFu/ESIR) | - |
+| **SAR** | 2018.11 | show-attend-and-read baseline for irregular text recognition | [arXiv](https://arxiv.org/abs/1811.00751) | - | - |
+| **NRTR** | 2018.06 | no-recurrence seq2seq recognizer | [arXiv](https://arxiv.org/abs/1806.00926) | - | - |
+| **AON** | 2017.11 | arbitrary-orientation scene text recognition | [arXiv](https://arxiv.org/abs/1711.04226) | - | - |
+| **FAN** | 2017.09 | focusing-attention recognizer for attention drift | [arXiv](https://arxiv.org/abs/1709.02054) | - | - |
+| **R2AM** | 2016.03 | recursive recurrent attention model for OCR in the wild | [arXiv](https://arxiv.org/abs/1603.03101) | - | - |
+| **RARE** | 2016.03 | rectified attention recognizer | [arXiv](https://arxiv.org/abs/1603.03915) | - | - |
+| **STAR-Net** | 2016 | spatial transformer network for scene text recognition | [BMVC](https://www.bmva-archive.org.uk/bmvc/2016/papers/paper043/abstract043.pdf) | - | - |
+| **CRNN** | 2015.07 | cropped sequence recognition with CTC | [TPAMI](https://arxiv.org/abs/1507.05717) | [GitHub](https://github.com/meijieru/crnn.pytorch) | - |
 
 ### Formula, Table, and Structured-Object Components
 
