@@ -482,8 +482,35 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | System | Access Mode | Native Input | Output Contract | Docs / Website |
 |---|---|---|---|---|
-| **ABBYY FineReader / ABBYY Vantage** | commercial, on-prem / SDK / cloud | scanned document / PDF | searchable PDF, text, export formats, fields | [FineReader](https://www.abbyy.com/finereader/) / [Vantage](https://www.abbyy.com/vantage/) |
+| **Google Document AI / Cloud Vision OCR** | commercial cloud API | document / PDF / image | OCR, layout, processors, entities | [Document AI](https://cloud.google.com/document-ai/docs) / [Vision OCR](https://cloud.google.com/vision/docs/ocr) |
+| **Azure AI Document Intelligence / AI Vision OCR** | commercial cloud API | document / PDF / image | OCR, layout, tables, forms, fields | [Document Intelligence](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview) / [AI Vision OCR](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-ocr) |
+| **Amazon Textract / Bedrock Data Automation** | commercial cloud API | document / PDF / image | OCR, tables, forms, queries, multimodal extraction | [Textract](https://docs.aws.amazon.com/textract/) / [BDA](https://docs.aws.amazon.com/bedrock/latest/userguide/bda.html) |
+| **Adobe PDF Services / PDF Extract API** | commercial cloud API / SDK | PDF | OCR, text, tables, structured PDF extraction | [PDF Services](https://developer.adobe.com/document-services/docs/overview/pdf-services-api/) / [PDF Extract](https://developer.adobe.com/document-services/docs/overview/pdf-extract-api/) |
+| **Alibaba Cloud OCR / AI Doc** | commercial cloud API | document / image / business forms | OCR, document parsing, enterprise extraction | [OCR](https://www.alibabacloud.com/help/en/ocr) / [AI Doc](https://www.alibabacloud.com/en/solutions/ai-doc) |
+| **Tencent Cloud OCR** | commercial cloud API | document / image / ID / invoice | OCR and structured recognition APIs | [Docs](https://www.tencentcloud.com/document/product/866) |
+| **Baidu AI Cloud OCR** | commercial cloud API | document / image / card / invoice | OCR and vertical document recognition | [Website](https://cloud.baidu.com/product/ocr) |
+| **Huawei Cloud OCR** | commercial cloud API | document / image / card / ticket | OCR and document recognition APIs | [Docs](https://support.huaweicloud.com/intl/en-us/ocr/) |
+| **Volcano Engine OCR** | commercial cloud API | document / image / invoice / form | OCR and vertical recognition APIs | [Website](https://www.volcengine.com/product/ocr) |
+| **UiPath IXP / Document Understanding** | enterprise platform / RPA | documents and communications | extraction, validation, automation workflows | [Product](https://www.uipath.com/platform/agentic-automation/idp) / [Docs](https://docs.uipath.com/document-understanding/) |
+| **Hyperscience Hypercell** | enterprise platform | document-heavy workflows | classification, extraction, validation, automation | [Website](https://www.hyperscience.ai/) |
+| **Tungsten TotalAgility / Capture** | enterprise platform | scanned document / PDF / workflow content | capture, OCR, process automation | [TotalAgility](https://www.tungstenautomation.com/products/totalagility) |
+| **OpenText Intelligent Capture** | enterprise platform | scanned document / PDF / enterprise content | capture, classification, extraction | [Website](https://www.opentext.com/products/intelligent-capture) |
+| **IBM Datacap** | enterprise platform | scanned document / PDF | capture, classification, OCR, data extraction | [Website](https://www.ibm.com/products/datacap) |
+| **Automation Anywhere Document Automation** | enterprise RPA platform | business documents | document extraction and process automation | [Website](https://www.automationanywhere.com/products/document-automation) |
+| **Instabase AI Hub** | enterprise platform / API | documents, images, scans, spreadsheets | extraction, classification, workflow automation | [Docs](https://docs.instabase.com/) / [Extraction](https://docs.instabase.com/automate/document-schema) |
+| **Nanonets OCR API** | commercial cloud API | document / image / form | OCR, document extraction, fields | [Website](https://nanonets.com/ocr-api/) |
+| **Rossum** | commercial cloud platform | document / invoice / business forms | document extraction and validation | [Website](https://rossum.ai/) |
+| **Docsumo** | commercial cloud platform | forms, invoices, financial documents | OCR, classification, field extraction | [Website](https://www.docsumo.com/) |
+| **Mindee** | commercial cloud API | PDF / photo / handwritten files | structured JSON extraction | [Website](https://www.mindee.com/) |
+| **Veryfi** | commercial cloud API | receipts, invoices, checks, financial documents | OCR and structured data extraction | [API](https://www.veryfi.com/api/) |
+| **Klippa / Doxis AI.dp** | commercial cloud API / platform | receipts, invoices, IDs, contracts | OCR, IDP workflows, structured outputs | [OCR API](https://www.klippa.com/en/ocr/ocr-api/) / [DocHorizon](https://www.klippa.com/en/dochorizon/) |
+| **Base64.ai** | commercial cloud API | documents and images | OCR, data extraction, document understanding | [Website](https://base64.ai/) |
+| **Infrrd** | enterprise platform | complex unstructured documents | IDP and document automation | [Website](https://www.infrrd.ai/) |
+| **Ocrolus** | commercial cloud platform | financial documents | OCR, classification, financial data extraction | [Website](https://www.ocrolus.com/) |
+| **Affinda** | commercial cloud API | resumes, invoices, business documents | structured document extraction | [Website](https://www.affinda.com/) |
+| **FormX.ai** | commercial cloud API / workflow platform | invoices, receipts, IDs, forms | document extraction and workflow automation | [Website](https://www.formx.ai/) |
 | **TextIn** | commercial cloud API | document / receipt / form | JSON, Markdown, key-value fields | [Website](https://www.textin.com/) |
+| **ABBYY FineReader / ABBYY Vantage** | commercial, on-prem / SDK / cloud | scanned document / PDF | searchable PDF, text, export formats, fields | [FineReader](https://pdf.abbyy.com/finereader-pdf/) / [Vantage](https://www.abbyy.com/vantage/) |
 
 ### Scientific OCR and Managed Parsing APIs
 
