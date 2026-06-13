@@ -258,13 +258,37 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **DocOwl / DocOwl 1.5 / DocOwl 2** | 2023.07 / 2024.03 / 2024.09 | document-oriented VLM | [DocOwl](https://arxiv.org/abs/2307.02499), [1.5](https://arxiv.org/abs/2403.12895), [2](https://arxiv.org/abs/2409.03420) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) | - |
-| **Vary** | 2023.12 | document-specialized VLM | [arXiv](https://arxiv.org/abs/2312.06109) | [GitHub](https://github.com/Ucas-HaoranWei/Vary) | - |
+| **DocSLM** | 2025.11 | small VLM for efficient long multimodal document understanding | [arXiv](https://arxiv.org/abs/2511.11313), [CVF](https://openaccess.thecvf.com/content/CVPR2026F/html/Hannan_DocSLM_A_Small_Vision-Language_Model_for_Long_Multimodal_Document_Understanding_CVPRF_2026_paper.html) | - | - |
+| **Docopilot** | 2025.07 | native document-level VLM and Doc-750K multi-page instruction data | [arXiv](https://arxiv.org/abs/2507.14675) | [GitHub](https://github.com/OpenGVLab/Docopilot) | [HF Dataset](https://huggingface.co/datasets/OpenGVLab/Doc-750K) |
+| **TokenFD / TokenVL** | 2025.03 | token-level text-image foundation model and document-level MLLM | [arXiv](https://arxiv.org/abs/2503.02304) | [GitHub](https://github.com/Token-family/TokenFD) | - |
+| **LayTokenLLM** | 2025.03 | single-token layout representation for document LLMs | [arXiv](https://arxiv.org/abs/2503.18434), [CVF](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_A_Simple_yet_Effective_Layout_Token_in_Large_Language_Models_CVPR_2025_paper.pdf) | - | - |
+| **DocVLM** | 2024.12 | OCR-modality adapter for making frozen VLMs efficient document readers | [arXiv](https://arxiv.org/abs/2412.08746) | - | - |
+| **HVFA** | 2024.11 | hierarchical visual feature aggregation for OCR-free document MLLMs | [arXiv](https://arxiv.org/abs/2411.05254), [OpenReview](https://openreview.net/forum?id=PWkjxjgGLP) | - | - |
+| **TextHawk2** | 2024.10 | bilingual OCR and grounding MLLM | [arXiv](https://arxiv.org/abs/2410.05261) | [GitHub](https://github.com/yuyq96/TextHawk) | [Hugging Face](https://huggingface.co/TencentBAC) |
+| **DocOwl 2** | 2024.09 | high-resolution multi-page document VLM | [arXiv](https://arxiv.org/abs/2409.03420), [ACL](https://aclanthology.org/2025.acl-long.291/) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) | - |
 | **GOT-OCR 2.0** | 2024.09 | unified OCR-specialized VLM | [arXiv](https://arxiv.org/abs/2409.01704) | [GitHub](https://github.com/Ucas-HaoranWei/GOT-OCR2.0) | - |
-| **Monkey / TextMonkey** | 2023.11 / 2024.03 | text-centric OCR-free MLLM | [Monkey](https://arxiv.org/abs/2311.06607), [TextMonkey](https://arxiv.org/abs/2403.04473) | [GitHub](https://github.com/Yuliang-Liu/Monkey) | - |
-| **UReader** | 2023.10 | OCR-free visually situated language understanding | [arXiv](https://arxiv.org/abs/2310.05126) | [GitHub](https://github.com/LukeForeverYoung/UReader) | - |
-| **TextHawk** | 2024.04 | fine-grained text perception in MLLMs | [arXiv](https://arxiv.org/abs/2404.09204) | [GitHub](https://github.com/yuyq96/TextHawk) | [Hugging Face](https://huggingface.co/TencentBAC) |
+| **DocLayLLM** | 2024.08 | efficient multimodal extension of LLMs for text-rich document understanding | [arXiv](https://arxiv.org/abs/2408.15045) | [GitHub](https://github.com/whlscut/DocLayLLM) | - |
+| **LLaVA-Read** | 2024.07 | dual-encoder MLLM for visual text understanding | [arXiv](https://arxiv.org/abs/2407.19185), [OpenReview](https://openreview.net/forum?id=pPK6sNbFWV) | - | - |
+| **LayTextLLM** | 2024.07 | interleaved layout-text tokens for document understanding | [arXiv](https://arxiv.org/abs/2407.01976), [ACL](https://aclanthology.org/2025.findings-acl.379/) | [GitHub](https://github.com/laytextllm/laytextllm) | - |
+| **StrucTexTv3** | 2024.05 | efficient VLM for text-rich image perception and comprehension | [arXiv](https://arxiv.org/abs/2405.21013) | - | - |
 | **Fox** | 2024.05 | multi-page document understanding system | [arXiv](https://arxiv.org/abs/2405.14295) | [GitHub](https://github.com/ucaslcl/Fox) | - |
+| **TextSquare / Square-10M** | 2024.04 | large-scale text-centric visual instruction tuning | [arXiv](https://arxiv.org/abs/2404.12803), [OpenReview](https://openreview.net/forum?id=a1adEtVoHS) | - | - |
+| **HRVDA** | 2024.04 | high-resolution visual document assistant for LVLMs | [arXiv](https://arxiv.org/abs/2404.06918) | - | - |
+| **TextHawk** | 2024.04 | fine-grained text perception in MLLMs | [arXiv](https://arxiv.org/abs/2404.09204) | [GitHub](https://github.com/yuyq96/TextHawk) | [Hugging Face](https://huggingface.co/TencentBAC) |
+| **LayoutLLM** | 2024.04 | layout instruction tuning for document understanding | [arXiv](https://arxiv.org/abs/2404.05225) | [GitHub/Data](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/DocumentUnderstanding/LayoutLLM) | - |
+| **DocOwl 1.5** | 2024.03 | OCR-free structure learning | [arXiv](https://arxiv.org/abs/2403.12895) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) | - |
+| **TextMonkey** | 2024.03 | OCR-free document MLLM | [arXiv](https://arxiv.org/abs/2403.04473) | [GitHub](https://github.com/Yuliang-Liu/Monkey) | - |
+| **DoCo** | 2024.02 | contrastive pretraining for fine-grained visual document understanding in LVLMs | [arXiv](https://arxiv.org/abs/2402.19014) | - | - |
+| **DocLLM** | 2023.12 | layout-aware generative LLM for multimodal document understanding | [arXiv](https://arxiv.org/abs/2401.00908), [ACL](https://aclanthology.org/2024.acl-long.463/) | [GitHub](https://github.com/dswang2011/DocLLM) | - |
+| **Vary** | 2023.12 | document-specialized VLM | [arXiv](https://arxiv.org/abs/2312.06109) | [GitHub](https://github.com/Ucas-HaoranWei/Vary) | - |
+| **Monkey** | 2023.11 | text-centric MLLM | [arXiv](https://arxiv.org/abs/2311.06607) | [GitHub](https://github.com/Yuliang-Liu/Monkey) | - |
+| **mPLUG-PaperOwl** | 2023.11 | scientific diagram and paper figure analysis with MLLMs | [arXiv](https://arxiv.org/abs/2311.18248) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl/tree/main/PaperOwl) | - |
+| **TGDoc** | 2023.11 | text-grounding document understanding with MLLMs | [arXiv](https://arxiv.org/abs/2311.13194) | [GitHub](https://github.com/harrytea/TGDoc) | - |
+| **DocPedia** | 2023.11 | frequency-domain OCR-free document understanding | [arXiv](https://arxiv.org/abs/2311.11810) | - | [HF Paper](https://huggingface.co/papers/2311.11810) |
+| **UReader** | 2023.10 | OCR-free visually situated language understanding | [arXiv](https://arxiv.org/abs/2310.05126) | [GitHub](https://github.com/LukeForeverYoung/UReader) | - |
+| **UniDoc** | 2023.08 | simultaneous text detection, recognition, spotting, and understanding | [arXiv](https://arxiv.org/abs/2308.11592) | - | - |
+| **DocOwl** | 2023.07 | document-oriented VLM | [arXiv](https://arxiv.org/abs/2307.02499) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) | - |
+| **LLaVAR** | 2023.06 | visual instruction tuning for text-rich image understanding | [arXiv](https://arxiv.org/abs/2306.17107) | [GitHub](https://github.com/llavar/LLaVAR) | [Project](https://llavar.github.io/) |
 
 ### OCR-Specialized Page Parsers
 
