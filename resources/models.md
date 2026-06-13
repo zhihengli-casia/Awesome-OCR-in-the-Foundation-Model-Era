@@ -174,7 +174,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **MORAN** | 2019.01 | rectified attention recognizer | [arXiv](https://arxiv.org/abs/1901.03003) | [GitHub](https://github.com/Canjie-Luo/MORAN_v2) | - |
 | **ESIR** | 2018.12 | iterative image rectification for irregular text recognition | [arXiv](https://arxiv.org/abs/1812.05824) | [GitHub](https://github.com/YuckFu/ESIR) | - |
 | **SAR** | 2018.11 | show-attend-and-read baseline for irregular text recognition | [arXiv](https://arxiv.org/abs/1811.00751) | - | - |
-| **NRTR** | 2018.06 | no-recurrence seq2seq recognizer | [arXiv](https://arxiv.org/abs/1806.00926) | - | - |
+| **NRTR** | 2018.06 | no-recurrence seq2seq recognizer | [arXiv](https://arxiv.org/abs/1806.00926), [ICDAR](https://www.computer.org/csdl/proceedings-article/icdar/2019/301400a781/1h81vjn7uik) | - | - |
 | **AON** | 2017.11 | arbitrary-orientation scene text recognition | [arXiv](https://arxiv.org/abs/1711.04226) | - | - |
 | **FAN** | 2017.09 | focusing-attention recognizer for attention drift | [arXiv](https://arxiv.org/abs/1709.02054) | - | - |
 | **R2AM** | 2016.03 | recursive recurrent attention model for OCR in the wild | [arXiv](https://arxiv.org/abs/1603.03101) | - | - |
@@ -337,7 +337,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **LoMo** | 2026.05 | local modality substitution for cross-modal visual-text carrier alignment | [arXiv](https://arxiv.org/abs/2605.30265) | - | - |
 | **FastOCR** | 2026.05 | training-free dynamic visual fixation and KV-cache pruning for efficient VLM document parsing | [arXiv](https://arxiv.org/abs/2605.17447) | - | - |
 | **RTPrune** | 2026.05 | reading-twice inspired token pruning for efficient DeepSeek-OCR inference | [arXiv](https://arxiv.org/abs/2605.00392) | - | - |
-| **TexOCR** | 2026.04 | SFT and RL with verifiable LaTeX unit-test rewards for page-to-LaTeX OCR | [arXiv](https://arxiv.org/abs/2604.22880) | [GitHub](https://github.com/QDRhhhh/TexOCR) | - |
+| **TexOCR** | 2026.04 | SFT and RL with verifiable LaTeX unit-test rewards for page-to-LaTeX OCR | [arXiv](https://arxiv.org/abs/2604.22880), [ACL](https://arxiv.org/abs/2604.22880) | [GitHub](https://github.com/QDRhhhh/TexOCR) | - |
 | **MinerU-Diffusion** | 2026.03 | diffusion-style inverse-rendering OCR | [arXiv](https://arxiv.org/abs/2603.22458) | - | - |
 | **Risk-Controlled Generative OCR / GRC** | 2026.03 | selective accept/abstain risk control for frozen VLM OCR | [arXiv](https://arxiv.org/abs/2603.19790) | [GitHub](https://github.com/phare111/GRC) | - |
 | **SimpleOCR** | 2026.02 | rendered visualized-question training to force MLLMs to read text visually | [arXiv](https://arxiv.org/abs/2602.22426) | [GitHub](https://github.com/aiming-lab/SimpleOCR) | - |
