@@ -174,6 +174,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **FastOCR** | 2026.05 | training-free dynamic visual fixation and KV-cache pruning for efficient VLM document parsing | [arXiv](https://arxiv.org/abs/2605.17447) | - | - |
 | **MinerU-Diffusion** | 2026.03 | diffusion-style inverse-rendering OCR | [arXiv](https://arxiv.org/abs/2603.22458) | - | - |
 | **Risk-Controlled Generative OCR / GRC** | 2026.03 | selective accept/abstain risk control for frozen VLM OCR | [arXiv](https://arxiv.org/abs/2603.19790) | [GitHub](https://github.com/phare111/GRC) | - |
 | **PAR for Faithful OCR / GlitchText** | 2026.01 | training-free mitigation of linguistic-prior OCR hallucination | [OpenReview](https://openreview.net/forum?id=M8zr7QvasK) | [GitHub](https://github.com/Zoeyyao27/PAR-for-Faithful-OCR) | - |
