@@ -64,7 +64,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **PaddleOCR / PP-OCR / PP-OCRv5** | 2020.09 / 2026.03 | active industrial OCR toolkit and compact OCR model family | [PP-OCR](https://arxiv.org/abs/2009.09941), [PP-OCRv5](https://arxiv.org/abs/2603.24373) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
+| **PaddleOCR / PP-OCR / PP-OCRv5** | 2020.09 / 2026.03 | active industrial OCR toolkit and compact OCR model family | [PP-OCR](https://arxiv.org/abs/2009.09941), [PP-OCRv5](https://arxiv.org/abs/2603.24373), [PP-OCRv5 CVPR](https://openaccess.thecvf.com/content/CVPR2026/html/Cui_PP-OCRv5_A_Specialized_5M-Parameter_Model_Rivaling_Billion-Parameter_Vision-Language_Models_on_CVPR_2026_paper.html) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
 | **Tesseract** | 2005-2026 | active open-source OCR engine; LSTM OCR and searchable document workflows | [ICDAR](https://doi.org/10.1109/ICDAR.2007.4376991) | [GitHub](https://github.com/tesseract-ocr/tesseract) | [Docs](https://tesseract-ocr.github.io/) |
 | **OpenOCR** | 2024.05 | open OCR training and evaluation toolkit | - | [GitHub](https://github.com/topdu/openocr) | - |
 | **Surya** | 2024.01 | OCR, layout, reading-order, and line-detection toolkit | - | [GitHub](https://github.com/datalab-to/surya) | - |
@@ -263,7 +263,7 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **TokenFD / TokenVL** | 2025.03 | token-level text-image foundation model and document-level MLLM | [arXiv](https://arxiv.org/abs/2503.02304) | [GitHub](https://github.com/Token-family/TokenFD) | - |
 | **LayTokenLLM** | 2025.03 | single-token layout representation for document LLMs | [arXiv](https://arxiv.org/abs/2503.18434), [CVF](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_A_Simple_yet_Effective_Layout_Token_in_Large_Language_Models_CVPR_2025_paper.pdf) | - | - |
 | **DocVLM** | 2024.12 | OCR-modality adapter for making frozen VLMs efficient document readers | [arXiv](https://arxiv.org/abs/2412.08746) | - | - |
-| **HVFA** | 2024.11 | hierarchical visual feature aggregation for OCR-free document MLLMs | [arXiv](https://arxiv.org/abs/2411.05254), [OpenReview](https://openreview.net/forum?id=PWkjxjgGLP) | - | - |
+| **HVFA** | 2024.11 | hierarchical visual feature aggregation for OCR-free document MLLMs | [arXiv](https://arxiv.org/abs/2411.05254), [NeurIPS](https://openreview.net/forum?id=PWkjxjgGLP) | - | - |
 | **TextHawk2** | 2024.10 | bilingual OCR and grounding MLLM | [arXiv](https://arxiv.org/abs/2410.05261) | [GitHub](https://github.com/yuyq96/TextHawk) | [Hugging Face](https://huggingface.co/TencentBAC) |
 | **DocOwl 2** | 2024.09 | high-resolution multi-page document VLM | [arXiv](https://arxiv.org/abs/2409.03420), [ACL](https://aclanthology.org/2025.acl-long.291/) | [GitHub](https://github.com/X-PLUG/mPLUG-DocOwl) | - |
 | **GOT-OCR 2.0** | 2024.09 | unified OCR-specialized VLM | [arXiv](https://arxiv.org/abs/2409.01704) | [GitHub](https://github.com/Ucas-HaoranWei/GOT-OCR2.0) | - |
@@ -337,14 +337,14 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **MinerU-Diffusion** | 2026.03 | diffusion-style inverse-rendering OCR | [arXiv](https://arxiv.org/abs/2603.22458) | - | - |
 | **Risk-Controlled Generative OCR / GRC** | 2026.03 | selective accept/abstain risk control for frozen VLM OCR | [arXiv](https://arxiv.org/abs/2603.19790) | [GitHub](https://github.com/phare111/GRC) | - |
 | **PAR for Faithful OCR / GlitchText** | 2026.01 | training-free mitigation of linguistic-prior OCR hallucination | [OpenReview](https://openreview.net/forum?id=M8zr7QvasK) | [GitHub](https://github.com/Zoeyyao27/PAR-for-Faithful-OCR) | - |
-| **Teaching VLMs to Admit Uncertainty in OCR** | 2026.01 | uncertainty-aware OCR with explicit unreliable-span tags | [OpenReview](https://openreview.net/forum?id=zyCjizqOxB) | [GitHub](https://github.com/NikoGuan/Uncertainty_OCR) | - |
+| **Teaching VLMs to Admit Uncertainty in OCR** | 2026.01 | uncertainty-aware OCR with explicit unreliable-span tags | [ICLR](https://openreview.net/forum?id=zyCjizqOxB) | [GitHub](https://github.com/NikoGuan/Uncertainty_OCR) | - |
 | **FDRL for Document OCR** | 2026.01 | format-decoupled reinforcement learning | [arXiv](https://arxiv.org/abs/2601.08834) | - | - |
 | **Reading Between the Lines / LRP** | 2025.11 | latent-representation probes for abstaining from VLM-generated OCR errors | [arXiv](https://arxiv.org/abs/2511.19806) | - | - |
 | **OCR-Critic / OCR-ERROR** | 2025.10 | critical feedback alignment and OCR error diagnosis for MLLMs | [ACM DL](https://dl.acm.org/doi/10.1145/3746027.3754585) | - | - |
 | **HalluText / OCRAssistor** | 2025.09 | OCR hallucination diagnosis and plug-and-play mitigation | [OpenReview](https://openreview.net/forum?id=LRnt6foJ3q) | - | - |
 | **ReViCo** | 2025.09 | real-world visual spelling correction for VLMs | [arXiv](https://arxiv.org/abs/2509.17418) | - | - |
 | **When Semantics Mislead Vision / TextHalu-Bench** | 2025.06 | training-free mitigation of semantic hallucination in scene-text perception | [arXiv](https://arxiv.org/abs/2506.05551) | [GitHub](https://github.com/shuyansy/MLLM-Semantic-Hallucination) | [HF Dataset](https://huggingface.co/datasets/sy1998/TextHalu-Bench) |
-| **Seeing is Believing? / KIE-HVQA** | 2025.06 | OCR hallucination mitigation under visual degradation | [arXiv](https://arxiv.org/abs/2506.20168) | - | [HF Dataset](https://huggingface.co/datasets/bytedance-research/KIE-HVQA) |
+| **Seeing is Believing? / KIE-HVQA** | 2025.06 | OCR hallucination mitigation under visual degradation | [arXiv](https://arxiv.org/abs/2506.20168), [NeurIPS 2025](https://arxiv.org/abs/2506.20168) | - | [HF Dataset](https://huggingface.co/datasets/bytedance-research/KIE-HVQA) |
 | **Consensus Entropy / CE-OCR** | 2025.04 | multi-VLM agreement for self-verifying and self-improving OCR | [CVPR](https://arxiv.org/abs/2504.11101) | [GitHub](https://github.com/Aslan-yulong/consensus-entropy) | [HF Dataset](https://huggingface.co/datasets/Aslan-mingye/OCR-Quality) |
 
 </details>
