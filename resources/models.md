@@ -64,11 +64,27 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **Tesseract** | 2007 | OCR engine | [ICDAR](https://doi.org/10.1109/ICDAR.2007.4376991) | [GitHub](https://github.com/tesseract-ocr/tesseract) | [Docs](https://tesseract-ocr.github.io/) |
-| **EasyOCR** | 2020 | OCR engine | - | [GitHub](https://github.com/JaidedAI/EasyOCR) | - |
-| **PaddleOCR / PP-OCR** | 2020.09 | industrial OCR toolkit | [arXiv](https://arxiv.org/abs/2009.09941) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
+| **PaddleOCR / PP-OCR / PP-OCRv5** | 2020.09 / 2026.03 | active industrial OCR toolkit and compact OCR model family | [PP-OCR](https://arxiv.org/abs/2009.09941), [PP-OCRv5](https://arxiv.org/abs/2603.24373) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
+| **Tesseract** | 2005-2026 | active open-source OCR engine; LSTM OCR and searchable document workflows | [ICDAR](https://doi.org/10.1109/ICDAR.2007.4376991) | [GitHub](https://github.com/tesseract-ocr/tesseract) | [Docs](https://tesseract-ocr.github.io/) |
+| **OpenOCR** | 2024.05 | open OCR training and evaluation toolkit | - | [GitHub](https://github.com/topdu/openocr) | - |
+| **Surya** | 2024.01 | OCR, layout, reading-order, and line-detection toolkit | - | [GitHub](https://github.com/datalab-to/surya) | - |
+| **EffOCR / EfficientOCR** | 2023.10 | sample-efficient OCR package based on character / word image retrieval | [arXiv](https://arxiv.org/abs/2310.10050) | [GitHub](https://github.com/dell-research-harvard/efficient_ocr) | [Project](https://effocr.github.io/) |
 | **MMOCR** | 2021.08 | OCR research toolkit | [arXiv](https://arxiv.org/abs/2108.06543) | [GitHub](https://github.com/open-mmlab/mmocr) | [Docs](https://mmocr.readthedocs.io/) |
-| **docTR** | 2021-2023 | document OCR toolkit | - | [GitHub](https://github.com/mindee/doctr) | [Docs](https://mindee.github.io/doctr/) |
+| **eScriptorium** | 2021.05 | open OCR/HTR production platform for segmentation, transcription, correction, and model training | - | [GitLab](https://gitlab.com/scripta/escriptorium) | [Docs](https://escriptorium.readthedocs.io/) |
+| **docTR** | 2021.01 | document OCR toolkit | - | [GitHub](https://github.com/mindee/doctr) | [Docs](https://mindee.github.io/doctr/) |
+| **RapidOCR** | 2021.01 | lightweight OCR toolkit with ONNX, OpenVINO, Paddle, and PyTorch backends | - | [GitHub](https://github.com/RapidAI/RapidOCR) | [Docs](https://rapidai.github.io/RapidOCRDocs/) |
+| **EasyOCR** | 2020.03 | ready-to-use multilingual OCR engine | - | [GitHub](https://github.com/JaidedAI/EasyOCR) | - |
+| **OCR-D / ocrd_all** | 2019.10 | modular OCR workflow framework and processor ecosystem | - | [GitHub](https://github.com/OCR-D/ocrd_all) | [Docs](https://ocr-d.de/en/) |
+| **OCR4all** | 2019.09 | open OCR workflow for historical printings, including preprocessing, layout, recognition, correction, and training | [arXiv](https://arxiv.org/abs/1909.04032) | [GitHub](https://github.com/OCR4all/OCR4all) | [Website](https://www.ocr4all.org/) |
+| **keras-ocr** | 2019.07 | CRAFT + CRNN-style Python OCR pipeline | - | [GitHub](https://github.com/faustomorales/keras-ocr) | [Docs](https://keras-ocr.readthedocs.io/) |
+| **CnOCR** | 2019.03 | Chinese OCR toolkit for line and crop recognition | - | [GitHub](https://github.com/breezedeus/CnOCR) | [Docs](https://cnocr.readthedocs.io/) |
+| **Calamari OCR** | 2018-2026 | line-based OCR engine for historical documents and ensemble recognition | [DHQ](https://rlskoeser.github.io/dhqwords/vol/14/2/000451/) | [GitHub](https://github.com/Calamari-OCR/calamari) | [Docs](https://calamari-ocr.readthedocs.io/) |
+| **Kraken** | 2016-2026 | trainable OCR/HTR engine for historical, handwritten, and non-Latin scripts | - | [GitHub](https://github.com/mittagessen/kraken) | [Docs](https://kraken.re/) |
+| **OCRmyPDF** | 2013.12 | searchable-PDF OCR workflow | - | [GitHub](https://github.com/ocrmypdf/OCRmyPDF) | [Docs](https://ocrmypdf.readthedocs.io/) |
+| **CuneiForm OCR** | 2008-2011 | legacy open-source multi-language OCR engine with layout analysis | - | [GitHub mirror](https://github.com/jwilk-mirrors/cuneiform-linux) | [Launchpad](https://launchpad.net/cuneiform-linux) |
+| **OCRopus / ocropy** | 2007-2018 | open OCR research toolkit for segmentation and recognizer training | - | [GitHub](https://github.com/tmbdev/ocropy) | [Project](https://ocropus.github.io/) |
+| **GNU Ocrad** | 2003-2022 | legacy GNU command-line OCR engine and library with layout analysis | - | [Website](https://www.gnu.org/software/ocrad/ocrad.html) | [Manual](https://www.gnu.org/software/ocrad/manual/ocrad_manual.html) |
+| **GOCR / JOCR** | 2000-2018 | legacy GPL command-line OCR engine | - | [SourceForge](https://sourceforge.net/projects/jocr/) | [Website](https://jocr.sourceforge.net/) |
 
 ### Text Detection and Spotting Components
 
