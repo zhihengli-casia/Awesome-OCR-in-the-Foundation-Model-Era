@@ -90,11 +90,47 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
-| **EAST** | 2017.04 | text detection | [arXiv](https://arxiv.org/abs/1704.03155) | [GitHub](https://github.com/argman/EAST) | - |
-| **CRAFT** | 2019.04 | text detection | [arXiv](https://arxiv.org/abs/1904.01941) | [GitHub](https://github.com/clovaai/CRAFT-pytorch) | - |
-| **PSENet** | 2018.06 | arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/1806.02559) | [GitHub](https://github.com/whai362/PSENet) | - |
-| **DBNet / DBNet++** | 2019.11 / 2022.02 | text detection | [AAAI](https://arxiv.org/abs/1911.08947) / [TPAMI](https://arxiv.org/abs/2202.10304) | [GitHub](https://github.com/MhLiao/DB) | - |
-| **FCENet** | 2021.04 | arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2104.10442) | [GitHub](https://github.com/yuchenwang815/FCENet) | - |
+| **InstructOCR** | 2024.12 | instruction-boosted scene text spotting | [arXiv](https://arxiv.org/abs/2412.15523) | [GitHub](https://github.com/ChenD-VL/InstructOCR) | - |
+| **DNTextSpotter** | 2024.08 | denoising-training transformer for arbitrary-shape text spotting | [arXiv](https://arxiv.org/abs/2408.00355) | [GitHub](https://github.com/yyyyyxie/DNTextSpotter) | - |
+| **FastTextSpotter** | 2024.08 | high-efficiency multilingual transformer text spotting | [arXiv](https://arxiv.org/abs/2408.14998) | [GitHub](https://github.com/alloydas/Fast-Textspotter) | - |
+| **Bridging Text Spotting** | 2024.04 | bridge between modular detector-recognizer and end-to-end spotting | [arXiv](https://arxiv.org/abs/2404.04624) | [GitHub](https://github.com/mxin262/Bridging-Text-Spotting) | - |
+| **SwinTextSpotter v2** | 2024.01 | recognition-conversion and recognition-alignment text spotting | [arXiv](https://arxiv.org/abs/2401.07641) | [GitHub](https://github.com/mxin262/SwinTextSpotterv2) | - |
+| **ESTextSpotter** | 2023.08 | explicit-synergy transformer text spotting | [arXiv](https://arxiv.org/abs/2308.10147) | [GitHub](https://github.com/mxin262/ESTextSpotter) | - |
+| **UNITS** | 2023.04 | unified scene text spotting via sequence generation | [arXiv](https://arxiv.org/abs/2304.03435) | [GitHub](https://github.com/clovaai/units) | - |
+| **DeepSolo** | 2022.11 | explicit-point transformer text spotting | [arXiv](https://arxiv.org/abs/2211.10772) | [GitHub](https://github.com/ViTAE-Transformer/DeepSolo) | - |
+| **GLASS** | 2022.08 | global-to-local attention for scene text spotting | [arXiv](https://arxiv.org/abs/2208.03364) | [GitHub](https://github.com/amazon-science/glass-text-spotting) | - |
+| **DPText-DETR** | 2022.07 | dynamic-point transformer text detection | [arXiv](https://arxiv.org/abs/2207.04491) | [GitHub](https://github.com/ymy-k/DPText-DETR) | - |
+| **TextBPN / TextBPN++** | 2021.07 / 2022.05 | boundary-proposal and boundary-transformer arbitrary-shape detection | [TextBPN](https://arxiv.org/abs/2107.12664), [TextBPN++](https://arxiv.org/abs/2205.05320) | [GitHub](https://github.com/GXYM/TextBPN-Plus-Plus) | - |
+| **Text Spotting Transformer / TESTR** | 2022.04 | transformer-based end-to-end spotting | [arXiv](https://arxiv.org/abs/2204.01918) | [GitHub](https://github.com/mlpc-ucsd/TESTR) | - |
+| **SwinTextSpotter** | 2022.03 | synergy-aware transformer text spotting | [arXiv](https://arxiv.org/abs/2203.10209) | [GitHub](https://github.com/mxin262/swintextspotter) | - |
+| **DBNet++** | 2022.02 | adaptive-scale DB text detection | [arXiv](https://arxiv.org/abs/2202.10304) | [GitHub](https://github.com/MhLiao/DB) | - |
+| **SPTS** | 2021.12 | single-point text spotting via sequence generation | [arXiv](https://arxiv.org/abs/2112.07917) | [GitHub](https://github.com/shannanyinxiang/SPTS) | - |
+| **FAST** | 2021.11 | faster arbitrary-shape text detector with minimalist kernel representation | [arXiv](https://arxiv.org/abs/2111.02394) | [GitHub](https://github.com/czczup/FAST) | - |
+| **ABCNet v2** | 2021.05 | Bezier-curve scene text spotting | [arXiv](https://arxiv.org/abs/2105.03620) | [GitHub](https://github.com/Yuliang-Liu/AdelaiDet) | - |
+| **FCENet** | 2021.04 | Fourier-contour arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2104.10442) | [GitHub](https://github.com/yuchenwang815/FCENet) | - |
+| **MOST** | 2021.04 | multi-oriented text detection with localization refinement | [arXiv](https://arxiv.org/abs/2104.01070) | - | - |
+| **PGNet** | 2021.04 | real-time point-gathering arbitrary-shape text spotting | [arXiv](https://arxiv.org/abs/2104.05458) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
+| **MANGO** | 2020.12 | mask-attention-guided one-stage text spotting | [arXiv](https://arxiv.org/abs/2012.04350) | [GitHub](https://github.com/hikopensource/DAVAR-Lab-OCR) | - |
+| **Mask TextSpotter v3** | 2020.07 | segmentation-proposal scene text spotting | [arXiv](https://arxiv.org/abs/2007.09482) | [GitHub](https://github.com/MhLiao/MaskTextSpotterV3) | - |
+| **ContourNet** | 2020.04 | contour-based arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2004.04940) | - | - |
+| **DRRG** | 2020.03 | graph-reasoning arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2003.07493) | [GitHub](https://github.com/GXYM/DRRG) | - |
+| **ABCNet** | 2020.02 | adaptive Bezier-curve text spotting | [arXiv](https://arxiv.org/abs/2002.10200) | [GitHub](https://github.com/Yuliang-Liu/bezier_curve_text_spotting) | - |
+| **TextFuseNet** | 2020 | richer fused features for arbitrary-shape text detection | [IJCAI](https://www.ijcai.org/proceedings/2020/72) | [GitHub](https://github.com/ying09/TextFuseNet) | - |
+| **DBNet** | 2019.11 | differentiable-binarization text detection | [arXiv](https://arxiv.org/abs/1911.08947) | [GitHub](https://github.com/MhLiao/DB) | - |
+| **CharNet** | 2019.10 | one-stage convolutional character network for detection and spotting | [arXiv](https://arxiv.org/abs/1910.07954) | [GitHub](https://github.com/msight-tech/research-charnet) | - |
+| **PAN** | 2019.08 | pixel aggregation for arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/1908.05900) | [GitHub](https://github.com/whai362/pan_pp.pytorch) | - |
+| **CRAFT** | 2019.04 | character-region text detection | [arXiv](https://arxiv.org/abs/1904.01941) | [GitHub](https://github.com/clovaai/CRAFT-pytorch) | - |
+| **TextDragon** | 2019 | end-to-end arbitrary-shape text spotting with RoISlide | [CVF](https://openaccess.thecvf.com/content_ICCV_2019/papers/Feng_TextDragon_An_End-to-End_Framework_for_Arbitrary_Shaped_Text_Spotting_ICCV_2019_paper.pdf) | - | - |
+| **TextSnake** | 2018.07 | flexible representation for arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/1807.01544) | [GitHub](https://github.com/princewang1994/TextSnake.pytorch) | - |
+| **Mask TextSpotter** | 2018.07 | segmentation-based arbitrary-shape text spotting | [arXiv](https://arxiv.org/abs/1807.02242) | [GitHub](https://github.com/MhLiao/MaskTextSpotter) | - |
+| **PSENet** | 2018.06 | progressive-scale arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/1806.02559) | [GitHub](https://github.com/whai362/PSENet) | - |
+| **FOTS** | 2018.01 | fast oriented text spotting with shared detection-recognition features | [arXiv](https://arxiv.org/abs/1801.01671) | - | - |
+| **PixelLink** | 2018.01 | instance-segmentation text detector | [arXiv](https://arxiv.org/abs/1801.01315) | [GitHub](https://github.com/ZJULearning/pixel_link) | - |
+| **TextBoxes++** | 2018.01 | oriented scene text detector | [arXiv](https://arxiv.org/abs/1801.02765) | [GitHub](https://github.com/MhLiao/TextBoxes_plusplus) | - |
+| **EAST** | 2017.04 | dense-prediction text detection | [arXiv](https://arxiv.org/abs/1704.03155) | [GitHub](https://github.com/argman/EAST) | - |
+| **SegLink** | 2017.03 | oriented text detection by linking local segments | [arXiv](https://arxiv.org/abs/1703.06520) | [GitHub](https://github.com/bgshih/seglink) | - |
+| **TextBoxes** | 2016.11 | single-shot horizontal text detector | [arXiv](https://arxiv.org/abs/1611.06779) | - | - |
+| **CTPN** | 2016.09 | connectionist text proposal network | [arXiv](https://arxiv.org/abs/1609.03605) | [GitHub](https://github.com/tianzhi0549/CTPN) | - |
 
 ### Cropped Text Recognizers
 
