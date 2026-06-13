@@ -367,9 +367,18 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
 | **MinerU-Popo** | 2026.05 | document-level post-processing for OCR outputs and document-tree assembly | [arXiv](https://arxiv.org/abs/2605.24973) | [GitHub](https://github.com/opendatalab/MinerU-Popo) | [HF](https://huggingface.co/DreamEternal/MinerU-Popo) |
-| **MinerU / MinerU2.5-Pro** | 2024.09 / 2026.04 | layout decomposition + VLM parsing | [MinerU](https://arxiv.org/abs/2409.18839) / [2.5-Pro](https://arxiv.org/abs/2604.04771) | [GitHub](https://github.com/opendatalab/MinerU) | - |
-| **Dolphin-v2** | 2026.02 | anchor prompting + document parsing workflow | [arXiv](https://arxiv.org/abs/2602.05384) | [GitHub](https://github.com/bytedance/Dolphin) | - |
+| **MinerU2.5-Pro** | 2026.04 | data-centric document parsing system | [arXiv](https://arxiv.org/abs/2604.04771) | [GitHub](https://github.com/opendatalab/MinerU) | - |
+| **Dolphin-v2** | 2026.02 | universal document parsing via scalable anchor prompting | [arXiv](https://arxiv.org/abs/2602.05384) | [GitHub](https://github.com/bytedance/Dolphin) | [HF](https://huggingface.co/ByteDance/Dolphin-v2) |
+| **Uni-Parser** | 2025.12 | industrial multi-expert PDF parser for scientific literature and patents | [arXiv](https://arxiv.org/abs/2512.15098) | - | - |
+| **PaddleOCR 3.0 / PP-StructureV3** | 2025.07 | industrial document parsing toolkit | [arXiv](https://arxiv.org/abs/2507.05595) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
+| **Dolphin** | 2025.05 | analyze-then-parse document image parsing workflow | [arXiv](https://arxiv.org/abs/2505.14059), [Findings ACL](https://aclanthology.org/2025.findings-acl.1130/) | [GitHub](https://github.com/bytedance/Dolphin) | [HF](https://huggingface.co/ByteDance/Dolphin) |
+| **OmniParser V2** | 2025.02 | structured-points-of-thought for unified visual text parsing | [arXiv](https://arxiv.org/abs/2502.16161), [TPAMI](https://doi.org/10.1109/TPAMI.2026.3677075) | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/OCR/OmniParser) | - |
+| **MinerU** | 2024.09 | layout decomposition + document parsing workflow | [arXiv](https://arxiv.org/abs/2409.18839) | [GitHub](https://github.com/opendatalab/MinerU) | - |
 | **Docling** | 2024.08 | production document conversion workflow | [arXiv](https://arxiv.org/abs/2408.09869) | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) |
+| **OmniParser** | 2024.03 | unified text spotting, key information extraction, and table recognition | [arXiv](https://arxiv.org/abs/2403.19128), [CVPR](https://openaccess.thecvf.com/content/CVPR2024/html/Wan_OmniParser_A_Unified_Framework_for_Text_Spotting_Key_Information_Extraction_CVPR_2024_paper.html) | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/OCR/OmniParser) | - |
+| **DocXChain** | 2023.10 | open-source document parsing toolchain with OCR, layout, and table pipelines | [arXiv](https://arxiv.org/abs/2310.12430) | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/Applications/DocXChain) | - |
+| **PP-Structure / PP-StructureV2** | 2022.10 | layout + table + OCR document analysis workflow | [arXiv](https://arxiv.org/abs/2210.05391) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
+| **Unstructured** | 2022.09 | document partitioning and ingestion workflow | - | [GitHub](https://github.com/Unstructured-IO/unstructured) | [Docs](https://docs.unstructured.io/) |
 
 ### PDF-to-Structured-Output Workflows
 
