@@ -486,8 +486,8 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 | **Azure AI Document Intelligence / AI Vision OCR** | commercial cloud API | document / PDF / image | OCR, layout, tables, forms, fields | [Document Intelligence](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview) / [AI Vision OCR](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-ocr) |
 | **Amazon Textract / Bedrock Data Automation** | commercial cloud API | document / PDF / image | OCR, tables, forms, queries, multimodal extraction | [Textract](https://docs.aws.amazon.com/textract/) / [BDA](https://docs.aws.amazon.com/bedrock/latest/userguide/bda.html) |
 | **Adobe PDF Services / PDF Extract API** | commercial cloud API / SDK | PDF | OCR, text, tables, structured PDF extraction | [PDF Services](https://developer.adobe.com/document-services/docs/overview/pdf-services-api/) / [PDF Extract](https://developer.adobe.com/document-services/docs/overview/pdf-extract-api/) |
-| **Alibaba Cloud OCR / AI Doc** | commercial cloud API | document / image / business forms | OCR, document parsing, enterprise extraction | [OCR](https://www.alibabacloud.com/help/en/ocr) / [AI Doc](https://www.alibabacloud.com/en/solutions/ai-doc) |
-| **Tencent Cloud OCR** | commercial cloud API | document / image / ID / invoice | OCR and structured recognition APIs | [Docs](https://www.tencentcloud.com/document/product/866) |
+| **Alibaba Cloud OCR / Qwen-OCR / AI Doc** | commercial cloud API | document / image / business forms | OCR, visual text extraction, document parsing, enterprise extraction | [OCR API](https://api.alibabacloud.com/api/ocr-api/2021-07-07/RecognizeGeneral) / [Qwen-OCR](https://www.alibabacloud.com/help/en/model-studio/qwen-vl-ocr) / [AI Doc](https://www.alibabacloud.com/en/solutions/ai-doc) |
+| **Tencent Cloud OCR** | commercial cloud API | document / image / ID / invoice | OCR, document intelligence, and structured recognition APIs | [Product](https://www.tencentcloud.com/product/ocr) / [Docs](https://www.tencentcloud.com/document/product/1005) / [API Category](https://www.tencentcloud.com/document/product/1005/34674) |
 | **Baidu AI Cloud OCR** | commercial cloud API | document / image / card / invoice | OCR and vertical document recognition | [Website](https://cloud.baidu.com/product/ocr) |
 | **Huawei Cloud OCR** | commercial cloud API | document / image / card / ticket | OCR and document recognition APIs | [Docs](https://support.huaweicloud.com/intl/en-us/ocr/) |
 | **Volcano Engine OCR** | commercial cloud API | document / image / invoice / form | OCR and vertical recognition APIs | [Website](https://www.volcengine.com/product/ocr) |
@@ -516,8 +516,16 @@ For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month,
 
 | System | Access Mode | Native Input | Output Contract | Docs / Website |
 |---|---|---|---|---|
-| **Mathpix** | commercial cloud API | formula / paper / document | LaTeX / Markdown | [Website](https://mathpix.com/) |
+| **Mathpix** | commercial cloud API | formula / paper / document | LaTeX / Markdown | [Website](https://mathpix.com/) / [Docs](https://docs.mathpix.com/) |
+| **LlamaParse** | commercial cloud API | PDF / document | Markdown, text, structured parse for RAG | [Website](https://www.llamaindex.ai/llamaparse) / [Docs](https://docs.cloud.llamaindex.ai/llamaparse/getting_started) |
+| **Unstructured Platform** | commercial cloud API / platform | documents, PDFs, images | partitions, elements, chunks, metadata | [Website](https://unstructured.io/) / [Docs](https://docs.unstructured.io/) |
+| **Reducto** | commercial cloud API | document / PDF / image | parsed document structure, split / extract workflows | [Website](https://reducto.ai/) / [Docs](https://docs.reducto.ai/overview) / [Parse API](https://docs.reducto.ai/api-reference/parse) |
+| **Chunkr** | commercial cloud API / self-hostable | PDF / image / spreadsheet / office documents | OCR, layout, semantic chunks, Markdown / JSON | [Website](https://www.chunkr.ai/) / [GitHub](https://github.com/lumina-ai-inc/chunkr) |
+| **LandingAI Agentic Document Extraction** | commercial cloud API | document / PDF / image | visual-grounded document parse and schema extraction | [Website](https://landing.ai/) / [Docs](https://docs.landing.ai/) |
+| **Upstage Document Parse** | commercial cloud API | PDF / image / document | Markdown, HTML, structured document elements | [Website](https://www.upstage.ai/products/document-parse) / [Docs](https://developers.upstage.ai/docs/apis/document-parse) |
+| **Datalab / Marker API** | commercial cloud API / self-hostable | PDF / image / office documents | Markdown, JSON, chunks, HTML | [Website](https://www.datalab.to/) / [Docs](https://documentation.datalab.to/) / [Marker](https://github.com/datalab-to/marker) |
+| **Nanonets Document Parsing API** | commercial cloud API | document / PDF / image | structured Markdown and field extraction | [Website](https://nanonets.com/document-parsing-and-extraction) / [OCR API](https://nanonets.com/ocr-api/) |
 | **Mistral OCR** | commercial cloud API | document / PDF / image | Markdown / structured response | [Docs](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/) |
-| **Qwen-OCR API** | commercial cloud API | document / image | structured OCR output | [Docs](https://help.aliyun.com/zh/model-studio/) |
+| **Qwen-OCR API** | commercial cloud API | document / image | text extraction, tables, receipts, formulas, structured OCR output | [Docs](https://www.alibabacloud.com/help/en/model-studio/qwen-vl-ocr) / [API Explorer](https://api.alibabacloud.com/api/ocr-api/2021-07-07/RecognizeGeneral) |
 
 </details>
