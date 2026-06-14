@@ -16,8 +16,7 @@ OCR systems from different eras do not share a single input-output contract. A c
 
 Result tables report numeric values rather than text-only labels.
 
-| Family | Model | Version | Params / Access | Track A | Track B | Track C | Track D Drop | s/page | Peak GB | Cost / 1K Pages | Invalid Output | Notes |
-|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
+Required fields: family, model, version, parameters or access mode, track scores, robustness drop, runtime, peak memory, API cost, invalid-output rate, and notes.
 
 ## Configuration Fields
 

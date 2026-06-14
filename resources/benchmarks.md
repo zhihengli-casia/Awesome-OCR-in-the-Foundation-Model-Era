@@ -1,6 +1,6 @@
 # Benchmark and Dataset Inventory
 
-OCR benchmarks are not a single leaderboard. Different benchmark families measure different input units, output contracts, metrics, semantic load, and deployment assumptions. This file provides a fuller inventory than the front-page README.
+OCR benchmarks differ in input unit, output contract, metric, semantic load, and deployment assumption. This inventory extends the front-page benchmark table.
 
 ## How to Read This Inventory
 
@@ -250,6 +250,6 @@ OCR benchmarks are not a single leaderboard. Different benchmark families measur
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
 |:---:|:---|:---:|:---|:---|:---|:---:|
-| 2024.07 | Needle-in-a-Document / long-document QA suites | stress tests | long PDFs / docs + questions | answer accuracy | useful for downstream document intelligence, not OCR itself | [MMLongBench-Doc](https://arxiv.org/abs/2407.01523), [NeurIPS D&B](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ae0e43289bffea0c1fa34633fc608e92-Abstract-Datasets_and_Benchmarks_Track.html) |
+| 2024.07 | Needle-in-a-Document / long-document QA suites | stress tests | long PDFs / docs + questions | answer accuracy | downstream document intelligence stress tests, outside core OCR | [MMLongBench-Doc](https://arxiv.org/abs/2407.01523), [NeurIPS D&B](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ae0e43289bffea0c1fa34633fc608e92-Abstract-Datasets_and_Benchmarks_Track.html) |
 | 2023.11 | MMMU / multimodal exam benchmarks | VLM benchmark | images + questions | accuracy | may contain text-rich questions but mixes OCR with reasoning | [Paper](https://arxiv.org/abs/2311.16502) |
 | 2023.10 | MathVista | VLM benchmark | math diagrams + questions | accuracy | formula/chart-heavy reasoning, not a pure OCR benchmark | [Paper](https://arxiv.org/abs/2310.02255) |

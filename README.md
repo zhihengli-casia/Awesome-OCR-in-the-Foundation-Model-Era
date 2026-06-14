@@ -6,9 +6,9 @@
 [![Maintained](https://img.shields.io/badge/Maintained-2026-blue)](https://github.com/zhihengli-casia/Awesome-OCR-in-the-Foundation-Model-Era/commits/main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-A curated list of OCR, document parsing, OCR-specialized vision-language models, hybrid document parsing workflows, commercial OCR services, and benchmarks.
+OCR, document parsing, OCR-specialized vision-language models, hybrid document parsing workflows, commercial OCR services, and benchmarks.
 
-This repository accompanies the survey:
+Associated survey:
 
 > **OCR in the Foundation Model Era: A Survey**  
 > Zhiheng Li et al., in preparation, 2026.
@@ -31,7 +31,7 @@ OCR is treated here in a broad but bounded sense: visual text and document image
 <details open>
 <summary><small>Related Awesome Lists</small></summary>
 
-Existing OCR and document-AI awesome lists remain useful, especially for classical OCR tooling, preprocessing, GUI utilities, OCR file formats, historical document OCR, scene text, document understanding, KIE, table recognition, and PDF tooling. The resources below provide complementary coverage around foundation-model-era document parsers, VLM interfaces, commercial APIs, and cross-era evaluation.
+Complementary OCR and document-AI resource lists covering classical OCR tooling, historical-document OCR, scene text, document understanding, KIE, table recognition, PDF tooling, and VLM-era OCR.
 
 | Repository | Strong Coverage | Links |
 |:---:|:---:|:---:|
@@ -41,10 +41,10 @@ Existing OCR and document-AI awesome lists remain useful, especially for classic
 | [![GitHub](https://img.shields.io/badge/GitHub-tstanislawek%2Fawesome--document--understanding-24292f?logo=github)](https://github.com/tstanislawek/awesome-document-understanding) [![Star](https://img.shields.io/github/stars/tstanislawek/awesome-document-understanding.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/tstanislawek/awesome-document-understanding)<br>**awesome-document-understanding** | intelligent document processing; OCR, KIE, layout, document VQA, table, and diagram understanding | [GitHub](https://github.com/tstanislawek/awesome-document-understanding) |
 | [![GitHub](https://img.shields.io/badge/GitHub-SCUT--DLVCLab%2FDocument--AI--Recommendations-24292f?logo=github)](https://github.com/SCUT-DLVCLab/Document-AI-Recommendations) [![Star](https://img.shields.io/github/stars/SCUT-DLVCLab/Document-AI-Recommendations.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/SCUT-DLVCLab/Document-AI-Recommendations)<br>**Document-AI-Recommendations** | Document AI algorithms, datasets, SOTA tables, visual information extraction, table structure recognition, layout analysis | [GitHub](https://github.com/SCUT-DLVCLab/Document-AI-Recommendations) |
 | [![GitHub](https://img.shields.io/badge/GitHub-harrytea%2FAwesome--Document--Understanding-24292f?logo=github)](https://github.com/harrytea/Awesome-Document-Understanding) [![Star](https://img.shields.io/github/stars/harrytea/Awesome-Document-Understanding.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/harrytea/Awesome-Document-Understanding)<br>**Awesome Document Understanding** | document understanding papers, MLLMs, grounded MLLMs, and visual document benchmarks | [GitHub](https://github.com/harrytea/Awesome-Document-Understanding) |
-| [![GitHub](https://img.shields.io/badge/GitHub-BradyFU%2FAwesome--Multimodal--Large--Language--Models-24292f?logo=github)](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) [![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)<br>**Awesome Multimodal LLMs** | broad VLM / MLLM model landscape; useful for general-purpose OCR interfaces and VLM baselines | [GitHub](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) |
+| [![GitHub](https://img.shields.io/badge/GitHub-BradyFU%2FAwesome--Multimodal--Large--Language--Models-24292f?logo=github)](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) [![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)<br>**Awesome Multimodal LLMs** | broad VLM / MLLM model landscape; general-purpose OCR interfaces and VLM baselines | [GitHub](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) |
 | [![GitHub](https://img.shields.io/badge/GitHub-kba%2Fawesome--ocr-24292f?logo=github)](https://github.com/kba/awesome-ocr) [![Star](https://img.shields.io/github/stars/kba/awesome-ocr.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/kba/awesome-ocr)<br>**kba/awesome-ocr** | historical-document OCR; OCR engines; hOCR / ALTO / PAGE XML; GUI tools; preprocessing; datasets; older literature | [GitHub](https://github.com/kba/awesome-ocr) |
 | [![GitHub](https://img.shields.io/badge/GitHub-zacharywhitley%2Fawesome--ocr-24292f?logo=github)](https://github.com/zacharywhitley/awesome-ocr) [![Star](https://img.shields.io/github/stars/zacharywhitley/awesome-ocr.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/zacharywhitley/awesome-ocr)<br>**zacharywhitley/awesome-ocr** | pipeline-era engineering resources; deskewing and dewarping; segmentation; text detection; recognition; table extraction; HTR; post-processing | [GitHub](https://github.com/zacharywhitley/awesome-ocr) |
-| [![GitHub](https://img.shields.io/badge/GitHub-ZumingHuang%2Fawesome--ocr--resources-24292f?logo=github)](https://github.com/ZumingHuang/awesome-ocr-resources) [![Star](https://img.shields.io/github/stars/ZumingHuang/awesome-ocr-resources.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/ZumingHuang/awesome-ocr-resources)<br>**ZumingHuang/awesome-ocr-resources** | chronological OCR paper and dataset tracking; useful bibliography scaffold for pre-2025 methods | [GitHub](https://github.com/ZumingHuang/awesome-ocr-resources) |
+| [![GitHub](https://img.shields.io/badge/GitHub-ZumingHuang%2Fawesome--ocr--resources-24292f?logo=github)](https://github.com/ZumingHuang/awesome-ocr-resources) [![Star](https://img.shields.io/github/stars/ZumingHuang/awesome-ocr-resources.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/ZumingHuang/awesome-ocr-resources)<br>**ZumingHuang/awesome-ocr-resources** | chronological OCR paper and dataset tracking for pre-2025 methods | [GitHub](https://github.com/ZumingHuang/awesome-ocr-resources) |
 | [![GitHub](https://img.shields.io/badge/GitHub-wanghaisheng%2Fawesome--ocr-24292f?logo=github)](https://github.com/wanghaisheng/awesome-ocr) [![Star](https://img.shields.io/github/stars/wanghaisheng/awesome-ocr.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/wanghaisheng/awesome-ocr)<br>**wanghaisheng/awesome-ocr** | Chinese engineering resources; APIs; OCR wrappers; practical libraries; older project tracking | [GitHub](https://github.com/wanghaisheng/awesome-ocr) |
 | [![GitHub](https://img.shields.io/badge/GitHub-chongyangtao%2FAwesome--Scene--Text--Recognition-24292f?logo=github)](https://github.com/chongyangtao/Awesome-Scene-Text-Recognition) [![Star](https://img.shields.io/github/stars/chongyangtao/Awesome-Scene-Text-Recognition.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/chongyangtao/Awesome-Scene-Text-Recognition)<br>**Awesome Scene Text Recognition** | scene text detection / recognition / spotting papers and resources | [GitHub](https://github.com/chongyangtao/Awesome-Scene-Text-Recognition) |
 | [![GitHub](https://img.shields.io/badge/GitHub-janzd%2Fawesome--scene--text-24292f?logo=github)](https://github.com/janzd/awesome-scene-text) [![Star](https://img.shields.io/github/stars/janzd/awesome-scene-text.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/janzd/awesome-scene-text)<br>**awesome-scene-text** | updated scene-text detection, recognition, and spotting papers from 2010 onward | [GitHub](https://github.com/janzd/awesome-scene-text) |
@@ -60,7 +60,7 @@ Adjacent topics outside the main model-family taxonomy include OCR file-format t
 
 ## Model Collections
 
-Badges indicate venue/source and year when available; Star badges follow the live Shields.io style used by common awesome lists; explicit GitHub links remain available for every public repository. For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month, with multiple releases listed slash-separated when a row groups several papers; venue badges retain the accepted venue and year. Entries without arXiv keep the available public source, project, dataset, or challenge date; active ranges such as `2020-2026` mark projects that continue to evolve beyond their first release. Repository-only entries use the public GitHub repository creation date. Entries are broadly arranged by recency within each subsection while keeping closely related model families together. Each model-family block and subsection is expandable and remains open by default for direct browsing.
+Dates use arXiv `YYYY.MM`; venue badges keep the accepted venue and year. Entries without arXiv use the available public source, project, dataset, or challenge date.
 
 <a id="f1-modular-ocr-toolkits-and-specialized-components"></a>
 
@@ -671,7 +671,7 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 
 ## Benchmark and Dataset Collections
 
-Benchmarks are organized by the capability layer they evaluate rather than by a single leaderboard. The table below keeps representative OCR, document parsing, document understanding, and VLM-OCR datasets visible on the front page; the fuller inventory is maintained in [`resources/benchmarks.md`](resources/benchmarks.md).
+Benchmarks are grouped by capability layer rather than by a single leaderboard. Extended benchmark inventory: [`resources/benchmarks.md`](resources/benchmarks.md).
 
 <details open>
 <summary><strong><big>B1. Cropped Text Recognition and Line Recognition</big></strong></summary>
@@ -903,13 +903,13 @@ Benchmarks are organized by the capability layer they evaluate rather than by a 
 
 ## Other Resource Files
 
-- `resources/models.md`: standalone expandable model collections for longer maintenance notes.
-- `resources/benchmarks.md`: fuller OCR, document parsing, document understanding, and VLM-OCR benchmark inventory.
-- `arena/README.md`: proposed cross-era evaluation tracks and result-table schema.
+- `resources/models.md`: extended model and system collections.
+- `resources/benchmarks.md`: extended OCR, document parsing, document understanding, and VLM-OCR benchmark inventory.
+- `arena/README.md`: cross-era evaluation tracks and result-table schema.
 
 ## Update Policy
 
-This list prioritizes resources that are useful for a full-history OCR survey:
+Scope:
 
 - historically important OCR methods and benchmarks;
 - modern OCR-specialized VLMs and document parsers;
@@ -921,7 +921,7 @@ Required metadata for additions: a stable project page, model card, paper, docum
 
 ## Citation
 
-If this repository or the survey helps your work, please cite the survey once the public version is available.
+Please cite the survey after the public version is available.
 
 ```bibtex
 @article{li2026ocrfoundation,
