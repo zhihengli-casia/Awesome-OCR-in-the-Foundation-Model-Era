@@ -1,6 +1,6 @@
 # Benchmark and Dataset Inventory
 
-OCR benchmarks should not be read as a single leaderboard. Different benchmark families measure different input units, output contracts, metrics, semantic load, and deployment assumptions. This file keeps a fuller inventory than the front-page README.
+OCR benchmarks are not a single leaderboard. Different benchmark families measure different input units, output contracts, metrics, semantic load, and deployment assumptions. This file provides a fuller inventory than the front-page README.
 
 ## How to Read This Inventory
 

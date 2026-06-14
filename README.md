@@ -31,7 +31,7 @@ OCR is treated here in a broad but bounded sense: visual text and document image
 <details open>
 <summary><small>Related Awesome Lists</small></summary>
 
-Existing OCR and document-AI awesome lists remain useful, especially for classical OCR tooling, preprocessing, GUI utilities, OCR file formats, historical document OCR, scene text, document understanding, KIE, table recognition, and PDF tooling. This repository focuses on connecting those adjacent resources with foundation-model-era document parsers, VLM interfaces, commercial APIs, and cross-era evaluation.
+Existing OCR and document-AI awesome lists remain useful, especially for classical OCR tooling, preprocessing, GUI utilities, OCR file formats, historical document OCR, scene text, document understanding, KIE, table recognition, and PDF tooling. The resources below provide complementary coverage around foundation-model-era document parsers, VLM interfaces, commercial APIs, and cross-era evaluation.
 
 | Repository | Strong Coverage | Links |
 |:---:|:---:|:---:|
@@ -54,7 +54,7 @@ Existing OCR and document-AI awesome lists remain useful, especially for classic
 | [![GitHub](https://img.shields.io/badge/GitHub-johnson--magic%2FAwesome--Document--Layout--Analysis-24292f?logo=github)](https://github.com/johnson-magic/Awesome-Document-Layout-Analysis) [![Star](https://img.shields.io/github/stars/johnson-magic/Awesome-Document-Layout-Analysis.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/johnson-magic/Awesome-Document-Layout-Analysis)<br>**Awesome Document Layout Analysis** | layout-analysis papers, datasets, competitions, and technical resources | [GitHub](https://github.com/johnson-magic/Awesome-Document-Layout-Analysis) |
 | [![GitHub](https://img.shields.io/badge/GitHub-py--pdf%2Fawesome--pdf-24292f?logo=github)](https://github.com/py-pdf/awesome-pdf) [![Star](https://img.shields.io/github/stars/py-pdf/awesome-pdf.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/py-pdf/awesome-pdf)<br>**awesome-pdf** | PDF libraries, manipulation, extraction, OCRmyPDF, corpora, and PDF tooling adjacent to document parsing | [GitHub](https://github.com/py-pdf/awesome-pdf) |
 
-Coverage gaps identified from these lists and not fully duplicated here: OCR file-format tooling (`hOCR`, `ALTO`, `PAGE XML`), annotation/GUI utilities, preprocessing and document restoration, handwriting and historical-document OCR ecosystems, OCR post-correction, language-model cleanup, PDF internals, and narrow industrial OCR applications such as license plates or ID cards. These are adjacent to the survey scope and may be expanded as separate resource files rather than folded into the main model-family taxonomy.
+Adjacent topics outside the main model-family taxonomy include OCR file-format tooling (`hOCR`, `ALTO`, `PAGE XML`), annotation and GUI utilities, preprocessing and document restoration, handwriting and historical-document OCR ecosystems, OCR post-correction, language-model cleanup, PDF internals, and narrow industrial OCR applications such as license plates or ID cards.
 
 </details>
 
@@ -917,7 +917,7 @@ This list prioritizes resources that are useful for a full-history OCR survey:
 - industrial or commercial services with public documentation;
 - datasets and benchmarks that define evaluation protocols.
 
-Pull requests should include a stable project page, model card, paper, documentation page, or benchmark page.
+Required metadata for additions: a stable project page, model card, paper, documentation page, or benchmark page.
 
 ## Citation
 

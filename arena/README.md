@@ -1,6 +1,6 @@
 # Cross-Era OCR Arena
 
-The survey proposes a cross-era evaluation arena because OCR systems from different eras do not share a single input-output contract. A cropped recognizer, a detector-recognizer toolkit, a document parser, a general VLM, and a commercial API should not be reduced to one undifferentiated OCR score.
+OCR systems from different eras do not share a single input-output contract. A cropped recognizer, a detector-recognizer toolkit, a document parser, a general VLM, and a commercial API require separate evaluation tracks rather than one undifferentiated OCR score.
 
 ## Evaluation Tracks
 
@@ -14,19 +14,14 @@ The survey proposes a cross-era evaluation arena because OCR systems from differ
 
 ## Reporting Schema
 
-Result tables should report numeric values rather than text-only labels.
+Result tables report numeric values rather than text-only labels.
 
 | Family | Model | Version | Params / Access | Track A | Track B | Track C | Track D Drop | s/page | Peak GB | Cost / 1K Pages | Invalid Output | Notes |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| F1 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| F2 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| F3 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| F4 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| F5 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
 
 ## Configuration Fields
 
-Every experiment should record:
+Each experiment records:
 
 - model version and checkpoint;
 - inference resolution or page tiling policy;
@@ -35,4 +30,3 @@ Every experiment should record:
 - post-processing and output normalization;
 - hardware and runtime environment;
 - API date and endpoint version for closed models.
-

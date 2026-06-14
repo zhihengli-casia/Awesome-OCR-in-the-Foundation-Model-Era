@@ -4,7 +4,7 @@ This page organizes representative OCR systems as expandable collections. Each f
 
 Legend: **F1** modular OCR toolkit/component; **F2** foundation-model document parser; **F3** hybrid document parsing workflow; **F4** general-purpose VLM used as an OCR interface; **F5** commercial OCR or document AI service.
 
-For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month, with multiple releases listed slash-separated when a row groups several papers. Accepted venues should be shown in the paper/source label when tracked; entries without arXiv keep the available public source or project date.
+For entries with arXiv versions, the Date column uses the arXiv `YYYY.MM` month, with multiple releases listed slash-separated when a row groups several papers. Accepted venues are shown in the paper/source label when tracked; entries without arXiv keep the available public source or project date.
 
 ## Category Directory
 
