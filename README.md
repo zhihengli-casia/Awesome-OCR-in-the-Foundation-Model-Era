@@ -64,9 +64,7 @@ Dates use arXiv `YYYY.MM`; venue badges keep the accepted venue and year. Entrie
 
 <a id="f1-modular-toolkits"></a>
 
-<details open>
-<summary><strong><big>F1. Modular toolkits</big></strong></summary>
-
+## F1. Modular toolkits
 
 Systems that follow or support the detector-recognizer pipeline: OCR engines, open toolkits, text detectors, cropped recognizers, formula recognizers, and structured-object components.
 
@@ -262,13 +260,9 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 
 </details>
 
-</details>
-
 <a id="f2-specialized-vlms"></a>
 
-<details open>
-<summary><strong><big>F2. Specialized VLMs</big></strong></summary>
-
+## F2. Specialized VLMs
 
 End-to-end or near end-to-end models that read page images and generate structured representations such as Markdown, HTML, LaTeX, JSON, or OCR-formatted text.
 
@@ -410,13 +404,9 @@ End-to-end or near end-to-end models that read page images and generate structur
 
 </details>
 
-</details>
-
 <a id="f3-hybrid-workflows"></a>
 
-<details open>
-<summary><strong><big>F3. Hybrid workflows</big></strong></summary>
-
+## F3. Hybrid workflows
 
 Systems that combine layout detection, OCR, region decomposition, VLM generation, rule-based validators, and document assembly.
 
@@ -475,13 +465,9 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 
 </details>
 
-</details>
-
 <a id="f4-general-purpose-vlms"></a>
 
-<details open>
-<summary><strong><big>F4. General-purpose VLMs</big></strong></summary>
-
+## F4. General-purpose VLMs
 
 General multimodal models that can perform OCR-related tasks through prompts, while OCR is only one part of their capability.
 
@@ -594,13 +580,9 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 
 </details>
 
-</details>
-
 <a id="f5-commercial-apis-and-products"></a>
 
-<details open>
-<summary><strong><big>F5. Commercial APIs and products</big></strong></summary>
-
+## F5. Commercial APIs and products
 
 Closed-source or managed systems for document conversion, enterprise OCR, scientific document parsing, formula OCR, receipts, forms, invoices, and other vertical workflows.
 
@@ -662,8 +644,6 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 | 2026 | [![Product docs 2026](https://img.shields.io/badge/Product%20docs-2026-6f42c1)](https://www.alibabacloud.com/help/en/model-studio/qwen-vl-ocr)<br>**Qwen-OCR API** | managed visual text extraction; tables, receipts, formulas, and structured OCR output | [Docs](https://www.alibabacloud.com/help/en/model-studio/qwen-vl-ocr)<br>[API Explorer](https://api.alibabacloud.com/api/ocr-api/2021-07-07/RecognizeGeneral) |
 | 2025 | [![Product docs 2025](https://img.shields.io/badge/Product%20docs-2025-6f42c1)](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/)<br>**Mistral OCR** | managed OCR API; Markdown / structured response | [Docs](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/) |
 
-
-</details>
 
 </details>
 
