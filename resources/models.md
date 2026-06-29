@@ -2,14 +2,14 @@
 
 Extended OCR model and system tables organized by the survey taxonomy.
 
-Legend: **F1** modular OCR toolkit/component; **F2** foundation-model document parser; **F3** hybrid document parsing workflow; **F4** general-purpose VLM used as an OCR interface; **F5** commercial OCR or document AI service.
+Legend: **F1** modular toolkit; **F2** specialized VLM; **F3** hybrid workflow; **F4** general-purpose VLM; **F5** commercial API or product.
 
 Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 ## Category Directory
 
 <details>
-<summary><strong>F1. Modular OCR Toolkits and Specialized Components</strong></summary>
+<summary><strong>F1. Modular toolkits</strong></summary>
 
 - OCR engines and toolkits
 - Text detection and spotting components
@@ -19,7 +19,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 </details>
 
 <details>
-<summary><strong>F2. Foundation-Model Document Parsers</strong></summary>
+<summary><strong>F2. Specialized VLMs</strong></summary>
 
 - OCR-free and transitional encoder-decoders
 - Early document VLMs
@@ -29,15 +29,15 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 </details>
 
 <details>
-<summary><strong>F3. Hybrid Document Parsing Workflows</strong></summary>
+<summary><strong>F3. Hybrid workflows</strong></summary>
 
-- Full document parsing workflows
+- Full hybrid workflows
 - PDF-to-Markdown and document conversion workflows
 
 </details>
 
 <details>
-<summary><strong>F4. General-Purpose VLMs Used as OCR Interfaces</strong></summary>
+<summary><strong>F4. General-purpose VLMs</strong></summary>
 
 - Open general VLMs
 - Closed/API general VLMs
@@ -45,7 +45,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 </details>
 
 <details>
-<summary><strong>F5. Commercial OCR and Document AI Services</strong></summary>
+<summary><strong>F5. Commercial APIs and products</strong></summary>
 
 - Enterprise OCR and document AI
 - Scientific OCR and formula-heavy services
@@ -55,10 +55,10 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 ## Detailed Collections
 
-<a id="f1-modular-ocr-toolkits-and-specialized-components"></a>
+<a id="f1-modular-toolkits"></a>
 
 <details>
-<summary><strong>F1. Modular OCR Toolkits and Specialized Components</strong></summary>
+<summary><strong>F1. Modular toolkits</strong></summary>
 
 ### OCR Engines and Toolkits
 
@@ -233,10 +233,10 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 </details>
 
-<a id="f2-foundation-model-document-parsers"></a>
+<a id="f2-specialized-vlms"></a>
 
 <details>
-<summary><strong>F2. Foundation-Model Document Parsers</strong></summary>
+<summary><strong>F2. Specialized VLMs</strong></summary>
 
 ### OCR-Free and Transitional Encoder-Decoders
 
@@ -357,12 +357,12 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 </details>
 
-<a id="f3-hybrid-document-parsing-workflows"></a>
+<a id="f3-hybrid-workflows"></a>
 
 <details>
-<summary><strong>F3. Hybrid Document Parsing Workflows</strong></summary>
+<summary><strong>F3. Hybrid workflows</strong></summary>
 
-### Full Document Parsing Workflows
+### Full Hybrid Workflows
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
@@ -409,10 +409,10 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 </details>
 
-<a id="f4-general-purpose-vlms-used-as-ocr-interfaces"></a>
+<a id="f4-general-purpose-vlms"></a>
 
 <details>
-<summary><strong>F4. General-Purpose VLMs Used as OCR Interfaces</strong></summary>
+<summary><strong>F4. General-purpose VLMs</strong></summary>
 
 ### Open General VLMs
 
@@ -473,10 +473,10 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 </details>
 
-<a id="f5-commercial-ocr-and-document-ai-services"></a>
+<a id="f5-commercial-apis-and-products"></a>
 
 <details>
-<summary><strong>F5. Commercial OCR and Document AI Services</strong></summary>
+<summary><strong>F5. Commercial APIs and products</strong></summary>
 
 ### Enterprise OCR and Document AI
 

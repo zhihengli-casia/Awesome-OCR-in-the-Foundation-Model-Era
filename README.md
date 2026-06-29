@@ -6,7 +6,7 @@
 [![Maintained](https://img.shields.io/badge/Maintained-2026-blue)](https://github.com/zhihengli-casia/Awesome-OCR-in-the-Foundation-Model-Era/commits/main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-OCR, document parsing, OCR-specialized vision-language models, hybrid document parsing workflows, commercial OCR services, and benchmarks.
+OCR, document parsing, OCR-specialized vision-language models, hybrid workflows, commercial APIs and products, and benchmarks.
 
 Associated survey:
 
@@ -17,11 +17,11 @@ OCR is treated here in a broad but bounded sense: visual text and document image
 
 ## Contents
 
-- [F1. Modular OCR Toolkits and Specialized Components](#f1-modular-ocr-toolkits-and-specialized-components)
-- [F2. Foundation-Model Document Parsers](#f2-foundation-model-document-parsers)
-- [F3. Hybrid Document Parsing Workflows](#f3-hybrid-document-parsing-workflows)
-- [F4. General-Purpose VLMs Used as OCR Interfaces](#f4-general-purpose-vlms-used-as-ocr-interfaces)
-- [F5. Commercial OCR and Document AI Services](#f5-commercial-ocr-and-document-ai-services)
+- [F1. Modular toolkits](#f1-modular-toolkits)
+- [F2. Specialized VLMs](#f2-specialized-vlms)
+- [F3. Hybrid workflows](#f3-hybrid-workflows)
+- [F4. General-purpose VLMs](#f4-general-purpose-vlms)
+- [F5. Commercial APIs and products](#f5-commercial-apis-and-products)
 - [Benchmarks and Datasets](#benchmarks-and-datasets)
 - [Cross-era OCR Arena](arena/README.md)
 - [Related Awesome Lists](#related-awesome-lists)
@@ -62,10 +62,10 @@ Adjacent topics outside the main model-family taxonomy include OCR file-format t
 
 Dates use arXiv `YYYY.MM`; venue badges keep the accepted venue and year. Entries without arXiv use the available public source, project, dataset, or challenge date.
 
-<a id="f1-modular-ocr-toolkits-and-specialized-components"></a>
+<a id="f1-modular-toolkits"></a>
 
 <details open>
-<summary><strong><big>F1. Modular OCR Toolkits and Specialized Components</big></strong></summary>
+<summary><strong><big>F1. Modular toolkits</big></strong></summary>
 
 
 Systems that follow or support the detector-recognizer pipeline: OCR engines, open toolkits, text detectors, cropped recognizers, formula recognizers, and structured-object components.
@@ -264,10 +264,10 @@ Systems that follow or support the detector-recognizer pipeline: OCR engines, op
 
 </details>
 
-<a id="f2-foundation-model-document-parsers"></a>
+<a id="f2-specialized-vlms"></a>
 
 <details open>
-<summary><strong><big>F2. Foundation-Model Document Parsers</big></strong></summary>
+<summary><strong><big>F2. Specialized VLMs</big></strong></summary>
 
 
 End-to-end or near end-to-end models that read page images and generate structured representations such as Markdown, HTML, LaTeX, JSON, or OCR-formatted text.
@@ -412,16 +412,16 @@ End-to-end or near end-to-end models that read page images and generate structur
 
 </details>
 
-<a id="f3-hybrid-document-parsing-workflows"></a>
+<a id="f3-hybrid-workflows"></a>
 
 <details open>
-<summary><strong><big>F3. Hybrid Document Parsing Workflows</big></strong></summary>
+<summary><strong><big>F3. Hybrid workflows</big></strong></summary>
 
 
 Systems that combine layout detection, OCR, region decomposition, VLM generation, rule-based validators, and document assembly.
 
 <details open>
-<summary><small>Full Document Parsing Workflows</small></summary>
+<summary><small>Full Hybrid Workflows</small></summary>
 
 
 | Date | Title | Task / Tags | Links |
@@ -477,10 +477,10 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 
 </details>
 
-<a id="f4-general-purpose-vlms-used-as-ocr-interfaces"></a>
+<a id="f4-general-purpose-vlms"></a>
 
 <details open>
-<summary><strong><big>F4. General-Purpose VLMs Used as OCR Interfaces</big></strong></summary>
+<summary><strong><big>F4. General-purpose VLMs</big></strong></summary>
 
 
 General multimodal models that can perform OCR-related tasks through prompts, while OCR is only one part of their capability.
@@ -596,10 +596,10 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 
 </details>
 
-<a id="f5-commercial-ocr-and-document-ai-services"></a>
+<a id="f5-commercial-apis-and-products"></a>
 
 <details open>
-<summary><strong><big>F5. Commercial OCR and Document AI Services</big></strong></summary>
+<summary><strong><big>F5. Commercial APIs and products</big></strong></summary>
 
 
 Closed-source or managed systems for document conversion, enterprise OCR, scientific document parsing, formula OCR, receipts, forms, invoices, and other vertical workflows.
@@ -912,9 +912,9 @@ Benchmarks are grouped by capability layer rather than by a single leaderboard. 
 Scope:
 
 - historically important OCR methods and benchmarks;
-- modern OCR-specialized VLMs and document parsers;
-- general VLMs frequently used as OCR interfaces;
-- industrial or commercial services with public documentation;
+- specialized OCR/document VLMs;
+- general-purpose VLMs used for OCR-rich prompting;
+- commercial APIs and products with public documentation;
 - datasets and benchmarks that define evaluation protocols.
 
 Required metadata for additions: a stable project page, model card, paper, documentation page, or benchmark page.
