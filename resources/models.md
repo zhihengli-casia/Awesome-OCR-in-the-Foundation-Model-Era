@@ -136,6 +136,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **WATERec / WATER** | 2026.06 | WordArt-oriented scene text recognizer with arbitrary-shaped inputs and autoregressive decoding | [arXiv](https://arxiv.org/abs/2606.24484) | [WATER](https://github.com/YesianRohn/WATER), [Code](https://github.com/YesianRohn/OpenOCR-WATERec) | [HF Models](https://huggingface.co/Yesianrohn/WATERec-Models), [HF Data](https://huggingface.co/datasets/Yesianrohn/WATER-Data) |
 | **UniRec-0.1B** | 2025.12 | unified text and formula recognizer for word, line, paragraph, and document levels | [arXiv](https://arxiv.org/abs/2512.21095) | [GitHub](https://github.com/Topdu/OpenOCR) | [HF](https://huggingface.co/topdu/unirec-0.1b) |
 | **MDiff4STR** | 2025.12 | mask-diffusion scene text recognizer | [arXiv](https://arxiv.org/abs/2512.01422) | [GitHub](https://github.com/Topdu/OpenOCR) | - |
 | **SVTRv2** | 2024.11 | CTC recognizer with irregular-text handling and semantic guidance | [arXiv](https://arxiv.org/abs/2411.15858), [ICCV](https://openaccess.thecvf.com/content/ICCV2025/html/Du_SVTRv2_CTC_Beats_Encoder-Decoder_Models_in_Scene_Text_Recognition_ICCV_2025_paper.html) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
@@ -186,6 +187,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **RT-DocLayout** | 2026.06 | 33M real-time document layout analysis with masks and reading-order prediction | [arXiv](https://arxiv.org/abs/2606.23344) | - | - |
 | **FastTab** | 2026.05 | fast grid-centric table structure recognition | [arXiv](https://arxiv.org/abs/2605.22422) | [GitHub](https://github.com/hamdilaziz/FastTab) | - |
 | **TableSeq** | 2026.04 | unified generation of table structure, content, and layout | [arXiv](https://arxiv.org/abs/2604.16070), [IJDAR](https://link.springer.com/article/10.1007/s10032-026-00586-6) | [GitHub](https://github.com/hamdilaziz/TableSeq) | - |
 | **TDATR** | 2026.03 | end-to-end table recognition with detail-aware learning and cell alignment | [arXiv](https://arxiv.org/abs/2603.22819) | [GitHub](https://github.com/Chunchunwumu/TDATR) | - |
@@ -294,6 +296,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **Unlimited-OCR** | 2026.06 | Baidu long-horizon document parser with R-SWA and constant KV cache | [arXiv](https://arxiv.org/abs/2606.23050) | [GitHub](https://github.com/baidu/Unlimited-OCR) | [HF](https://huggingface.co/baidu/Unlimited-OCR), [ModelScope](https://modelscope.cn/models/PaddlePaddle/Unlimited-OCR), [Demo](https://huggingface.co/spaces/baidu/Unlimited-OCR) |
 | **PaddleOCR-VL-1.6** | 2026.06 | latest compact document parsing VLM in the PaddleOCR-VL line | [arXiv](https://arxiv.org/abs/2606.03264) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | [Docs](https://paddlepaddle.github.io/PaddleOCR/) |
 | **ABot-OCR** | 2026.05 | AMap end-to-end OCR VLM | [arXiv](https://arxiv.org/abs/2605.27978) | [GitHub](https://github.com/amap-cvlab/ABot-OCR) | - |
 | **Qianfan-OCR** | 2026.03 | end-to-end document intelligence model | [arXiv](https://arxiv.org/abs/2603.13398) | [GitHub](https://github.com/baidubce/Qianfan-VL) | [HF](https://huggingface.co/baidu/Qianfan-OCR), [Website](https://cloud.baidu.com/product/wenxinworkshop) |
@@ -333,6 +336,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **P-MTP** | 2026.06 | progressive multi-token prediction for high-throughput document parsing | [arXiv](https://arxiv.org/abs/2606.24447) | [GitHub](https://github.com/Hor1zonz/PMTP) | - |
 | **AGAR** | 2026.06 | attention-guided adaptive rendering for visual text comprehension | [arXiv](https://arxiv.org/abs/2606.12898) | - | - |
 | **LoMo** | 2026.05 | local modality substitution for cross-modal visual-text carrier alignment | [arXiv](https://arxiv.org/abs/2605.30265) | - | - |
 | **FastOCR** | 2026.05 | training-free dynamic visual fixation and KV-cache pruning for efficient VLM document parsing | [arXiv](https://arxiv.org/abs/2605.17447) | - | - |
