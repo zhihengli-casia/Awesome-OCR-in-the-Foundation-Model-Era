@@ -1,6 +1,6 @@
 # Cross-Era OCR Arena
 
-OCR systems from different eras do not share a single input-output contract. A cropped recognizer, a detector-recognizer toolkit, a document parser, a general VLM, and a commercial API require separate evaluation tracks rather than one undifferentiated OCR score.
+OCR systems from different eras do not share a single input-output contract. A cropped recognizer, a detector-recognizer toolkit, a document parser, a general-purpose VLM, and a commercial API require separate evaluation tracks rather than one undifferentiated OCR score.
 
 ## Evaluation Tracks
 
