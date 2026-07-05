@@ -23,7 +23,6 @@ OCR is treated here in the survey's sense: converting visual text and document i
 - [F4. General-purpose VLMs](#f4-general-purpose-vlms)
 - [F5. Commercial APIs and products](#f5-commercial-apis-and-products)
 - [Benchmarks and Datasets](#benchmarks-and-datasets)
-- [Cross-era OCR Arena](arena/README.md)
 - [Related Awesome Lists](#related-awesome-lists)
 
 <a id="related-awesome-lists"></a>
@@ -900,7 +899,6 @@ Benchmarks are grouped by capability layer rather than by a single leaderboard. 
 
 - `resources/models.md`: extended model and system collections.
 - `resources/benchmarks.md`: extended OCR, document parsing, document understanding, and VLM-OCR benchmark inventory.
-- `arena/README.md`: cross-era evaluation tracks and result-table schema.
 
 ## Update Policy
 
