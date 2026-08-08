@@ -97,13 +97,19 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **SymTrack** | 2026.05 | detection-free, structure-aware scene text tracking in video | [arXiv](https://arxiv.org/abs/2605.17270) | [GitHub](https://github.com/EdisonYCM/SymTrack) | - |
+| **LRANet++** | 2025.11 | low-rank arbitrary-shape text detection and end-to-end spotting | [arXiv](https://arxiv.org/abs/2511.05818) | [GitHub](https://github.com/ychensu/LRANet-PP) | - |
+| **ERRNet** | 2024.12 | post-processing-free connected-component text detection with relational tracking | [arXiv](https://arxiv.org/abs/2412.14692) | - | - |
 | **InstructOCR** | 2024.12 | instruction-boosted scene text spotting | [arXiv](https://arxiv.org/abs/2412.15523), [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/32286) | [GitHub](https://github.com/ChenD-VL/InstructOCR) | - |
 | **DNTextSpotter** | 2024.08 | denoising-training transformer for arbitrary-shape text spotting | [arXiv](https://arxiv.org/abs/2408.00355), [ACM MM](https://dl.acm.org/doi/10.1145/3664647.3680981) | [GitHub](https://github.com/yyyyyxie/DNTextSpotter) | - |
 | **FastTextSpotter** | 2024.08 | high-efficiency multilingual transformer text spotting | [arXiv](https://arxiv.org/abs/2408.14998), [ICPR](https://doi.org/10.1007/978-3-031-78498-9_10) | [GitHub](https://github.com/alloydas/Fast-Textspotter) | - |
 | **Bridging Text Spotting** | 2024.04 | bridge between modular detector-recognizer and end-to-end spotting | [arXiv](https://arxiv.org/abs/2404.04624), [CVPR](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_Bridging_the_Gap_Between_End-to-End_and_Two-Step_Text_Spotting_CVPR_2024_paper.html) | [GitHub](https://github.com/mxin262/Bridging-Text-Spotting) | - |
+| **TextBlockV2** | 2024.03 | block-level scene text spotting with a pretrained language model and coarse localization | [arXiv](https://arxiv.org/abs/2403.10047) | - | - |
 | **GoMatching** | 2024.01 | arbitrary-shaped video text spotting with detection, tracking, and recognition association | [arXiv](https://arxiv.org/abs/2401.07080), [NeurIPS](https://papers.nips.cc/paper_files/paper/2024/hash/2d66a70c770de7835678f1c1e65fe5e1-Abstract-Conference.html) | [GitHub](https://github.com/Hxyz-123/GoMatching) | - |
 | **SwinTextSpotter v2** | 2024.01 | recognition-conversion and recognition-alignment text spotting | [arXiv](https://arxiv.org/abs/2401.07641), [IJCV](https://link.springer.com/article/10.1007/s11263-025-02428-0) | [GitHub](https://github.com/mxin262/SwinTextSpotterv2) | - |
 | **ESTextSpotter** | 2023.08 | explicit-synergy transformer text spotting | [arXiv](https://arxiv.org/abs/2308.10147), [ICCV](https://openaccess.thecvf.com/content/ICCV2023/html/Huang_ESTextSpotter_Towards_Better_Scene_Text_Spotting_with_Explicit_Synergy_in_ICCV_2023_paper.html) | [GitHub](https://github.com/mxin262/ESTextSpotter) | - |
+| **TCM / FastTCM** | 2023.02 / 2023.08 | CLIP adaptation for scene text detection and spotting | [TCM](https://arxiv.org/abs/2302.14338), [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Turning_a_CLIP_Model_Into_a_Scene_Text_Detector_CVPR_2023_paper.html), [FastTCM](https://arxiv.org/abs/2308.10408) | [GitHub](https://github.com/wenwenyu/TCM) | - |
+| **LRANet** | 2023.06 | low-rank contour representation for efficient arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2306.15142), [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/28302) | [GitHub](https://github.com/ychensu/LRANet) | - |
 | **UNITS** | 2023.04 | unified scene text spotting via sequence generation | [arXiv](https://arxiv.org/abs/2304.03435), [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Kil_Towards_Unified_Scene_Text_Spotting_Based_on_Sequence_Generation_CVPR_2023_paper.html) | [GitHub](https://github.com/clovaai/units) | - |
 | **DeepSolo** | 2022.11 | explicit-point transformer text spotting | [arXiv](https://arxiv.org/abs/2211.10772), [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Ye_DeepSolo_Let_Transformer_Decoder_With_Explicit_Points_Solo_for_Text_CVPR_2023_paper.html) | [GitHub](https://github.com/ViTAE-Transformer/DeepSolo) | - |
 | **GLASS** | 2022.08 | global-to-local attention for scene text spotting | [arXiv](https://arxiv.org/abs/2208.03364), [ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880248.pdf) | [GitHub](https://github.com/amazon-science/glass-text-spotting) | - |
@@ -114,6 +120,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 | **DBNet++** | 2022.02 | adaptive-scale DB text detection | [arXiv](https://arxiv.org/abs/2202.10304), [TPAMI](https://www.computer.org/csdl/journal/tp/2023/01/09726868/1BrwkXHiM24) | [GitHub](https://github.com/MhLiao/DB) | - |
 | **SPTS** | 2021.12 | single-point text spotting via sequence generation | [arXiv](https://arxiv.org/abs/2112.07917), [ACM MM](https://dl.acm.org/doi/10.1145/3503161.3547942) | [GitHub](https://github.com/shannanyinxiang/SPTS) | - |
 | **FAST** | 2021.11 | faster arbitrary-shape text detector with minimalist kernel representation | [arXiv](https://arxiv.org/abs/2111.02394) | [GitHub](https://github.com/czczup/FAST) | - |
+| **TPSNet** | 2021.10 | thin-plate-spline representation for arbitrary-shape text detection and spotting | [arXiv](https://arxiv.org/abs/2110.12826) | - | - |
 | **ABCNet v2** | 2021.05 | Bezier-curve scene text spotting | [arXiv](https://arxiv.org/abs/2105.03620), [TPAMI](https://www.computer.org/csdl/journal/tp/2022/11/09525302/1wuoVjl3Eu4) | [GitHub](https://github.com/aim-uofa/AdelaiDet) | - |
 | **FCENet** | 2021.04 | Fourier-contour arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2104.10442), [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Zhu_Fourier_Contour_Embedding_for_Arbitrary-Shaped_Text_Detection_CVPR_2021_paper.html) | - | - |
 | **MOST** | 2021.04 | multi-oriented text detection with localization refinement | [arXiv](https://arxiv.org/abs/2104.01070), [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/He_MOST_A_Multi-Oriented_Scene_Text_Detector_With_Localization_Refinement_CVPR_2021_paper.html) | - | - |
@@ -206,6 +213,7 @@ These components restore or geometrically normalize document images before recog
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **StrucTab** | 2026.06 | structured table parsing with intermediate supervision and decomposed RL rewards | [arXiv](https://arxiv.org/abs/2606.29905) | [GitHub](https://github.com/VirtualLUOUCAS/StrucTab) | [TableVerse-5K](https://huggingface.co/datasets/psp-dada/TableVerse-5K) |
 | **RT-DocLayout** | 2026.06 | 33M real-time document layout analysis with masks and reading-order prediction | [arXiv](https://arxiv.org/abs/2606.23344) | - | - |
 | **FastTab** | 2026.05 | fast grid-centric table structure recognition | [arXiv](https://arxiv.org/abs/2605.22422) | [GitHub](https://github.com/hamdilaziz/FastTab) | - |
 | **TableSeq** | 2026.04 | unified generation of table structure, content, and layout | [arXiv](https://arxiv.org/abs/2604.16070), [IJDAR](https://link.springer.com/article/10.1007/s10032-026-00586-6) | [GitHub](https://github.com/hamdilaziz/TableSeq) | - |
@@ -213,6 +221,7 @@ These components restore or geometrically normalize document images before recog
 | **Texo** | 2026.02 | compact formula recognizer | [arXiv](https://arxiv.org/abs/2602.17189) | - | - |
 | **Tables Decoded / DELTA** | 2026 | decoupled table reconstruction with OTSL output | [WACV](https://openaccess.thecvf.com/content/WACV2026/html/Rajput_Tables_Decoded_DELTA_for_Structure_TARQA_for_Understanding_WACV_2026_paper.html) | [GitHub](https://github.com/Bharatgen-Tech/Tables-Decoded) | - |
 | **IMPO / From Pixel to Precision** | 2026 | HMER with image-level reward | [CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_From_Pixel_to_Precision_Enhancing_Handwritten_Mathematical_Expression_Recognition_with_CVPR_2026_paper.html) | - | - |
+| **CMERNet** | 2025.12 | 125M complex mathematical-expression recognizer with structured mathematical language | [arXiv](https://arxiv.org/abs/2512.13731) | - | - |
 | **TexTeller / Tex80M** | 2025.08 | scalable handwritten formula recognition | [arXiv](https://arxiv.org/abs/2508.09220) | [GitHub](https://github.com/OleehyO/TexTeller) | [HF](https://huggingface.co/OleehyO/TexTeller) |
 | **TABLET** | 2025.06 | encoder-only transformer for table structure recognition | [arXiv](https://arxiv.org/abs/2506.07015) | - | - |
 | **PP-FormulaNet** | 2025.03 | formula recognition | [arXiv](https://arxiv.org/abs/2503.18382) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
@@ -319,6 +328,7 @@ These components restore or geometrically normalize document images before recog
 
 | Model / System | Date | Route | Paper | Code | Docs / Model |
 |---|:---:|---|---|---|---|
+| **HunyuanOCR-1.5** | 2026.07 | 1B end-to-end OCR VLM with document parsing, spotting, information extraction, translation, multi-image understanding, and DFlash / llama.cpp deployment | [arXiv](https://arxiv.org/abs/2607.04884) | [GitHub](https://github.com/Tencent-Hunyuan/HunyuanOCR) | [HF](https://huggingface.co/tencent/HunyuanOCR) |
 | **Unlimited-OCR** | 2026.06 | Baidu long-horizon document parser with R-SWA and constant KV cache | [arXiv](https://arxiv.org/abs/2606.23050) | [GitHub](https://github.com/baidu/Unlimited-OCR) | [HF](https://huggingface.co/baidu/Unlimited-OCR), [ModelScope](https://modelscope.cn/models/PaddlePaddle/Unlimited-OCR), [Demo](https://huggingface.co/spaces/baidu/Unlimited-OCR) |
 | **ABot-OCR** | 2026.05 | AMap end-to-end OCR VLM | [arXiv](https://arxiv.org/abs/2605.27978) | [GitHub](https://github.com/amap-cvlab/ABot-OCR) | - |
 | **Qianfan-OCR** | 2026.03 | end-to-end document intelligence model | [arXiv](https://arxiv.org/abs/2603.13398) | [GitHub](https://github.com/baidubce/Qianfan-VL) | [HF](https://huggingface.co/baidu/Qianfan-OCR), [Website](https://cloud.baidu.com/product/wenxinworkshop) |
@@ -333,7 +343,7 @@ These components restore or geometrically normalize document images before recog
 | **LightOnOCR-2-1B** | 2026.01 | 1B multilingual end-to-end OCR VLM | [arXiv](https://arxiv.org/abs/2601.14251) | - | [HF](https://huggingface.co/lightonai/LightOnOCR-2-1B) |
 | **OCRVerse** | 2026.01 | holistic OCR VLM for text-centric and vision-centric OCR | [arXiv](https://arxiv.org/abs/2601.21639) | [GitHub](https://github.com/DocTron-hub/OCRVerse) | - |
 | **dots.ocr** | 2025.12 | multilingual document layout parsing VLM | [arXiv](https://arxiv.org/abs/2512.02498) | [GitHub](https://github.com/rednote-hilab/dots.ocr) | [HF](https://huggingface.co/rednote-hilab/dots.ocr) |
-| **HunyuanOCR** | 2025.11 | OCR-specialized document VLM | [arXiv](https://arxiv.org/abs/2511.19575) | [GitHub](https://github.com/Tencent-Hunyuan/HunyuanOCR) | [HF](https://huggingface.co/tencent/HunyuanOCR) |
+| **HunyuanOCR 1.0** | 2025.11 | OCR-specialized document VLM | [arXiv](https://arxiv.org/abs/2511.19575) | [GitHub v1.0](https://github.com/Tencent-Hunyuan/HunyuanOCR/tree/v1.0) | [HF v1.0](https://huggingface.co/tencent/HunyuanOCR/tree/main/v1.0) |
 | **olmOCR-2** | 2025.10 | unit-test reward training for document OCR | [arXiv](https://arxiv.org/abs/2510.19817) | [GitHub](https://github.com/allenai/olmocr) | - |
 | **DeepSeek-OCR** | 2025.10 | visual token compression for OCR | [arXiv](https://arxiv.org/abs/2510.18234) | [GitHub](https://github.com/deepseek-ai/DeepSeek-OCR) | - |
 | **Nanonets-OCR2** | 2025.10 | image-to-Markdown OCR2 family for tables, formulas, flowcharts, handwriting, and checkboxes | - | [GitHub](https://github.com/NanoNets/docstrange), [Cookbooks](https://github.com/NanoNets/Nanonets-OCR2) | [Website](https://nanonets.com/research/nanonets-ocr-2/), [HF](https://huggingface.co/nanonets/Nanonets-OCR2-3B) |
