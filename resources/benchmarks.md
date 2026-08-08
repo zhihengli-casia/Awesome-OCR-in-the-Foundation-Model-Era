@@ -2,6 +2,8 @@
 
 OCR benchmarks differ in input unit, output contract, metric, semantic load, and deployment assumption. This inventory extends the front-page benchmark table.
 
+**Last source audit and search cutoff:** 2026-08-07. Inclusion requires a primary paper, official benchmark or project page, official repository, or official dataset card that defines the data or evaluation task. Reported scales and metrics follow those sources. The inventory distinguishes faithful transcription and source-grounded structural reconstruction from document understanding tasks whose labels add semantic interpretation.
+
 ## How to Read This Inventory
 
 | Field | Meaning |
@@ -11,6 +13,7 @@ OCR benchmarks differ in input unit, output contract, metric, semantic load, and
 | Input | Word crop, line image, scene image, document page, table crop, formula crop, PDF page, multi-page document, or QA pair. |
 | Target / Metric | Typical target representation and common metrics. |
 | Notes | Why the dataset matters for OCR or document parsing. |
+| Links | Primary paper and official project, repository, benchmark, or dataset locations. |
 
 ## Cropped Text Recognition and Handwriting
 
@@ -45,12 +48,12 @@ OCR benchmarks differ in input unit, output contract, metric, semantic load, and
 | 2011 | CASIA-HWDB2.0-2.2 | Chinese handwriting corpus | handwritten Chinese text pages / lines | offline HCTR; CR / AR | large Chinese handwritten text corpus paired with CASIA online handwriting data | [Paper](https://nlpr.ia.ac.cn/databases/download/ICDAR2011-CASIA%20databases.pdf) |
 | 2006 | RIMES / RIMES-2011-line | handwriting benchmark | French handwritten lines / pages | CER / WER | handwriting recognition and document analysis; IWFHR 2006; RIMES-2011 line-level release commonly used | [HF](https://huggingface.co/datasets/Teklia/RIMES-2011-line) |
 | 2003 | ICDAR 2003 Recognition | benchmark | robust-reading cropped words / characters | word / character recognition | early robust-reading recognition benchmark | [Website](http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2003_Robust_Reading_Competitions) |
-| 2002 | IFN/ENIT | Arabic handwriting benchmark | handwritten Arabic word images | word recognition accuracy | widely used handwritten Tunisian town-name benchmark | [Reference](https://www.semanticscholar.org/paper/IFN-ENIT%3A-database-of-handwritten-arabic-words-Pechwitz-Maddouri/732c94369298f0d3df48ed4035703e56aaf39892) |
+| 2002 | IFN/ENIT | Arabic handwriting benchmark | handwritten Arabic word images | word recognition accuracy | handwritten Tunisian town-name benchmark introduced in 2002 and used in the ICDAR 2003 recognition study | [ICDAR paper](https://doi.org/10.1109/ICDAR.2003.1227788) |
 | 2002 | IAM | handwriting benchmark | handwritten words / lines | CER / WER | classic offline handwriting recognition benchmark | [Website](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database) |
 | 1998 | MNIST | controlled recognition benchmark | digit images | accuracy | controlled character recognition baseline | [Website](http://yann.lecun.com/exdb/mnist/) |
 | 1995 | NIST SD19 | handwriting dataset | handwritten digits / characters | accuracy | large handwritten character corpus | [Website](https://www.nist.gov/srd/nist-special-database-19) |
 | 1994 | CEDAR | handwriting dataset | words / addresses | recognition metrics | classic postal/address OCR data | [Website](https://cedar.buffalo.edu/Databases/) |
-| 1987 | USPS | controlled recognition benchmark | digit images | accuracy | postal digit recognition baseline | [Website](https://www.kaggle.com/datasets/bistaumanga/usps-dataset) |
+| 1994 | USPS | controlled recognition benchmark | digit images | accuracy | postal digit recognition corpus documented in the original database paper | [Paper](https://doi.org/10.1109/34.291440) |
 
 ## Scene Text Detection, Recognition, and Spotting
 
@@ -91,13 +94,16 @@ OCR benchmarks differ in input unit, output contract, metric, semantic load, and
 | 2024.10 | DocStructBench | layout benchmark | diverse document pages | layout mAP | multi-domain document-structure stress benchmark introduced with DocLayout-YOLO | [Paper](https://arxiv.org/abs/2410.12628), [GitHub](https://github.com/opendatalab/DocLayout-YOLO) |
 | 2024.05 | KVP10k | key-value pair extraction benchmark | business-document pages | key-value pair extraction F1 | open KVP extraction without a predefined key schema; 10,707 richly annotated pages | [Paper](https://arxiv.org/abs/2405.00505), [ICDAR](https://link.springer.com/chapter/10.1007/978-3-031-70533-5_7), [GitHub](https://github.com/IBM/KVP10k), [HF](https://huggingface.co/datasets/ibm-research/KVP10k) |
 | 2024.03 | RoDLA / PubLayNet-P / DocLayNet-P / M6Doc-P | layout robustness benchmark | perturbed document-layout datasets | mPE / mRD / mAP | robustness benchmark with realistic perturbations over 450K+ layout pages | [Paper](https://arxiv.org/abs/2403.14442), [CVPR](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_RoDLA_Benchmarking_the_Robustness_of_Document_Layout_Analysis_Models_CVPR_2024_paper.html), [GitHub](https://github.com/yufanchen96/RoDLA) |
+| 2024.01 | Comp-HRDoc | hierarchical reconstruction benchmark | multi-page scientific documents | page-object detection / reading order / TOC / hierarchy | comprehensive benchmark built on the HRDoc-Hard subset for reconstructing document structure | [Paper](https://arxiv.org/abs/2401.11874), [GitHub](https://github.com/microsoft/CompHRDoc) |
 | 2023.08 | D4LA | layout benchmark | RVL-CDIP document pages | layout mAP | 27-class manually annotated diverse document-layout benchmark introduced with VGT | [Paper](https://arxiv.org/abs/2308.14978), [ICCV](https://openaccess.thecvf.com/content/ICCV2023/html/Da_Vision_Grid_Transformer_for_Document_Layout_Analysis_ICCV_2023_paper.html), [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/DocumentUnderstanding/VGT) |
 | 2023.07 | CLEX | complex-layout KIE benchmark | forms with many semantic entities | zero/few-shot KIE | 5,860 human-annotated images with 1,162 entity categories | [Paper](https://arxiv.org/abs/2307.10551), [ACL](https://aclanthology.org/2025.findings-acl.552/) |
 | 2023.05 | M6Doc | layout benchmark | scanned / photographed / PDF documents | layout mAP | 74-class modern document layout benchmark across Chinese and English documents | [Paper](https://arxiv.org/abs/2305.08719), [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Cheng_M6Doc_A_Large-Scale_Multi-Format_Multi-Type_Multi-Layout_Multi-Language_Multi-Annotation_Category_Dataset_CVPR_2023_paper.html), [GitHub](https://github.com/HCIILAB/M6Doc) |
 | 2023.05 | POIE | visual information extraction benchmark | product nutrition-label images | text spotting + KIE | in-the-wild product-label benchmark with 3,000 images and 111K text instances | [Paper](https://arxiv.org/abs/2305.07498), [ICDAR](https://doi.org/10.1007/978-3-031-41731-3_3), [GitHub](https://github.com/jfkuang/CFAM) |
+| 2023.03 | HRDoc | hierarchical document-structure benchmark | multi-page scientific documents | units / logical roles / relations | 2,500 documents with unit, hierarchy, and relation annotations for structural reconstruction | [Paper](https://arxiv.org/abs/2303.13839), [GitHub](https://github.com/jfma-USTC/HRDoc) |
 | 2023.02 | DocILE | business-document KIE benchmark | invoices / orders | KILE / LIR F1 | large benchmark for key information localization/extraction and line-item recognition | [Paper](https://arxiv.org/abs/2302.05658), [Website](https://docile.rossum.ai/), [GitHub](https://github.com/rossumai/docile) |
 | 2022.11 | VRDU | visually rich document extraction benchmark | ad-buy and registration forms | structured extraction | template-generalization benchmark for complex business forms | [Paper](https://arxiv.org/abs/2211.15421), [KDD](https://research.google/pubs/vrdu-a-benchmark-for-visually-rich-document-understanding/), [GitHub](https://github.com/google-research-datasets/vrdu) |
 | 2022.06 | DocLayNet | benchmark | diverse document pages | layout mAP | 11-class layout detection across document types | [Paper](https://arxiv.org/abs/2206.01062), [GitHub](https://github.com/DS4SD/DocLayNet), [HF](https://huggingface.co/datasets/ds4sd/DocLayNet) |
+| 2021.09 | ReadingBank | reading-order corpus | document pages with text-line boxes | line sequence / reading order | 500K documents with weakly supervised reading-order annotations, introduced with LayoutReader | [Paper](https://aclanthology.org/2021.emnlp-main.389/), [GitHub](https://github.com/doc-analysis/ReadingBank) |
 | 2021.05 | Kleister-NDA / Kleister-Charity | KIE benchmark | long business documents | key-value extraction F1 | long document key information extraction | [Paper](https://arxiv.org/abs/2105.05796) |
 | 2021.04 | XFUND | multilingual form benchmark | form pages | entity / relation F1 | multilingual form understanding | [Paper](https://arxiv.org/abs/2104.08836), [ACL](https://aclanthology.org/2022.findings-acl.253/), [GitHub](https://github.com/doc-analysis/XFUND) |
 | 2021.03 | WildReceipt | receipt KIE benchmark | in-the-wild receipt images | macro F1 | 1,740 receipts with 25 key-information categories and about 69K text boxes | [Paper](https://arxiv.org/abs/2103.14470), [Dataset](https://download.openmmlab.com/mmocr/data/wildreceipt.tar), [MMOCR](https://mmocr.readthedocs.io/en/v0.1.0/kie_models.html) |
@@ -146,6 +152,21 @@ OCR benchmarks differ in input unit, output contract, metric, semantic load, and
 | 2016.09 | Im2LaTeX-100K | formula dataset | rendered formulas | BLEU / image match | image-to-markup formula generation | [Paper](https://arxiv.org/abs/1609.04938), [ICML](https://proceedings.mlr.press/v70/deng17a.html), [GitHub](https://github.com/harvardnlp/im2markup) |
 | 2014- | CROHME | formula competition | handwritten math expressions | expression recognition rate | handwriting math expression recognition | [Website](https://www.isical.ac.in/~crohme/) |
 | 2013 | ICDAR 2013 Table Competition / Corrected | table benchmark | document pages with tables | table detection / structure recognition | classic table competition dataset, with a corrected version used by later TSR work | [HF](https://huggingface.co/datasets/bsmock/ICDAR-2013-Table-Competition-Corrected) |
+
+### Other Source-Grounded Structured Visual Signals
+
+These datasets evaluate reconstruction of visible non-prose structure. Molecular graphs, music notation, geometry and circuit relations, and interface controls extend source-grounded parsing beyond ordinary text. Question answering labels in AI2D and IconQA measure downstream understanding and remain separate from faithful structural reconstruction.
+
+| Date | Name | Type | Input | Target / Metric | Notes | Links |
+|:---:|:---|:---:|:---|:---|:---|:---:|
+| 2026.05 | MolRecBench-Wild | optical chemical structure recognition benchmark | chemical-structure figures from scientific papers | molecular graph / structure similarity | 5,029 source-traceable structures from 820 chemistry papers | [Paper](https://arxiv.org/abs/2605.05832), [GitHub](https://github.com/opendatalab/MolRecBench-Wild), [HF](https://huggingface.co/datasets/opendatalab/MolRecBench-Wild) |
+| 2024.02 | Screen Annotation | UI parsing corpus | mobile application screenshots | element type / box / OCR text / description | screen elements and controls derived from RICO screens; released with ScreenAI | [Paper](https://arxiv.org/abs/2402.04615), [GitHub](https://github.com/google-research-datasets/screen_annotation) |
+| 2022.05 | PGDP5K | geometry-diagram parsing benchmark | plane-geometry diagrams | primitives / symbols / text / relations | 5,000 diagrams with structural annotations for geometry-problem parsing | [Paper](https://arxiv.org/abs/2205.09947), [GitHub](https://github.com/mingliangzhang2018/PGDP) |
+| 2021.10 | Icon645 / IconQA | icon classification corpus / downstream QA benchmark | abstract diagrams composed of icons | icon classes / QA accuracy | Icon645 provides 645K icons across 377 classes; IconQA adds reasoning labels beyond OCR | [Paper](https://arxiv.org/abs/2110.13214), [Project](https://iconqa.github.io/) |
+| 2021.07 | CGHD v2 | circuit-diagram dataset | hand-drawn circuit diagrams | symbol boxes / classes / segment maps | 1,632 images with 86K symbol boxes across 53 classes in the v2 release | [Paper](https://arxiv.org/abs/2107.10373), [Zenodo](https://zenodo.org/records/6448277) |
+| 2017 | RICO | UI-screen corpus | Android application screens | UI hierarchy / element bounds / interaction metadata | more than 66K screens and structural metadata for interface parsing | [Paper](https://dl.acm.org/doi/10.1145/3126594.3126651), [Project](https://www.interactionmining.org/archive/rico) |
+| 2017.03 | MUSCIMA++ | optical music recognition benchmark | handwritten music-score pages | symbols / relationships / notation graph | 140 pages with 91K symbol instances and explicit notation relationships | [Paper](https://arxiv.org/abs/1703.04824), [GitHub](https://github.com/OMR-Research/muscima-pp) |
+| 2016 | AI2D | diagram parsing and downstream QA dataset | textbook science diagrams | elements / relations / QA accuracy | diagram, text, arrow, and relation annotations support parsing; QA evaluates semantic understanding | [Paper](https://arxiv.org/abs/1603.07396), [Project](https://prior.allenai.org/projects/diagram-understanding) |
 
 ## Document QA, Chart QA, and OCR-Dependent Understanding
 
@@ -199,6 +220,20 @@ OCR benchmarks differ in input unit, output contract, metric, semantic load, and
 | 2018.01 | DVQA | data-visualization QA benchmark | synthetic bar charts | answer accuracy | CVPR 2018 bar-chart VQA dataset requiring text and numeric reasoning | [Paper](https://arxiv.org/abs/1801.08163), [CVPR](https://openaccess.thecvf.com/content_cvpr_2018/papers/Kafle_DVQA_Understanding_Data_CVPR_2018_paper.pdf), [GitHub](https://github.com/kushalkafle/DVQA_dataset) |
 | 2017.10 | FigureQA | chart / figure QA | synthetic figures + questions | accuracy | synthetic visual-reasoning corpus with 1M+ QA grounded in 100K+ chart-like figures | [Paper](https://arxiv.org/abs/1710.07300), [ICLR Workshops](https://dblp.org/rec/conf/iclr/KahouMAKTB18), [GitHub](https://github.com/vmichals/FigureQA-baseline) |
 
+## Document Acquisition, Degradation, and Geometric Robustness
+
+This section covers capture and restoration benchmarks whose inputs model scanning, photographing, screen recapture, blur, illumination, noise, and page deformation. TextZoom appears under cropped recognition, RoDLA under layout, and Real5-OmniDocBench, DocPTBench, PureDocBench, Blur-OCR, and related end-to-end stress tests under page-level evaluation.
+
+| Date | Name | Type | Input | Target / Metric | Notes | Links |
+|:---:|:---|:---:|:---|:---|:---|:---:|
+| 2023.09 | RawVDemoiré | screen-recapture restoration benchmark | raw screen-captured images and videos | restored image / demoiré metrics | evaluates moiré removal for recaptured displays; image restoration proxy without a transcription target | [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7f05193e5487287a890df7fbc3554427-Abstract-Conference.html), [GitHub](https://github.com/tju-chengyijia/VD_raw) |
+| 2022.10 | DIR300 | document dewarping test set | photographed curved document pages | rectified image / geometric and image metrics | 300 real distorted pages released with DocGeoNet | [Paper](https://arxiv.org/abs/2210.08161), [GitHub](https://github.com/fh2019ustc/DocGeoNet) |
+| 2021.07 | Noisy OCR Dataset | degradation corpus | English and Arabic document images | transcription / restoration variants | 18,504 images across 44 controlled noise variants including blur, weak ink, stains, scribbles, and watermarks | [Zenodo](https://zenodo.org/records/5068735) |
+| 2021 | Helsinki Deblur Challenge | paired deblurring benchmark | blurred and sharp random-text images | restored image / OCR-oriented assessment | controlled motion and defocus blur over rendered text | [Zenodo](https://zenodo.org/records/4916176) |
+| 2019.09 | Doc3D | synthetic document geometry corpus | rendered warped document images | 3D shape / normals / UV / unwarped image | large synthetic training corpus introduced with DewarpNet | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Das_DewarpNet_Single-Image_Document_Unwarping_With_Stacked_3D_and_2D_Regression_ICCV_2019_paper.html), [GitHub](https://github.com/cvlab-stonybrook/DewarpNet) |
+| 2015 | SmartDoc-QA | mobile document-capture benchmark | photographed documents under variable light, blur, and perspective | OCR / transcription / capture metadata | acquisition-quality benchmark for camera-captured documents | [Zenodo](https://zenodo.org/records/5293201) |
+| 2009-2019 | DIBCO / H-DIBCO | document binarization challenge series | degraded printed and handwritten pages | pixel-level binarization metrics | recurring benchmark series for document-image binarization and scan degradation | [Paper](https://doi.org/10.1109/ICDAR.2009.246), [DIBCO 2019](https://vc.ee.duth.gr/dibco2019/) |
+
 ## Page-Level Parsing and VLM-OCR Evaluation
 
 | Date | Name | Type | Input | Target / Metric | Notes | Links |
@@ -251,8 +286,8 @@ OCR benchmarks differ in input unit, output contract, metric, semantic load, and
 | 2023.07 | Union14M | training corpus | word crops | recognition training | unified large-scale STR training data | [Paper](https://arxiv.org/abs/2307.08723), [ICCV](https://openaccess.thecvf.com/content/ICCV2023/html/Jiang_Revisiting_Scene_Text_Recognition_A_Data_Perspective_ICCV_2023_paper.html), [GitHub](https://github.com/Mountchicken/Union14M) |
 | 2022 | SynthDoG | synthetic document generator | document pages | document images / labels | synthetic data for Donut-style document understanding | [GitHub](https://github.com/clovaai/donut) |
 | 2021 | SynthTIGER | synthetic text image generator | cropped and scene text | detection / recognition training | configurable text-image generation | [GitHub](https://github.com/clovaai/synthtiger) |
-| 2016.04 | SynthText | synthetic scene text | natural images with rendered text | detection / recognition labels | detection and spotting pretraining | [Paper](https://arxiv.org/abs/1604.06646), [Website](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) |
-| 2014 | MJSynth / Synth90k | synthetic word crops | rendered words | text labels | recognition pretraining | [Website](https://www.robots.ox.ac.uk/~vgg/data/text/) |
+
+SynthText and MJSynth/Synth90k are recorded once in their corresponding scene-text and cropped-recognition sections.
 
 ## Adjacent but Useful Evaluation Resources
 

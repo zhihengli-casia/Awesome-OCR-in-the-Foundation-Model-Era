@@ -6,6 +6,8 @@ Legend: **F1** modular toolkit; **F2** specialized VLM; **F3** hybrid workflow; 
 
 Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 
+**Last source audit and search cutoff:** 2026-08-07. Inclusion requires a primary paper, official project or documentation page, official repository, or official model card that identifies the system and its output contract. A dash records that the corresponding public artifact was not located during the audit. Repeated systems are assigned to the category that best represents their principal public interface; cross-category capabilities remain in the role description.
+
 ## Category Directory
 
 <details>
@@ -14,6 +16,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 - OCR engines and toolkits
 - Text detection and spotting components
 - Cropped text recognizers
+- Document image restoration and rectification
 - Formula, table, and structured-object components
 
 </details>
@@ -98,6 +101,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 | **DNTextSpotter** | 2024.08 | denoising-training transformer for arbitrary-shape text spotting | [arXiv](https://arxiv.org/abs/2408.00355), [ACM MM](https://dl.acm.org/doi/10.1145/3664647.3680981) | [GitHub](https://github.com/yyyyyxie/DNTextSpotter) | - |
 | **FastTextSpotter** | 2024.08 | high-efficiency multilingual transformer text spotting | [arXiv](https://arxiv.org/abs/2408.14998), [ICPR](https://doi.org/10.1007/978-3-031-78498-9_10) | [GitHub](https://github.com/alloydas/Fast-Textspotter) | - |
 | **Bridging Text Spotting** | 2024.04 | bridge between modular detector-recognizer and end-to-end spotting | [arXiv](https://arxiv.org/abs/2404.04624), [CVPR](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_Bridging_the_Gap_Between_End-to-End_and_Two-Step_Text_Spotting_CVPR_2024_paper.html) | [GitHub](https://github.com/mxin262/Bridging-Text-Spotting) | - |
+| **GoMatching** | 2024.01 | arbitrary-shaped video text spotting with detection, tracking, and recognition association | [arXiv](https://arxiv.org/abs/2401.07080), [NeurIPS](https://papers.nips.cc/paper_files/paper/2024/hash/2d66a70c770de7835678f1c1e65fe5e1-Abstract-Conference.html) | [GitHub](https://github.com/Hxyz-123/GoMatching) | - |
 | **SwinTextSpotter v2** | 2024.01 | recognition-conversion and recognition-alignment text spotting | [arXiv](https://arxiv.org/abs/2401.07641), [IJCV](https://link.springer.com/article/10.1007/s11263-025-02428-0) | [GitHub](https://github.com/mxin262/SwinTextSpotterv2) | - |
 | **ESTextSpotter** | 2023.08 | explicit-synergy transformer text spotting | [arXiv](https://arxiv.org/abs/2308.10147), [ICCV](https://openaccess.thecvf.com/content/ICCV2023/html/Huang_ESTextSpotter_Towards_Better_Scene_Text_Spotting_with_Explicit_Synergy_in_ICCV_2023_paper.html) | [GitHub](https://github.com/mxin262/ESTextSpotter) | - |
 | **UNITS** | 2023.04 | unified scene text spotting via sequence generation | [arXiv](https://arxiv.org/abs/2304.03435), [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Kil_Towards_Unified_Scene_Text_Spotting_Based_on_Sequence_Generation_CVPR_2023_paper.html) | [GitHub](https://github.com/clovaai/units) | - |
@@ -111,7 +115,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 | **SPTS** | 2021.12 | single-point text spotting via sequence generation | [arXiv](https://arxiv.org/abs/2112.07917), [ACM MM](https://dl.acm.org/doi/10.1145/3503161.3547942) | [GitHub](https://github.com/shannanyinxiang/SPTS) | - |
 | **FAST** | 2021.11 | faster arbitrary-shape text detector with minimalist kernel representation | [arXiv](https://arxiv.org/abs/2111.02394) | [GitHub](https://github.com/czczup/FAST) | - |
 | **ABCNet v2** | 2021.05 | Bezier-curve scene text spotting | [arXiv](https://arxiv.org/abs/2105.03620), [TPAMI](https://www.computer.org/csdl/journal/tp/2022/11/09525302/1wuoVjl3Eu4) | [GitHub](https://github.com/aim-uofa/AdelaiDet) | - |
-| **FCENet** | 2021.04 | Fourier-contour arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2104.10442), [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Zhu_Fourier_Contour_Embedding_for_Arbitrary-Shaped_Text_Detection_CVPR_2021_paper.html) | [GitHub](https://github.com/yuchenwang815/FCENet) | - |
+| **FCENet** | 2021.04 | Fourier-contour arbitrary-shape text detection | [arXiv](https://arxiv.org/abs/2104.10442), [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/Zhu_Fourier_Contour_Embedding_for_Arbitrary-Shaped_Text_Detection_CVPR_2021_paper.html) | - | - |
 | **MOST** | 2021.04 | multi-oriented text detection with localization refinement | [arXiv](https://arxiv.org/abs/2104.01070), [CVPR](https://openaccess.thecvf.com/content/CVPR2021/html/He_MOST_A_Multi-Oriented_Scene_Text_Detector_With_Localization_Refinement_CVPR_2021_paper.html) | - | - |
 | **PGNet** | 2021.04 | real-time point-gathering arbitrary-shape text spotting | [arXiv](https://arxiv.org/abs/2104.05458), [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/16383) | [GitHub](https://github.com/PaddlePaddle/PaddleOCR) | - |
 | **MANGO** | 2020.12 | mask-attention-guided one-stage text spotting | [arXiv](https://arxiv.org/abs/2012.04350), [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/16348) | [GitHub](https://github.com/hikopensource/DAVAR-Lab-OCR) | - |
@@ -186,6 +190,18 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 | **STAR-Net** | 2016 | spatial transformer network for scene text recognition | [BMVC](https://www.bmva-archive.org.uk/bmvc/2016/papers/paper043/abstract043.pdf) | - | - |
 | **CRNN** | 2015.07 | cropped sequence recognition with CTC | [TPAMI](https://arxiv.org/abs/1507.05717) | [GitHub](https://github.com/meijieru/crnn.pytorch) | - |
 
+### Document Image Restoration and Rectification
+
+These components restore or geometrically normalize document images before recognition or parsing. Their image-quality objectives remain distinct from transcription accuracy unless an OCR evaluation is reported.
+
+| Model / System | Date | Role | Paper | Code | Docs / Model |
+|---|:---:|---|---|---|---|
+| **DocRes** | 2024.05 | unified dewarping, deshadowing, appearance enhancement, deblurring, and binarization | [CVPR](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_DocRes_A_Generalist_Model_Toward_Unifying_Document_Image_Restoration_Tasks_CVPR_2024_paper.pdf) | [GitHub](https://github.com/ZZZHANG-jx/DocRes) | - |
+| **DocGeoNet** | 2022.10 | geometry-guided document image dewarping | [arXiv](https://arxiv.org/abs/2210.08161) | [GitHub](https://github.com/fh2019ustc/DocGeoNet) | - |
+| **RDGR** | 2022.03 | document dewarping with grid regularization | [arXiv](https://arxiv.org/abs/2203.16850), [CVPR](https://openaccess.thecvf.com/content/CVPR2022/html/Jiang_Revisiting_Document_Image_Dewarping_by_Grid_Regularization_CVPR_2022_paper.html) | [GitHub](https://github.com/XiangWeiJiang/Document_Geometry_Dewarping) | - |
+| **DewarpNet** | 2019.09 | single-image document unwarping through 3D shape and 2D warping regression | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/html/Das_DewarpNet_Single-Image_Document_Unwarping_With_Stacked_3D_and_2D_Regression_ICCV_2019_paper.html) | [GitHub](https://github.com/cvlab-stonybrook/DewarpNet) | - |
+| **DocUNet** | 2018 | stacked U-Net document image unwarping | [CVPR](https://openaccess.thecvf.com/content_cvpr_2018/html/Ma_DocUNet_Document_Image_CVPR_2018_paper.html) | - | - |
+
 ### Formula, Table, and Structured-Object Components
 
 | Model / System | Date | Role | Paper | Code | Docs / Model |
@@ -212,6 +228,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 | **LAST** | 2023.10 | line-aware semi-autoregressive HMER | [DOI](https://doi.org/10.1145/3581783.3612499) | [GitHub](https://github.com/HCIILAB/LAST) | - |
 | **VGT** | 2023.08 | vision-grid transformer for document layout analysis | [arXiv](https://arxiv.org/abs/2308.14978) | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/DocumentUnderstanding/VGT) | - |
 | **SGRL** | 2023.08 | semantic graph representation learning for HMER | [arXiv](https://arxiv.org/abs/2308.10493), [ICDAR](https://doi.org/10.1007/978-3-031-41676-7_9) | - | - |
+| **DECIMER.ai** | 2023 | chemical-structure segmentation, classification, and image-to-string recognition pipeline | [Nature Communications](https://www.nature.com/articles/s41467-023-40782-0) | [GitHub](https://github.com/OBrink/DECIMER.ai) | [Project](https://decimer.ai/) |
 | **UniChart** | 2023.05 | chart comprehension and chart-to-table pretraining | [arXiv](https://arxiv.org/abs/2305.14761) | [GitHub](https://github.com/vis-nlp/UniChart) | [HF](https://huggingface.co/ahmed-masry/unichart-base-960) |
 | **VAST** | 2023.03 | visual-alignment sequential coordinate modeling for TSR | [arXiv](https://arxiv.org/abs/2303.06949) | - | - |
 | **TSRFormer / DQ-DETR** | 2023.03 | dynamic-query DETR for robust table structure recognition | [arXiv](https://arxiv.org/abs/2303.11615) | - | - |
@@ -220,6 +237,8 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 | **StructEqTable** | 2022.09 | equation/table structure parsing | - | [GitHub](https://github.com/AlibabaResearch/AdvancedLiterateMachinery) | - |
 | **CoMER** | 2022.07 | coverage modeling for transformer-based HMER | [arXiv](https://arxiv.org/abs/2207.04410), [ECCV](https://doi.org/10.1007/978-3-031-19815-1_23) | [GitHub](https://github.com/Green-Wood/CoMER) | - |
 | **CAN** | 2022.07 | counting-aware HMER | [arXiv](https://arxiv.org/abs/2207.11463), [ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/685_ECCV_2022_paper.php) | [GitHub](https://github.com/LBH1024/CAN) | - |
+| **MolScribe** | 2022.05 | molecular image-to-graph recognition with atoms, bonds, and stereochemistry | [arXiv](https://arxiv.org/abs/2205.14311), [JCIM](https://doi.org/10.1021/acs.jcim.2c01480) | [GitHub](https://github.com/thomas0809/MolScribe) | - |
+| **PGDPNet** | 2022.05 | geometry-diagram parsing into primitives, symbols, text, and relations | [arXiv](https://arxiv.org/abs/2205.09363), [IJCAI](https://www.ijcai.org/proceedings/2022/152) | [GitHub](https://github.com/mingliangzhang2018/PGDP) | - |
 | **GriTS** | 2022.03 | grid table similarity metric for table structure recognition | [arXiv](https://arxiv.org/abs/2203.12555), [ICDAR](https://doi.org/10.1007/978-3-031-41734-4_33) | [GitHub](https://github.com/microsoft/table-transformer) | - |
 | **TableFormer** | 2022.03 | table structure recognition; table-to-HTML modeling | [arXiv](https://arxiv.org/abs/2203.01017), [CVPR](https://openaccess.thecvf.com/content/CVPR2022/html/Nassar_TableFormer_Table_Structure_Understanding_With_Transformers_CVPR_2022_paper.html) | - | - |
 | **LGPMA** | 2022.03 | table detection and structure recognition | [arXiv](https://arxiv.org/abs/2203.09056) | - | - |
@@ -235,6 +254,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 | **PubTabNet / EDD** | 2019.11 | table structure recognition baseline | [arXiv](https://arxiv.org/abs/1911.10683) | [GitHub](https://github.com/ibm-aur-nlp/PubTabNet), [EDD](https://github.com/ibm-aur-nlp/EDD) | - |
 | **WAP** | 2017 | handwritten mathematical expression recognition | [DOI](https://doi.org/10.1016/j.patcog.2017.06.017) | - | - |
 | **Im2Markup** | 2016.09 | image-to-LaTeX generation | [arXiv](https://arxiv.org/abs/1609.04938), [ICML](https://proceedings.mlr.press/v70/deng17a.html) | [GitHub](https://github.com/harvardnlp/im2markup) | - |
+| **Audiveris** | 2016-2026 | optical music recognition from score images to symbolic MusicXML-compatible output | - | [GitHub](https://github.com/Audiveris/audiveris) | [Docs](https://audiveris.github.io/audiveris/) |
 
 </details>
 
@@ -353,7 +373,7 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 | **HalluText / OCRAssistor** | 2025.09 | OCR hallucination diagnosis and plug-and-play mitigation | [OpenReview](https://openreview.net/forum?id=LRnt6foJ3q) | - | - |
 | **ReViCo** | 2025.09 | real-world visual spelling correction for VLMs | [arXiv](https://arxiv.org/abs/2509.17418) | - | - |
 | **When Semantics Mislead Vision / TextHalu-Bench** | 2025.06 | training-free mitigation of semantic hallucination in scene-text perception | [arXiv](https://arxiv.org/abs/2506.05551), [NeurIPS](https://papers.neurips.cc/paper_files/paper/2025/hash/63b96ace3e28465aff61918e77de2a00-Abstract-Conference.html), [OpenReview](https://openreview.net/forum?id=BbWrp6O8Lm) | [GitHub](https://github.com/shuyansy/MLLM-Semantic-Hallucination) | [HF Dataset](https://huggingface.co/datasets/sy1998/TextHalu-Bench) |
-| **Seeing is Believing? / KIE-HVQA** | 2025.06 | OCR hallucination mitigation under visual degradation | [arXiv](https://arxiv.org/abs/2506.20168), [NeurIPS](https://openreview.net/forum?id=bjoHB7IN6b) | - | [HF Dataset](https://huggingface.co/datasets/bytedance-research/KIE-HVQA) |
+| **KIE-HVQA** | 2025.06 | OCR hallucination mitigation under visual degradation | [arXiv](https://arxiv.org/abs/2506.20168), [NeurIPS](https://openreview.net/forum?id=bjoHB7IN6b) | - | [HF Dataset](https://huggingface.co/datasets/bytedance-research/KIE-HVQA) |
 | **Consensus Entropy / CE-OCR** | 2025.04 | multi-VLM agreement for self-verifying and self-improving OCR | [arXiv](https://arxiv.org/abs/2504.11101), [CVPR](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Consensus_Entropy_Harnessing_Multi-VLM_Agreement_for_Self-Verifying_and_Self-Improving_OCR_CVPR_2026_paper.html) | [GitHub](https://github.com/Aslan-yulong/consensus-entropy) | [HF Dataset](https://huggingface.co/datasets/Aslan-mingye/OCR-Quality) |
 
 </details>
@@ -395,14 +415,12 @@ Dates use arXiv `YYYY.MM`; accepted venues appear in the paper/source label.
 | **Kreuzberg** | 2025.01 | multi-format document extraction framework with OCR and Markdown/structured-output options | - | [GitHub](https://github.com/kreuzberg-dev/kreuzberg) | [Docs](https://kreuzberg.dev/) |
 | **Vision Parse** | 2024.12 | VLM-based PDF-to-Markdown workflow for scanned documents, tables, and equations | - | [GitHub](https://github.com/iamarunbrahma/vision-parse) | - |
 | **MarkItDown** | 2024.11 | Microsoft document-to-Markdown conversion utility | - | [GitHub](https://github.com/microsoft/markitdown) | - |
-| **Chunkr** | 2024.08 | document intelligence API/service for OCR, layout, semantic chunks, HTML, and Markdown | - | [GitHub](https://github.com/lumina-ai-inc/chunkr) | [Website](https://www.chunkr.ai/) |
 | **Pix2Text** | 2024.08 | layout + formula + OCR workflow | [arXiv](https://arxiv.org/abs/2408.04015) | [GitHub](https://github.com/breezedeus/Pix2Text) | - |
 | **E2M** | 2024.08 | everything-to-Markdown parser/converter for PDF, Office, HTML, EPUB, and media inputs | - | [GitHub](https://github.com/wisupai/e2m) | [PyPI](https://pypi.org/project/wisup-e2m/) |
 | **Zerox** | 2024.07 | vision-model OCR workflow for converting PDFs and documents to Markdown and schema outputs | - | [GitHub](https://github.com/getomni-ai/zerox) | - |
 | **MegaParse** | 2024.05 | document-to-Markdown parsing workflow for RAG ingestion | - | [GitHub](https://github.com/QuivrHQ/MegaParse) | [Docs](https://megaparse.com/) |
 | **OpenParse** | 2024.03 | visually driven document parser for semantic chunks, Markdown, and table extraction | - | [GitHub](https://github.com/Filimoa/open-parse) | - |
 | **PyMuPDF4LLM** | 2024.03 | PDF-to-Markdown / RAG document ingestion utility | - | [GitHub](https://github.com/pymupdf/pymupdf4llm) | [Docs](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/) |
-| **Surya** | 2024.01 | OCR, layout, reading order, line detection | - | [GitHub](https://github.com/datalab-to/surya) | - |
 | **PaperMage** | 2023.12 | scientific PDF processing toolkit with text, visual elements, entities, boxes, and JSON serialization | [EMNLP](https://aclanthology.org/2023.emnlp-demo.45/) | [GitHub](https://github.com/allenai/papermage) | [Project](https://github.com/allenai/papermage) |
 | **pdfplumber** | 2015.08 | born-digital PDF text/table extraction utility | - | [GitHub](https://github.com/jsvine/pdfplumber) | [Docs](https://github.com/jsvine/pdfplumber) |
 | **pdfminer.six** | 2014.08 | low-level PDF text and layout extraction utility | - | [GitHub](https://github.com/pdfminer/pdfminer.six) | [Docs](https://pdfminersix.readthedocs.io/) |
