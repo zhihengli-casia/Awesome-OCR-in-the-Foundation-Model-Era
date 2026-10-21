@@ -15,6 +15,11 @@ Associated survey:
 
 OCR is treated here in the survey's sense: converting visual text and document images into machine-processable textual or structured representations. The boundary criterion is **faithful transcription**: output that can be verified against the source image belongs to OCR; semantic interpretation beyond what is visually present does not. Downstream tasks such as document QA, information extraction, RAG, and agent workflows are included only when they shape OCR system design or evaluation.
 
+<div align="center">
+<img src="assets/fig_ocr_evolution.png" width="92%" alt="OCR and related document modeling across the Classical, Deep Learning, and Foundation Model eras">
+<br><sub>OCR and related document modeling across three eras (survey Fig. 2).</sub>
+</div>
+
 ## Contents
 
 - [Scope, Sources, and Record Fields](#scope-sources-and-record-fields)
@@ -35,7 +40,7 @@ OCR is treated here in the survey's sense: converting visual text and document i
 
 ## Scope, Sources, and Record Fields
 
-**Last source audit and search cutoff:** 2026-08-23. Entries are retained when a primary paper, an official project or benchmark page, an official repository, or an official model/dataset card identifies the work and its output contract. Search-engine summaries, unattributed mirrors, and unsupported ranking claims are excluded.
+**Last source audit and search cutoff:** 2026-10-21. Entries are retained when a primary paper, an official project or benchmark page, an official repository, or an official model/dataset card identifies the work and its output contract. Search-engine summaries, unattributed mirrors, and unsupported ranking claims are excluded.
 
 The model tables record the public date, system name, family or task, and available paper, code, model, dataset, project, or documentation links. Benchmark tables additionally record input unit, target representation, common metric, and scale when an official source reports it. A dash denotes that no corresponding public artifact was located during the source audit; it does not imply that an artifact cannot exist.
 
@@ -76,6 +81,14 @@ Adjacent topics outside the main model-family taxonomy include OCR file-format t
 ## Model Collections
 
 Dates use arXiv `YYYY.MM`; venue badges keep the accepted venue and year. Entries without arXiv use the available public source, project, dataset, or challenge date.
+
+<div align="center">
+<img src="assets/fig_five_families.png" width="88%" alt="The five coexisting system families of the contemporary OCR ecosystem">
+<br><sub>The five coexisting system families (survey Fig. 5): the F1-F5 sections below follow this taxonomy.</sub>
+<br><br>
+<img src="assets/fig_method_timeline.png" width="92%" alt="Representative milestones in OCR and related document modeling">
+<br><sub>Representative milestones along the five tracks (survey Fig. 4).</sub>
+</div>
 
 <a id="f1-modular-toolkits"></a>
 
@@ -502,6 +515,8 @@ Systems that combine layout detection, OCR, region decomposition, VLM generation
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
+| 2026.09 | [![arXiv 2026.09](https://img.shields.io/badge/arXiv-2026.09-b31b1b)](https://arxiv.org/abs/2609.36136) [![HF 2026.09](https://img.shields.io/badge/HF-2026.09-ffcc4d?logo=huggingface)](https://huggingface.co/SeerRay-Lab/Xiaomi-OCR-0)<br>**Xiaomi-OCR-0** | unified 0.8B model for document parsing and OCR-related understanding built on Qwen3.5-0.8B-Base; Markdown, OTSL tables, LaTeX formulas, OCR QA, and key information extraction | [Paper](https://arxiv.org/abs/2609.36136)<br>[HF](https://huggingface.co/SeerRay-Lab/Xiaomi-OCR-0) |
+| 2026.08 | [![arXiv 2026.08](https://img.shields.io/badge/arXiv-2026.08-b31b1b)](https://arxiv.org/abs/2608.12898) [![Star](https://img.shields.io/github/stars/caipeng328/TeleOCR.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/caipeng328/TeleOCR)<br>**TeleOCR** | 1.2B document parsing workflow navigating digital and camera-captured documents | [Paper](https://arxiv.org/abs/2608.12898)<br>[GitHub](https://github.com/caipeng328/TeleOCR) |
 | 2026.08 | [![GitHub 2026.08](https://img.shields.io/badge/GitHub-2026.08-24292f?logo=github)](https://github.com/opendatalab/AgenticOCR) [![Star](https://img.shields.io/github/stars/opendatalab/AgenticOCR.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/opendatalab/AgenticOCR)<br>**AgenticOCR** | page retrieval plus region cropping, rotation, OCR, and evidence grounding for query-specific document RAG | [GitHub](https://github.com/opendatalab/AgenticOCR) |
 | 2026.06 | [![arXiv 2026.06](https://img.shields.io/badge/arXiv-2026.06-b31b1b)](https://arxiv.org/abs/2606.03264) [![Star](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/PaddlePaddle/PaddleOCR)<br>**PaddleOCR-VL-1.6** | latest compact document parsing VLM in the PaddleOCR-VL line | [Paper](https://arxiv.org/abs/2606.03264)<br>[GitHub](https://github.com/PaddlePaddle/PaddleOCR)<br>[Docs](https://paddlepaddle.github.io/PaddleOCR/) |
 | 2026.05 | [![arXiv 2026.05](https://img.shields.io/badge/arXiv-2026.05-b31b1b)](https://arxiv.org/abs/2605.24973) [![Star](https://img.shields.io/github/stars/opendatalab/MinerU-Popo.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/opendatalab/MinerU-Popo)<br>**MinerU-Popo** | document-level post-processing for OCR outputs; cross-page structure repair and document-tree assembly | [Paper](https://arxiv.org/abs/2605.24973)<br>[GitHub](https://github.com/opendatalab/MinerU-Popo)<br>[HF](https://huggingface.co/DreamEternal/MinerU-Popo) |
@@ -567,6 +582,7 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
+| 2026.08 | [![HF 2026.08](https://img.shields.io/badge/HF-2026.08-ffcc4d?logo=huggingface)](https://huggingface.co/Qwen/Qwen3.8-27B)<br>**Qwen3.8-27B** | dense 27B open native VLM (hybrid Gated DeltaNet / Gated Attention); image, video, and document prompting; 262K native context; Apache-2.0 | [HF](https://huggingface.co/Qwen/Qwen3.8-27B) |
 | 2026.05 | [![GitHub 2026.05](https://img.shields.io/badge/GitHub-2026.05-24292f?logo=github)](https://github.com/OpenBMB/MiniCPM-V) [![Star](https://img.shields.io/github/stars/OpenBMB/MiniCPM-V.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/OpenBMB/MiniCPM-V)<br>**MiniCPM-V 4.6** | compact open VLM series; OCRBench-oriented small-model baseline | [GitHub](https://github.com/OpenBMB/MiniCPM-V)<br>[HF](https://huggingface.co/openbmb/MiniCPM-V-4.6) |
 | 2026.04 | [![HF 2026.04](https://img.shields.io/badge/HF-2026.04-ffcc4d?logo=huggingface)](https://huggingface.co/ibm-granite/granite-vision-4.1-4b) [![Star](https://img.shields.io/github/stars/ibm-granite/granite-vision-models.svg?style=social&label=Star&cacheSeconds=86400)](https://github.com/ibm-granite/granite-vision-models)<br>**Granite Vision 4.1** | open enterprise VLM; visual document extraction, charts, tables, and key-value extraction | [HF](https://huggingface.co/ibm-granite/granite-vision-4.1-4b)<br>[GitHub](https://github.com/ibm-granite/granite-vision-models)<br>[Docs](https://www.ibm.com/granite/docs/models/vision) |
 | 2026.04 | [![HF Blog 2026.04](https://img.shields.io/badge/HF%20Blog-2026.04-ffcc4d?logo=huggingface)](https://huggingface.co/blog/gemma4)<br>**Gemma 4** | open Gemma multimodal family; image/text/audio input and document understanding baseline | [HF Blog](https://huggingface.co/blog/gemma4)<br>[HF 31B](https://huggingface.co/google/gemma-4-31B-it) |
@@ -648,6 +664,8 @@ General multimodal models that can perform OCR-related tasks through prompts, wh
 
 | Date | Title | Task / Tags | Links |
 |:---:|:---:|:---:|:---:|
+| 2026.10 | [![Release 2026.10](https://img.shields.io/badge/Release-2026.10-6f42c1)](https://openai.com/index/gpt-6-for-everyone/)<br>**GPT-6 family** | OpenAI closed multimodal family; GPT-6 Sol / Luna in ChatGPT and GPT-6 Astra on Pro tiers; image/document prompting and OCR-rich reasoning | [Release note](https://openai.com/index/gpt-6-for-everyone/)<br>[Models in ChatGPT](https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt) |
+| 2026 | [![Model docs 2026](https://img.shields.io/badge/Model%20docs-2026-6f42c1)](https://deepmind.google/models/gemini/pro/)<br>**Gemini 3.x family** | Google closed multimodal family; Gemini 3.1 Pro (preview) documented for image, video, and document prompting | [Model docs](https://deepmind.google/models/gemini/pro/)<br>[Gemini API models](https://ai.google.dev/gemini-api/docs/models) |
 | 2025-2026 | [![API 2025-2026](https://img.shields.io/badge/API-2025--2026-6f42c1)](https://developers.openai.com/api/docs/guides/latest-model)<br>**GPT-5 / GPT-5.5 family** | OpenAI closed multimodal API family; image/document prompting and OCR-rich reasoning | [GPT-5 model](https://developers.openai.com/api/docs/models/gpt-5)<br>[System Card](https://cdn.openai.com/gpt-5-system-card.pdf)<br>[Latest model](https://developers.openai.com/api/docs/guides/latest-model)<br>[Vision docs](https://developers.openai.com/api/docs/guides/images-vision) |
 | 2024-2026 | [![API 2024-2026](https://img.shields.io/badge/API-2024--2026-6f42c1)](https://platform.claude.com/docs/en/about-claude/models/overview)<br>**Claude 3 / 3.5 / 3.7 / 4 family** | Anthropic closed VLM family; image-input OCR, screenshots, charts, and document reasoning | [Models](https://platform.claude.com/docs/en/about-claude/models/overview)<br>[Claude 4](https://www.anthropic.com/news/claude-4)<br>[Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) |
 | 2026 | [![API 2026](https://img.shields.io/badge/API-2026-6f42c1)](https://docs.x.ai/developers/models)<br>**Grok 4.x / xAI API** | API-first general VLM family with text-image chat prompts and image/PDF understanding | [Models](https://docs.x.ai/developers/models)<br>[Image understanding](https://docs.x.ai/developers/model-capabilities/images/understanding) |
@@ -734,7 +752,7 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 | 2026 | [![Product docs 2026](https://img.shields.io/badge/Product%20docs-2026-6f42c1)](https://nanonets.com/document-parsing-and-extraction)<br>**Nanonets Document Parsing API** | document parsing and extraction API for structured Markdown and fields | [Website](https://nanonets.com/document-parsing-and-extraction)<br>[OCR API](https://nanonets.com/ocr-api/) |
 | 2026 | [![Product docs 2026](https://img.shields.io/badge/Product%20docs-2026-6f42c1)](https://cloud.baidu.com/product/wenxinworkshop)<br>**Baidu Qianfan / Wenxin document services** | managed document OCR and model API access | [Website](https://cloud.baidu.com/product/wenxinworkshop) |
 | 2026 | [![Product docs 2026](https://img.shields.io/badge/Product%20docs-2026-6f42c1)](https://www.alibabacloud.com/help/en/model-studio/qwen-vl-ocr)<br>**Qwen-OCR API** | managed visual text extraction; tables, receipts, formulas, and structured OCR output | [Docs](https://www.alibabacloud.com/help/en/model-studio/qwen-vl-ocr)<br>[API Explorer](https://api.alibabacloud.com/api/ocr-api/2021-07-07/RecognizeGeneral) |
-| 2025 | [![Product docs 2025](https://img.shields.io/badge/Product%20docs-2025-6f42c1)](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/)<br>**Mistral OCR** | managed OCR API; Markdown / structured response | [Docs](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/) |
+| 2026.06 | [![Release 2026.06](https://img.shields.io/badge/Release-2026.06-6f42c1)](https://mistral.ai/news/ocr-4/)<br>**Mistral OCR 4** | managed OCR API; Markdown / structured JSON with bounding boxes, block labels, and per-word confidence scores; 170 languages | [Release note](https://mistral.ai/news/ocr-4/)<br>[Docs](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/) |
 
 
 </details>
@@ -744,6 +762,11 @@ Closed-source or managed systems for document conversion, enterprise OCR, scient
 ## Benchmark and Dataset Collections
 
 Benchmarks are grouped by capability layer rather than by a single leaderboard. Extended benchmark inventory: [`resources/benchmarks.md`](resources/benchmarks.md).
+
+<div align="center">
+<img src="assets/fig_benchmark_evolution.png" width="88%" alt="Evolution of OCR benchmarks from character recognition to full-page parsing">
+<br><sub>How OCR benchmarks evolved from isolated characters to full-page and physically captured documents (survey Fig. 7).</sub>
+</div>
 
 <a id="b1-cropped-text-and-line-recognition"></a>
 
@@ -1052,6 +1075,7 @@ Image restoration and capture-quality objectives are reported separately from tr
 
 - [`resources/models.md`](resources/models.md): extended model and system collections.
 - [`resources/benchmarks.md`](resources/benchmarks.md): extended OCR, document parsing, document understanding, robustness, and VLM-OCR benchmark inventory.
+- [`resources/arxiv-watch.md`](resources/arxiv-watch.md): auto-generated weekly list of new arXiv candidates (see Update Policy); entries there are unreviewed until promoted into the curated tables above.
 
 ## Update Policy
 
@@ -1066,7 +1090,9 @@ Scope:
 - commercial APIs and products with public documentation;
 - datasets and benchmarks that define evaluation protocols.
 
-The current search cutoff is 2026-08-08. Every addition requires a primary paper or stable official project, repository, model card, dataset card, documentation, or benchmark page. Dates, output contracts, metrics, scales, and access modes follow those sources. Ranking statements require an identified benchmark and evaluation protocol.
+The current manual search cutoff is 2026-10-21. Every addition requires a primary paper or stable official project, repository, model card, dataset card, documentation, or benchmark page. Dates, output contracts, metrics, scales, and access modes follow those sources. Ranking statements require an identified benchmark and evaluation protocol.
+
+**Automated weekly watch.** A scheduled GitHub Action ([`.github/workflows/arxiv-watch.yml`](.github/workflows/arxiv-watch.yml)) queries the arXiv API every Monday for new OCR, text recognition, text spotting, and document parsing papers and refreshes [`resources/arxiv-watch.md`](resources/arxiv-watch.md). The watch file is a candidate inbox: entries are promoted into the curated tables only after the source checks above, so the curated sections remain manually verified.
 
 ## Citation
 
