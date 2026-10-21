@@ -10,8 +10,8 @@ OCR, document parsing, OCR-specialized vision-language models, hybrid workflows,
 
 Associated survey:
 
-> **OCR in the Foundation-Model Era: A Survey**  
-> Zhiheng Li et al., in preparation, 2026.
+> **OCR in the Foundation Model Era: From Specialist Models to Unified Models**  
+> Zhiheng Li et al., 2026. [[PDF](paper/OCR-in-the-Foundation-Model-Era.pdf)]
 
 OCR is treated here in the survey's sense: converting visual text and document images into machine-processable textual or structured representations. The boundary criterion is **faithful transcription**: output that can be verified against the source image belongs to OCR; semantic interpretation beyond what is visually present does not. Downstream tasks such as document QA, information extraction, RAG, and agent workflows are included only when they shape OCR system design or evaluation.
 
@@ -1096,13 +1096,13 @@ The current manual search cutoff is 2026-10-21. Every addition requires a primar
 
 ## Citation
 
-Citation metadata will be updated when the public survey version is available.
+The manuscript PDF is available at [`paper/OCR-in-the-Foundation-Model-Era.pdf`](paper/OCR-in-the-Foundation-Model-Era.pdf); citation metadata will be updated when the public version is available.
 
 ```bibtex
 @article{li2026ocrfoundation,
-  title   = {OCR in the Foundation-Model Era: A Survey},
-  author  = {Li, Zhiheng and Ma, Zongyang and Chen, Jiaxian and Cui, Cheng and Liu, Yi and Yuan, Chunfeng and Zhang, Ziqi and Li, Bing and Hu, Weiming},
-  journal = {arXiv preprint},
-  year    = {2026}
+  title  = {OCR in the Foundation Model Era: From Specialist Models to Unified Models},
+  author = {Li, Zhiheng and Ma, Zongyang and Chen, Jiaxian and Cui, Cheng and Liu, Yi and Zhang, Ziqi and Yuan, Chunfeng and Li, Bing and Bai, Xiang and Hu, Weiming},
+  year   = {2026},
+  note   = {Manuscript. PDF in this repository}
 }
 ```
