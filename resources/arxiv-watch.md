@@ -1,11 +1,13 @@
 # arXiv Watch (auto-generated)
 
-Last refresh: 2026-11-09. Window: last 30 days. Matched by title terms in cs.CV, cs.CL, cs.IR, cs.MM; newest first.
+Last refresh: 2026-11-11. Window: last 30 days. Matched by title terms in cs.CV, cs.CL, cs.IR, cs.MM; newest first.
 
 This file is rewritten weekly by `.github/workflows/arxiv-watch.yml` running `scripts/arxiv_watch.py`. Entries are **unreviewed candidates**; they enter the curated README tables only after the source checks in the Update Policy.
 
 | Submitted | Title | First author | Categories | Link |
 |:---:|:---|:---|:---:|:---:|
+| 2026-11-10 | Word-Level Alignment of OCR and Ground Truth under Zoning and Reading-Order Errors | Fonseca Cacho et al. | cs.CL, cs.CV | [2611.13752v1](http://arxiv.org/abs/2611.13752v1) |
+| 2026-11-10 | Post-OCR Correction of Mixed-Script Uzbek Text: Byte-Level ByT5 with an Empirical Homoglyph Noise Matrix | Mannon Ochilov et al. | cs.CL, cs.CV, cs.LG | [2611.13609v1](http://arxiv.org/abs/2611.13609v1) |
 | 2026-11-05 | ATHAAR: A Medieval Scientific Arabic Manuscript Dataset for Handwritten Text Recognition | Ismail El Jamiy et al. | cs.CV, cs.CL | [2611.08091v1](http://arxiv.org/abs/2611.08091v1) |
 | 2026-11-04 | STARE: Scene Text-Aware multimodal Retrieval for Everyday objects | Kento Tokura et al. | cs.CV | [2611.06089v1](http://arxiv.org/abs/2611.06089v1) |
 | 2026-11-03 | Rewrite, Then Veto: Rewriter-Agnostic Edit Gating for LLM-Based Post-OCR Correction | Jorge Ramón Fonseca Cacho | cs.CL, cs.CV | [2611.05539v1](http://arxiv.org/abs/2611.05539v1) |
